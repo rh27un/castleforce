@@ -6,6 +6,7 @@ ACastleforcePlayerController::ACastleforcePlayerController()
 {
 	bShowMouseCursor = true;
 	bEnableClickEvents = true;
+	bEnableMouseOverEvents = true;
 	bEnableTouchEvents = true;
 	DefaultMouseCursor = EMouseCursor::Crosshairs;
 }

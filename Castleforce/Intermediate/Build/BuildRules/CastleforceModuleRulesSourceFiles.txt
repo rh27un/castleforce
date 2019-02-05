@@ -1,3 +1,3 @@
-C:\Temp\Rhun\Castleforce Mythic Masters\Castleforce\Source\Castleforce\Castleforce.Build.cs
-C:\Temp\Rhun\Castleforce Mythic Masters\Castleforce\Source\Castleforce.Target.cs
-C:\Temp\Rhun\Castleforce Mythic Masters\Castleforce\Source\CastleforceEditor.Target.cs
+C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce\Castleforce.Build.cs
+C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce.Target.cs
+C:\Temp\Rhun\castleforce\Castleforce\Source\CastleforceEditor.Target.cs
