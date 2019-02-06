@@ -1,28 +1,30 @@
 ﻿  Performing full C++ include scan (building a new target)
   Using 'git status' to determine working set for adaptive non-unity build.
   Creating makefile for CastleforceEditor (no existing makefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Parsing headers for CastleforceEditor
-    Running UnrealHeaderTool "C:\Temp\Rhun\castleforce\Castleforce\Castleforce.uproject" "C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CastleforceEditor in 10.6347745 seconds
-  Building 16 actions with 8 processes...
-    [1/16] PCLaunch.rc
-    [2/16] SharedPCH.Engine.cpp
-    [3/16] CastleforcePlayerController.cpp
-    [4/16] CastleforceBlockGrid.cpp
-    [5/16] CastleforceBlock.cpp
-    [6/16] Castleforce.init.gen.cpp
-    [7/16] CastleforceGameMode.cpp
-    [8/16] CastleforceBlockGrid.gen.cpp
-    [9/16] CastleforceBlock.gen.cpp
-    [10/16] CastleforcePawn.cpp
-    [11/16] Castleforce.cpp
-    [12/16] CastleforcePawn.gen.cpp
-    [13/16] CastleforceGameMode.gen.cpp
-    [14/16] CastleforcePlayerController.gen.cpp
-    [15/16] UE4Editor-Castleforce.lib
-       Creating library C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.lib and object C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.exp
-    [16/16] UE4Editor-Castleforce.dll
-       Creating library C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.lib and object C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.exp
+    Running UnrealHeaderTool "C:\Temp\Rhun\Castleforce\Castleforce\Castleforce.uproject" "C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for CastleforceEditor in 9.2479792 seconds
+  Building 18 actions with 8 processes...
+    PCLaunch.rc
+    SharedPCH.Engine.cpp
+    Castleforce.init.gen.cpp
+    CastleforceHexGrid.cpp
+    CastleforceHexGrid.gen.cpp
+    CastleforcePawn.gen.cpp
+    CastleforceBlockGrid.gen.cpp
+    CastleforceBlock.gen.cpp
+    CastleforceGameMode.gen.cpp
+    CastleforcePawn.cpp
+    Castleforce.cpp
+    CastleforceGameMode.cpp
+    CastleforcePlayerController.cpp
+    CastleforceBlockGrid.cpp
+    CastleforceBlock.cpp
+    CastleforcePlayerController.gen.cpp
+    UE4Editor-Castleforce.lib
+       Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.exp
+    UE4Editor-Castleforce.dll
+       Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.exp
   Deploying CastleforceEditor Win64 Development...
-  Total build time: 64.31 seconds (Parallel executor: 44.03 seconds)
+  Total build time: 61.75 seconds (Parallel executor: 22.55 seconds)
