@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeCastleforce_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/Castleforce",
 				PKG_CompiledIn | 0x00000000,
-				0xAA8D3AAF,
-				0x4296CD4E,
+				0x0922A550,
+				0x51BBC477,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

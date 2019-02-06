@@ -1,82 +1,97 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\Castleforce.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{AB52338C-72C9-4D56-974B-BAEBCFEEEC24}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Castleforce.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\CastleforceEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{815A90ED-459D-4CF5-B22D-1D1F8CDE9251}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\Castleforce">
-			<UniqueIdentifier>{48182075-3F72-44A3-81D6-06472FEEE504}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\Castleforce\Castleforce.Build.cs">
-			<Filter>Source\Castleforce</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\Castleforce\Castleforce.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\Castleforce.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforceBlock.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforceBlock.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforceBlockGrid.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforceBlockGrid.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforceGameMode.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforceGameMode.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforceHexGrid.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforceHexGrid.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforcePawn.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforcePawn.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\Castleforce\CastleforcePlayerController.cpp">
-			<Filter>Source\Castleforce</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\Castleforce\CastleforcePlayerController.h">
-			<Filter>Source\Castleforce</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Castleforce.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{AB52338C-72C9-4D56-974B-BAEBCFEEEC24}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Castleforce.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\CastleforceEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{815A90ED-459D-4CF5-B22D-1D1F8CDE9251}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Castleforce">
+      <UniqueIdentifier>{48182075-3F72-44A3-81D6-06472FEEE504}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Castleforce\Castleforce.Build.cs">
+      <Filter>Source\Castleforce</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Castleforce\Castleforce.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\Castleforce.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceBlock.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceBlock.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceBlockGrid.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceBlockGrid.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceGameMode.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceGameMode.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceHexGrid.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceHexGrid.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforcePawn.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforcePawn.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforcePlayerController.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforcePlayerController.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Castleforce\HexTile.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Castleforce\CastleForceHexTile.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Castleforce\HexTile.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Castleforce\CastleForceHexTile.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

@@ -8443,3 +8443,680 @@ LogInit: Object subsystem initialized
 [2019.02.06-16.17.33:378][123]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
 [2019.02.06-16.17.33:405][123]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
 [2019.02.06-16.17.33:450][128]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.06-16.20.53:515][284]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.06-16.21.23:855][740]LogSlate: Took 0.000178 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.02.06-16.24.32:129][904]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.24.32:143][904]LogBlueprint: Error: [Compiler HexTile] SKEL_HexTile_C.X is not blueprint writable.  Set X
+[2019.02.06-16.24.32:143][904]LogBlueprint: Error: [Compiler HexTile] SKEL_HexTile_C.Y is not blueprint writable.  Set Y
+[2019.02.06-16.24.32:282][904]LogBlueprint: Warning: [Compiler HexTile] [0889.49] Compile of HexTile failed. 2 Fatal Issue(s) 0 Warning(s) [in 152 ms] (/Game/Blueprints/HexTile.HexTile)
+[2019.02.06-16.24.37:319][497]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.24.43:116][164]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.24.43:996][250]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.24.44:031][250]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTile23140512432CD8FEFEFB3E897CC24765.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.26.09:110][298]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.02.06-16.26.15:917][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Levels/Level1_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.02.06-16.26.16:054][ 89]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Level1_Auto1BD35FC98495B13DAAC18428EADE29A07.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Levels/Level1_Auto1.umap'
+[2019.02.06-16.26.16:059][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.177
+[2019.02.06-16.26.16:059][ 89]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.177
+[2019.02.06-16.26.16:061][ 89]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/HexMetrics] ([1] browsable assets)...
+[2019.02.06-16.26.16:061][ 89]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/HexMetrics]
+[2019.02.06-16.26.16:061][ 89]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexMetrics" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Blueprints/HexMetrics_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.02.06-16.26.16:093][ 89]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexMetrics_Auto1BFFB6B114C5A5281E1D801BC723895CF.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Blueprints/HexMetrics_Auto1.uasset'
+[2019.02.06-16.26.16:094][ 89]LogFileHelpers: Auto-saving content packages took 0.034
+[2019.02.06-16.31.42:952][154]BlueprintLog: New page: Compile HexMetrics
+[2019.02.06-16.31.43:881][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexMetrics" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexMetrics.uasset" SILENT=true
+[2019.02.06-16.31.43:919][243]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexMetricsF333D7CC4B2F85102AD7D29C02DEEACB.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexMetrics.uasset'
+[2019.02.06-16.32.09:605][192]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.32.10:229][243]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.32.10:263][243]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTile425126AF4D312E7BBB23379729A87D8F.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.32.17:881][101]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.06-16.32.17:905][101]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.17:905][101]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.06-16.32.17:906][101]PIE: New page: PIE session: Level1 (6 Feb 2019 16:32:17)
+[2019.02.06-16.32.17:906][101]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.06-16.32.17:917][101]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010980s)
+[2019.02.06-16.32.17:917][101]LogAIModule: Creating AISystem for world Level1
+[2019.02.06-16.32.17:918][101]LogPlayLevel: PIE: World Init took: (0.000912s)
+[2019.02.06-16.32.17:918][101]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.012058s)
+[2019.02.06-16.32.17:960][101]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.06-16.32.17:968][101]LogInit: FAudioDevice initialized.
+[2019.02.06-16.32.17:997][101]LogLoad: Game class is 'CastleforceGameMode'
+[2019.02.06-16.32.17:998][101]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.06-16.32.17
+[2019.02.06-16.32.17:998][101]LogWorld: Bringing up level for play took: 0.000545
+[2019.02.06-16.32.18:011][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_0.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:011][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_1.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:011][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_2.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:012][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_3.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:012][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_4.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:012][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_5.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:013][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_6.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:013][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_7.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:013][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_8.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:013][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_9.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:014][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_10.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:014][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_11.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:014][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_12.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:015][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_13.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:016][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_14.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:016][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_15.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:016][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_16.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:017][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_17.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:017][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_18.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:017][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_19.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:017][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_20.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:018][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_21.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:018][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_22.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:018][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_23.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:019][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_24.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:019][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_25.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:019][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_26.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:019][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_27.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:020][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_28.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:020][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_29.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:020][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_30.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:021][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_31.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:021][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_32.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:021][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_33.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:021][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_34.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:022][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_35.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:022][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_36.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:022][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_37.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:023][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_38.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:023][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_39.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:023][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_40.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:024][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_41.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:024][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_42.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:024][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_43.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:024][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_44.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:025][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_45.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:025][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_46.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:025][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_47.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:026][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_48.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:026][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_49.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:027][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_50.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:027][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_51.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:027][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_52.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:028][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_53.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:028][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_54.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:028][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_55.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:029][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_56.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:029][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_57.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:029][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_58.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:029][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_59.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:030][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_60.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:030][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_61.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:030][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_62.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:031][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_63.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:031][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_64.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:031][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_65.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:032][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_66.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:032][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_67.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:032][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_68.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:032][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_69.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:033][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_70.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:033][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_71.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:033][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_72.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:034][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_73.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:034][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_74.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:034][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_75.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:034][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_76.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:035][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_77.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:035][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_78.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:035][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_79.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:036][101]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_80.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.18:036][101]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.36
+[2019.02.06-16.32.18:036][101]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.20:352][377]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.20:353][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-16.32.20:386][377]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.06-16.32.20:387][377]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.20:416][377]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-16.32.20:458][380]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.02.06-16.32.26:822][804]LogRenderer: Reallocating scene render targets to support 1208x712 Format 10 NumSamples 1 (Frame:1).
+[2019.02.06-16.32.40:170][352]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-16.32.40:262][363]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.32.40:720][392]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.32.40:749][392]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTile530CA3F54A73117AACD26587632FB7C6.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.32.42:821][637]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.06-16.32.42:838][637]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.42:839][637]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.06-16.32.42:839][637]PIE: New page: PIE session: Level1 (6 Feb 2019 16:32:42)
+[2019.02.06-16.32.42:839][637]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.06-16.32.42:849][637]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010545s)
+[2019.02.06-16.32.42:850][637]LogAIModule: Creating AISystem for world Level1
+[2019.02.06-16.32.42:850][637]LogPlayLevel: PIE: World Init took: (0.000756s)
+[2019.02.06-16.32.42:850][637]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.011411s)
+[2019.02.06-16.32.42:903][637]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.06-16.32.42:910][637]LogInit: FAudioDevice initialized.
+[2019.02.06-16.32.42:945][637]LogLoad: Game class is 'CastleforceGameMode'
+[2019.02.06-16.32.42:946][637]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.06-16.32.42
+[2019.02.06-16.32.42:946][637]LogWorld: Bringing up level for play took: 0.000529
+[2019.02.06-16.32.42:959][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_0.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:959][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_1.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:959][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_2.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:960][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_3.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:960][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_4.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:960][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_5.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:961][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_6.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:961][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_7.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:961][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_8.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:962][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_9.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:962][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_10.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:963][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_11.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:963][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_12.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:963][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_13.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:964][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_14.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:964][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_15.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:964][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_16.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:965][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_17.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:965][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_18.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:966][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_19.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:966][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_20.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:966][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_21.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:967][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_22.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:967][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_23.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:968][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_24.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:968][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_25.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:968][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_26.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:969][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_27.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:969][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_28.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:970][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_29.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:970][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_30.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:970][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_31.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:971][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_32.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:971][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_33.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:972][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_34.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:972][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_35.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:972][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_36.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:973][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_37.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:973][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_38.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:973][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_39.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:974][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_40.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:974][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_41.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:974][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_42.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:975][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_43.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:975][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_44.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:976][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_45.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:976][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_46.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:976][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_47.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:977][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_48.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:977][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_49.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:977][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_50.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:977][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_51.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:978][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_52.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:978][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_53.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:978][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_54.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:979][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_55.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:979][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_56.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:979][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_57.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:980][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_58.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:980][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_59.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:980][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_60.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:980][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_61.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:981][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_62.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:981][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_63.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:981][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_64.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:982][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_65.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:982][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_66.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:982][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_67.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:983][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_68.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:983][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_69.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:983][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_70.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:983][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_71.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:984][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_72.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:984][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_73.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:985][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_74.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:985][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_75.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:985][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_76.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:986][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_77.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:986][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_78.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:986][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_79.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:987][637]LogPhysics: Warning: UBodySetup::GetCookInfo: Triangle data from '/Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.HexTile_C_80.ProceduralMesh' invalid (0 verts, 6 indices).
+[2019.02.06-16.32.42:987][637]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.591
+[2019.02.06-16.32.42:987][637]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.45:142][893]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.45:142][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-16.32.45:177][893]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.06-16.32.45:178][893]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.06-16.32.45:205][893]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.06-16.32.45:245][897]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.02.06-16.33.08:847][372]LogClass: Warning: In asset 'None', there is an enum property of type 'EHorizTextAligment' with an invalid value of ''
+[2019.02.06-16.33.08:852][372]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-16.33.16:948][320]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-16.33.21:658][848]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.06-16.33.21:765][861]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.33.22:255][895]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.33.22:286][895]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTile197ABDB64991D485DD29D989B9AB9F88.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.35.06:028][944]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.35.06:064][944]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTileEC4A711748CCF2BA4A17348330EDD570.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.35.06:726][ 22]BlueprintLog: New page: Compile HexTile
+[2019.02.06-16.35.07:578][103]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/HexTile" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset" SILENT=true
+[2019.02.06-16.35.07:608][103]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/HexTile11603EE54B1B1B70F0816788B54112F5.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Blueprints/HexTile.uasset'
+[2019.02.06-16.36.28:684][888]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Levels/Level1_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.02.06-16.36.28:838][888]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Level1_Auto2C79F0F5344C4B948DE0184B701F5B529.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Autosaves/Game/Levels/Level1_Auto2.umap'
+[2019.02.06-16.36.28:842][888]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Levels/Level1' took 0.211
+[2019.02.06-16.36.28:842][888]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.211
+[2019.02.06-16.38.32:774][843]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" -invalidatemakefilesonly
+[2019.02.06-16.38.33:484][843]Invalidating makefiles only in this run.
+[2019.02.06-16.38.33:605][843]Candidate modules for hot reload:
+[2019.02.06-16.38.33:605][843]  Castleforce
+[2019.02.06-16.38.33:605][843]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,952 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" -canskiplink "C:/Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: New page: Compilation - 6 Feb 2019 16:38:48
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Creating makefile for hot reloading CastleforceEditor (no existing makefile)
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Parsing headers for CastleforceEditor
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:   Running UnrealHeaderTool "C:\Temp\Rhun\Castleforce\Castleforce\Castleforce.uproject" "C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Reflection code generated for CastleforceEditor in 8.9905427 seconds
+[2019.02.06-16.38.48:179][843]CompilerResultsLog: Building 6 actions with 8 processes...
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:   CastleforceHexGrid.cpp
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(30) : error C2059: syntax error: ')'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(31) : error C2143: syntax error: missing ';' before '}'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(32) : error C2143: syntax error: missing ';' before '}'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(36) : error C2143: syntax error: missing ';' before '{'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(39) : error C2143: syntax error: missing ';' before '}'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:    C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(41) : error C2143: syntax error: missing ';' before '}'
+[2019.02.06-16.38.48:179][843]CompilerResultsLog:   C:\Temp\Rhun\Castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(41): fatal error C1004: unexpected end-of-file found
+[2019.02.06-16.38.48:180][843]CompilerResultsLog:   HexTile.cpp
+[2019.02.06-16.38.48:180][843]CompilerResultsLog:   Castleforce.init.gen.cpp
+[2019.02.06-16.38.48:180][843]CompilerResultsLog:   HexTile.gen.cpp
+[2019.02.06-16.38.48:180][843]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Temp\Rhun\Castleforce\Castleforce\Binaries\Win64\UE4Editor-Castleforce-952.dll
+[2019.02.06-16.38.48:180][843]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.06-16.38.48:180][843]CompilerResultsLog: Total build time: 14.34 seconds (Parallel executor: 0.00 seconds)
+[2019.02.06-16.38.48:180][843]LogMainFrame: MainFrame: Module compiling took 14.579 seconds
+[2019.02.06-16.38.48:181][843]Warning: HotReload failed, recompile failed
+[2019.02.06-16.38.48:185][843]Warning: RebindPackages failed because compilation failed.
+[2019.02.06-16.38.54:088][843]LogSlate: Window 'Message' being destroyed
+[2019.02.06-16.38.54:126][843]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.06-16.38.54:141][843]LogSlate: Took 0.005875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.02.06-16.39.07:695][756]Candidate modules for hot reload:
+[2019.02.06-16.39.07:695][756]  Castleforce
+[2019.02.06-16.39.07:695][756]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,1842 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" -canskiplink "C:/Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.06-16.39.07:700][756]Warning: Starting HotReload took  0.0s.
+[2019.02.06-16.39.10:731][120]CompilerResultsLog: New page: Compilation - 6 Feb 2019 16:39:10
+[2019.02.06-16.39.10:731][120]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.06-16.39.10:731][120]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.06-16.39.10:731][120]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.06-16.39.10:732][120]CompilerResultsLog:   CastleforceHexGrid.cpp
+[2019.02.06-16.39.10:732][120]CompilerResultsLog:   UE4Editor-Castleforce-1842.lib
+[2019.02.06-16.39.10:732][120]CompilerResultsLog:      Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-1842.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-1842.exp
+[2019.02.06-16.39.10:732][120]CompilerResultsLog:   UE4Editor-Castleforce-1842.dll
+[2019.02.06-16.39.10:732][120]CompilerResultsLog:      Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-1842.suppressed.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-1842.suppressed.exp
+[2019.02.06-16.39.10:733][120]CompilerResultsLog: Total build time: 2.78 seconds (Parallel executor: 1.34 seconds)
+[2019.02.06-16.39.10:733][120]LogMainFrame: MainFrame: Module compiling took 3.041 seconds
+[2019.02.06-16.39.10:797][120]LogClass: Could not find existing class HexTile in package /Script/Castleforce for HotReload, assuming new class
+[2019.02.06-16.39.10:801][120]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0004 seconds. Added 7 classes and 2 folders.
+[2019.02.06-16.39.10:804][120]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.06-16.39.11:219][120]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2580 classes and 607 folders.
+[2019.02.06-16.39.11:224][120]Display: HotReload took  3.5s.
+[2019.02.06-16.39.37:957][310]Running C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe Win64 Development -TargetType=Editor -Project="C:/Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" -invalidatemakefilesonly
+[2019.02.06-16.39.38:667][310]Invalidating makefiles only in this run.
+[2019.02.06-16.39.38:783][310]Candidate modules for hot reload:
+[2019.02.06-16.39.38:783][310]  Castleforce
+[2019.02.06-16.39.38:783][310]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,5043 Win64 Development -TargetType=Editor -Project="../../../../../../Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" -canskiplink "C:/Temp/Rhun/Castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.06-16.39.53:331][310]CompilerResultsLog: New page: Compilation - 6 Feb 2019 16:39:53
+[2019.02.06-16.39.53:331][310]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.06-16.39.53:331][310]CompilerResultsLog: Creating makefile for hot reloading CastleforceEditor (no existing makefile)
+[2019.02.06-16.39.53:332][310]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.06-16.39.53:332][310]CompilerResultsLog: Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.06-16.39.53:332][310]CompilerResultsLog: Parsing headers for CastleforceEditor
+[2019.02.06-16.39.53:332][310]CompilerResultsLog:   Running UnrealHeaderTool "C:\Temp\Rhun\Castleforce\Castleforce\Castleforce.uproject" "C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.06-16.39.53:333][310]CompilerResultsLog: Reflection code generated for CastleforceEditor in 8.6713285 seconds
+[2019.02.06-16.39.53:333][310]CompilerResultsLog: Building 5 actions with 8 processes...
+[2019.02.06-16.39.53:333][310]CompilerResultsLog:   Castleforce.init.gen.cpp
+[2019.02.06-16.39.53:333][310]CompilerResultsLog:   CastleForceHexTile.cpp
+[2019.02.06-16.39.53:333][310]CompilerResultsLog:   CastleForceHexTile.gen.cpp
+[2019.02.06-16.39.53:333][310]CompilerResultsLog:   UE4Editor-Castleforce-5043.lib
+[2019.02.06-16.39.53:333][310]CompilerResultsLog:      Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5043.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5043.exp
+[2019.02.06-16.39.53:334][310]CompilerResultsLog:   UE4Editor-Castleforce-5043.dll
+[2019.02.06-16.39.53:334][310]CompilerResultsLog:      Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5043.suppressed.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5043.suppressed.exp
+[2019.02.06-16.39.53:334][310]CompilerResultsLog: Total build time: 14.32 seconds (Parallel executor: 1.33 seconds)
+[2019.02.06-16.39.53:334][310]LogMainFrame: MainFrame: Module compiling took 14.555 seconds
+[2019.02.06-16.39.53:406][310]LogClass: Could not find existing class CastleForceHexTile in package /Script/Castleforce for HotReload, assuming new class
+[2019.02.06-16.39.53:417][310]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 8 classes and 2 folders.
+[2019.02.06-16.39.53:423][310]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.06-16.39.53:778][310]LogContentBrowser: Native class hierarchy populated in 0.0084 seconds. Added 2581 classes and 607 folders.
+[2019.02.06-16.39.53:779][310]Display: HotReload took 15.0s.
+[2019.02.06-16.39.53:780][310]Warning: HotReload operation took 15.0s.
+[2019.02.06-16.39.53:993][310]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.06-16.39.54:036][311]LogHotReload: New module detected: UE4Editor-Castleforce-5043.dll
+[2019.02.06-16.39.54:052][312]LogHotReload: Starting Hot-Reload from IDE
+[2019.02.06-16.39.54:135][312]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0004 seconds. Added 8 classes and 2 folders.
+[2019.02.06-16.39.54:138][312]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.02.06-16.39.54:416][312]LogContentBrowser: Native class hierarchy populated in 0.0087 seconds. Added 2581 classes and 607 folders.
+[2019.02.06-16.39.54:419][312]Display: HotReload took  0.4s.
+[2019.02.06-16.40.07:122][663]LogAssetEditorManager: Opening Asset editor for Class /Script/Castleforce.HexTile
+[2019.02.06-16.40.59:820][392]LogAssetEditorManager: Opening Asset editor for Class /Script/Castleforce.CastleForceHexTile
+[2019.02.06-16.41.52:420][573]LogAssetEditorManager: Opening Asset editor for Class /Script/Castleforce.CastleForceHexTile
+[2019.02.06-16.42.37:507][394]LogSlate: Window 'Add C++ Class' being destroyed
+[2019.02.06-16.42.39:876][678]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (CubeMesh)
+[2019.02.06-16.42.40:499][746]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.02.06-16.42.40:505][746]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Levels/Level1" FILE="../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Levels/Level1.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.02.06-16.42.40:728][746]LogSavePackage: Moving '../../../../../../Temp/Rhun/Castleforce/Castleforce/Saved/Level13D38C50F4EFABD3233855490409F8F6D.tmp' to '../../../../../../Temp/Rhun/Castleforce/Castleforce/Content/Levels/Level1.umap'
+[2019.02.06-16.42.42:005][875]LogSlate: Window 'HexMetrics' being destroyed
+[2019.02.06-16.42.42:012][875]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.02.06-16.42.42:084][875]LogSlate: Window 'Output Log' being destroyed
+[2019.02.06-16.42.42:121][875]LogSlate: Window 'Castleforce - Unreal Editor' being destroyed
+[2019.02.06-16.42.42:122][875]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.06-16.42.42:307][876]Cmd: QUIT_EDITOR
+[2019.02.06-16.42.43:315][876]LogExit: Preparing to exit.
+[2019.02.06-16.42.44:168][876]LogExit: Editor shut down
+[2019.02.06-16.42.44:168][876]LogExit: Transaction tracking system shut down
+[2019.02.06-16.42.44:557][876]LogExit: Object subsystem successfully closed.
+[2019.02.06-16.42.44:570][876]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.02.06-16.42.44:573][876]LogD3D11RHI: Shutdown
+[2019.02.06-16.42.44:573][876]LogD3D11RHI: CleanupD3DDevice
+[2019.02.06-16.42.44:577][876]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module Castleforce (621)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.02.06-16.42.44:629][876]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.02.06-16.42.44:631][876]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.02.06-16.42.44:631][876]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.02.06-16.42.44:631][876]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.02.06-16.42.44:632][876]LogModuleManager: Shutting down and abandoning module StatsViewer (600)
+[2019.02.06-16.42.44:632][876]LogModuleManager: Shutting down and abandoning module FoliageEdit (598)
+[2019.02.06-16.42.44:632][876]LogModuleManager: Shutting down and abandoning module LandscapeEditor (596)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module MeshPaintMode (594)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (592)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module ActorPickerMode (590)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module GeometryMode (588)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module TextureAlignMode (586)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module BspMode (584)
+[2019.02.06-16.42.44:634][876]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (582)
+[2019.02.06-16.42.44:635][876]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (580)
+[2019.02.06-16.42.44:635][876]LogModuleManager: Shutting down and abandoning module AutomationWorker (578)
+[2019.02.06-16.42.44:635][876]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (576)
+[2019.02.06-16.42.44:635][876]LogModuleManager: Shutting down and abandoning module SequenceRecorder (575)
+[2019.02.06-16.42.44:636][876]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (572)
+[2019.02.06-16.42.44:636][876]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (570)
+[2019.02.06-16.42.44:639][876]LogModuleManager: Shutting down and abandoning module PlacementMode (569)
+[2019.02.06-16.42.44:639][876]LogModuleManager: Shutting down and abandoning module MaterialEditor (568)
+[2019.02.06-16.42.44:641][876]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (564)
+[2019.02.06-16.42.44:641][876]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (562)
+[2019.02.06-16.42.44:641][876]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (560)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (558)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (556)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (554)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (552)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (550)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (548)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (546)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (544)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (542)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (540)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module CharacterAI (538)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module SmartSnapping (536)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module SessionServices (534)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module ViewportSnapping (532)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module ViewportInteraction (530)
+[2019.02.06-16.42.44:642][876]LogModuleManager: Shutting down and abandoning module ClothPainter (528)
+[2019.02.06-16.42.44:644][876]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (527)
+[2019.02.06-16.42.44:645][876]LogModuleManager: Shutting down and abandoning module LogVisualizer (524)
+[2019.02.06-16.42.44:647][876]LogModuleManager: Shutting down and abandoning module IntroTutorials (522)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (521)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (518)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (516)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (514)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (512)
+[2019.02.06-16.42.44:648][876]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (511)
+[2019.02.06-16.42.45:025][876]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (508)
+[2019.02.06-16.42.45:025][876]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (506)
+[2019.02.06-16.42.45:025][876]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (504)
+[2019.02.06-16.42.45:025][876]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (502)
+[2019.02.06-16.42.45:025][876]LogModuleManager: Shutting down and abandoning module InputBindingEditor (500)
+[2019.02.06-16.42.45:026][876]LogModuleManager: Shutting down and abandoning module MergeActors (498)
+[2019.02.06-16.42.45:027][876]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (496)
+[2019.02.06-16.42.45:028][876]LogModuleManager: Shutting down and abandoning module LocalizationService (495)
+[2019.02.06-16.42.45:028][876]LogModuleManager: Shutting down and abandoning module HardwareTargeting (492)
+[2019.02.06-16.42.45:028][876]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (490)
+[2019.02.06-16.42.45:028][876]LogModuleManager: Shutting down and abandoning module UndoHistory (488)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module XmlParser (486)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module Blutility (484)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (482)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (481)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (478)
+[2019.02.06-16.42.45:029][876]LogModuleManager: Shutting down and abandoning module SettingsEditor (476)
+[2019.02.06-16.42.45:030][876]LogModuleManager: Shutting down and abandoning module ProjectLauncher (474)
+[2019.02.06-16.42.45:031][876]LogModuleManager: Shutting down and abandoning module SessionFrontend (472)
+[2019.02.06-16.42.45:031][876]LogModuleManager: Shutting down and abandoning module ProfilerClient (470)
+[2019.02.06-16.42.45:032][876]LogModuleManager: Shutting down and abandoning module DeviceManager (468)
+[2019.02.06-16.42.45:032][876]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (467)
+[2019.02.06-16.42.45:087][876]LogModuleManager: Shutting down and abandoning module AutomationController (464)
+[2019.02.06-16.42.45:088][876]LogModuleManager: Shutting down and abandoning module AutomationWindow (462)
+[2019.02.06-16.42.45:089][876]LogModuleManager: Shutting down and abandoning module Layers (460)
+[2019.02.06-16.42.45:091][876]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (458)
+[2019.02.06-16.42.45:091][876]LogModuleManager: Shutting down and abandoning module DetailCustomizations (456)
+[2019.02.06-16.42.45:091][876]LogModuleManager: Shutting down and abandoning module PackagesDialog (454)
+[2019.02.06-16.42.45:092][876]LogModuleManager: Shutting down and abandoning module Persona (452)
+[2019.02.06-16.42.45:093][876]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (451)
+[2019.02.06-16.42.45:093][876]LogModuleManager: Shutting down and abandoning module AnimGraph (449)
+[2019.02.06-16.42.45:093][876]LogModuleManager: Shutting down and abandoning module Kismet (446)
+[2019.02.06-16.42.45:102][876]LogModuleManager: Shutting down and abandoning module GraphEditor (444)
+[2019.02.06-16.42.45:102][876]LogModuleManager: Shutting down and abandoning module ClassViewer (442)
+[2019.02.06-16.42.45:103][876]LogModuleManager: Shutting down and abandoning module Toolbox (440)
+[2019.02.06-16.42.45:103][876]LogModuleManager: Shutting down and abandoning module DesktopPlatform (439)
+[2019.02.06-16.42.45:103][876]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.02.06-16.42.45:103][876]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.02.06-16.42.45:105][876]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.02.06-16.42.45:105][876]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.02.06-16.42.45:105][876]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.02.06-16.42.45:105][876]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.02.06-16.42.45:105][876]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.02.06-16.42.45:106][876]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.02.06-16.42.45:107][876]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.02.06-16.42.45:107][876]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.02.06-16.42.45:107][876]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.02.06-16.42.45:107][876]LogModuleManager: Shutting down and abandoning module ProfilerService (402)
+[2019.02.06-16.42.45:228][876]LogModuleManager: Shutting down and abandoning module TaskGraph (400)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module SteamVRController (398)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (396)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (394)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module OculusInput (392)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (390)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module EditableMesh (388)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (386)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module CableComponent (384)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module AudioCapture (382)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (380)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module AndroidPermission (378)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (376)
+[2019.02.06-16.42.45:230][876]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (374)
+[2019.02.06-16.42.45:231][876]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (372)
+[2019.02.06-16.42.45:231][876]LogModuleManager: Shutting down and abandoning module MediaCompositing (370)
+[2019.02.06-16.42.45:231][876]LogModuleManager: Shutting down and abandoning module LinearTimecode (368)
+[2019.02.06-16.42.45:231][876]LogModuleManager: Shutting down and abandoning module ImgMedia (366)
+[2019.02.06-16.42.45:234][876]LogModuleManager: Shutting down and abandoning module HTML5Networking (364)
+[2019.02.06-16.42.45:234][876]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (362)
+[2019.02.06-16.42.45:234][876]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (360)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module BackChannel (358)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module AppleVision (356)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module AppleImageUtils (354)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module AlembicImporter (352)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module AlembicLibrary (351)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module GeometryCache (350)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (349)
+[2019.02.06-16.42.45:235][876]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (344)
+[2019.02.06-16.42.45:236][876]LogModuleManager: Shutting down and abandoning module DatasmithContent (342)
+[2019.02.06-16.42.45:236][876]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (340)
+[2019.02.06-16.42.45:236][876]LogModuleManager: Shutting down and abandoning module PluginBrowser (338)
+[2019.02.06-16.42.45:238][876]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (336)
+[2019.02.06-16.42.45:239][876]LogModuleManager: Shutting down and abandoning module PolygonModeling (334)
+[2019.02.06-16.42.45:239][876]LogModuleManager: Shutting down and abandoning module MeshEditor (332)
+[2019.02.06-16.42.45:239][876]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (330)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module CryptoKeys (328)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (326)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (324)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module UObjectPlugin (322)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (320)
+[2019.02.06-16.42.45:240][876]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (318)
+[2019.02.06-16.42.45:242][876]LogModuleManager: Shutting down and abandoning module GitSourceControl (316)
+[2019.02.06-16.42.45:243][876]LogModuleManager: Shutting down and abandoning module SourceControl (315)
+[2019.02.06-16.42.45:243][876]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (312)
+[2019.02.06-16.42.45:243][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (310)
+[2019.02.06-16.42.45:243][876]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (308)
+[2019.02.06-16.42.45:243][876]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (306)
+[2019.02.06-16.42.45:244][876]LogModuleManager: Shutting down and abandoning module Paper2DEditor (304)
+[2019.02.06-16.42.45:245][876]LogModuleManager: Shutting down and abandoning module MeshPaint (303)
+[2019.02.06-16.42.45:245][876]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.02.06-16.42.45:245][876]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.02.06-16.42.45:245][876]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.02.06-16.42.45:245][876]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.02.06-16.42.45:246][876]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.02.06-16.42.45:246][876]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.02.06-16.42.45:246][876]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.02.06-16.42.45:246][876]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.02.06-16.42.45:246][876]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.02.06-16.42.45:348][876]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.02.06-16.42.45:450][876]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.02.06-16.42.45:450][876]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.02.06-16.42.45:451][876]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.02.06-16.42.45:451][876]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.02.06-16.42.45:451][876]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.02.06-16.42.45:451][876]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.02.06-16.42.45:452][876]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.02.06-16.42.45:453][876]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.02.06-16.42.45:454][876]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.02.06-16.42.45:454][876]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.02.06-16.42.45:454][876]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.02.06-16.42.45:455][876]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.02.06-16.42.45:455][876]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.02.06-16.42.45:456][876]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.02.06-16.42.45:456][876]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.02.06-16.42.45:456][876]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.02.06-16.42.45:456][876]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.02.06-16.42.45:457][876]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.02.06-16.42.45:459][876]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.02.06-16.42.45:465][876]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.02.06-16.42.45:465][876]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.02.06-16.42.45:465][876]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.02.06-16.42.45:466][876]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.02.06-16.42.45:466][876]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.02.06-16.42.45:466][876]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.02.06-16.42.45:466][876]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.02.06-16.42.45:467][876]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.02.06-16.42.45:467][876]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.02.06-16.42.45:467][876]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.02.06-16.42.45:470][876]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.02.06-16.42.45:470][876]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.02.06-16.42.45:471][876]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.02.06-16.42.45:471][876]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.02.06-16.42.45:471][876]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.02.06-16.42.45:472][876]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.02.06-16.42.45:475][876]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.02.06-16.42.45:475][876]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.02.06-16.42.45:478][876]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.02.06-16.42.45:478][876]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.02.06-16.42.45:479][876]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.02.06-16.42.45:480][876]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.02.06-16.42.45:481][876]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.02.06-16.42.45:481][876]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.02.06-16.42.45:482][876]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.02.06-16.42.45:483][876]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.02.06-16.42.45:483][876]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.02.06-16.42.45:483][876]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.02.06-16.42.45:484][876]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.02.06-16.42.45:484][876]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.02.06-16.42.45:519][876]LogDerivedDataCache: Shutdown
+[2019.02.06-16.42.45:519][876]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.02.06-16.42.45:519][876]LogXGEController: Cleaning working directory: C:/Users/trj1crt/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.02.06-16.42.45:520][876]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.02.06-16.42.45:520][876]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.02.06-16.42.45:520][876]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.02.06-16.42.45:520][876]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.02.06-16.42.45:521][876]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.02.06-16.42.45:521][876]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.02.06-16.42.45:521][876]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.02.06-16.42.45:522][876]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.02.06-16.42.45:523][876]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.02.06-16.42.45:523][876]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.02.06-16.42.45:523][876]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.02.06-16.42.45:524][876]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.02.06-16.42.45:524][876]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.02.06-16.42.45:529][876]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.02.06-16.42.45:530][876]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.02.06-16.42.45:530][876]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.02.06-16.42.45:530][876]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.02.06-16.42.45:530][876]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.02.06-16.42.45:531][876]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.02.06-16.42.45:532][876]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.02.06-16.42.45:570][876]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.02.06-16.42.45:570][876]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.02.06-16.42.45:570][876]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4CA5C780-4EB7-8854-BB7D-4F8BF648FD4E%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.1-4233996%2B%2B%2BUE4%2BRelease-4.20&UserID=ca3648554ebb6738531320ae8f001ab8%7C%7C123bfad2-81cf-4af7-84d9-0329b421b40a&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.02.06-16.42.45:595][876]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.02.06-16.42.45:596][876]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.02.06-16.42.45:596][876]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.02.06-16.42.45:596][876]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.02.06-16.42.45:596][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.02.06-16.42.45:597][876]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.02.06-16.42.45:597][876]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.02.06-16.42.45:598][876]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.02.06-16.42.45:598][876]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.02.06-16.42.45:600][876]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.02.06-16.42.45:600][876]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.02.06-16.42.45:600][876]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.02.06-16.42.45:600][876]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.02.06-16.42.45:601][876]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.02.06-16.42.45:602][876]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.02.06-16.42.45:603][876]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.02.06-16.42.45:603][876]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.02.06-16.42.45:603][876]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.02.06-16.42.45:609][876]LogExit: Exiting.
+[2019.02.06-16.42.45:632][876]Log file closed, 02/06/19 16:42:45
