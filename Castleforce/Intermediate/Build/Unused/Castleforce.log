@@ -1,30 +1,7 @@
-﻿  Performing full C++ include scan (building a new target)
-  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for CastleforceEditor (no existing makefile)
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Parsing headers for CastleforceEditor
-    Running UnrealHeaderTool "C:\Temp\Rhun\Castleforce\Castleforce\Castleforce.uproject" "C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for CastleforceEditor in 9.2479792 seconds
-  Building 18 actions with 8 processes...
-    PCLaunch.rc
-    SharedPCH.Engine.cpp
-    Castleforce.init.gen.cpp
-    CastleforceHexGrid.cpp
-    CastleforceHexGrid.gen.cpp
-    CastleforcePawn.gen.cpp
-    CastleforceBlockGrid.gen.cpp
-    CastleforceBlock.gen.cpp
-    CastleforceGameMode.gen.cpp
-    CastleforcePawn.cpp
-    Castleforce.cpp
-    CastleforceGameMode.cpp
-    CastleforcePlayerController.cpp
-    CastleforceBlockGrid.cpp
-    CastleforceBlock.cpp
-    CastleforcePlayerController.gen.cpp
-    UE4Editor-Castleforce.lib
-       Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.exp
-    UE4Editor-Castleforce.dll
-       Creating library C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.lib and object C:\Temp\Rhun\Castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.exp
+﻿  Using 'git status' to determine working set for adaptive non-unity build.
+  Creating makefile for hot reloading CastleforceEditor (modules to compile have changed)
+  Compiling game modules for hot reload
+  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Target is up to date
   Deploying CastleforceEditor Win64 Development...
-  Total build time: 61.75 seconds (Parallel executor: 22.55 seconds)
+  Total build time: 7.14 seconds (NoActionsToExecute executor: 0.00 seconds)

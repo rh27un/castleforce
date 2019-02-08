@@ -17,8 +17,8 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexGrid();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_Castleforce();
-	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
 // End Cross Module References
 	void ACastleforceHexGrid::StaticRegisterNativesACastleforceHexGrid()
 	{
@@ -40,11 +40,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Radius_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Radius;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HexMetrics_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_HexMetrics;
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Radius;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CellClass_MetaData[];
 #endif
@@ -76,14 +72,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 		{ "ModuleRelativePath", "CastleforceHexGrid.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius = { UE4CodeGen_Private::EPropertyClass::Int, "Radius", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, Radius), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HexMetrics_MetaData[] = {
-		{ "Category", "HexGrid" },
-		{ "ModuleRelativePath", "CastleforceHexGrid.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HexMetrics = { UE4CodeGen_Private::EPropertyClass::Object, "HexMetrics", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, HexMetrics), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HexMetrics_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HexMetrics_MetaData)) };
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius = { UE4CodeGen_Private::EPropertyClass::Float, "Radius", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, Radius), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_CellClass_MetaData[] = {
 		{ "Category", "HexGrid" },
@@ -94,7 +83,6 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexGrid_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Size,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Radius,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HexMetrics,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_CellClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACastleforceHexGrid_Statics::StaticCppClassTypeInfo = {
@@ -120,7 +108,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexGrid, 3532373456);
+	IMPLEMENT_CLASS(ACastleforceHexGrid, 3547312657);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexGrid(Z_Construct_UClass_ACastleforceHexGrid, &ACastleforceHexGrid::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexGrid"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexGrid);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

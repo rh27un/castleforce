@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Castleforce.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{AB52338C-72C9-4D56-974B-BAEBCFEEEC24}</UniqueIdentifier>
+      <UniqueIdentifier>{7D3B8FE5-3A32-47ED-8557-79A750A71C58}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Castleforce.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{815A90ED-459D-4CF5-B22D-1D1F8CDE9251}</UniqueIdentifier>
+      <UniqueIdentifier>{E910FC33-77FC-44E6-AA1A-2DB98D584A89}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -30,7 +30,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Castleforce">
-      <UniqueIdentifier>{48182075-3F72-44A3-81D6-06472FEEE504}</UniqueIdentifier>
+      <UniqueIdentifier>{6747D755-D31F-44EC-9EEA-6E6FEF4CD891}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Castleforce\Castleforce.Build.cs">
       <Filter>Source\Castleforce</Filter>
@@ -65,6 +65,12 @@
     <ClInclude Include="..\..\Source\Castleforce\CastleforceHexGrid.h">
       <Filter>Source\Castleforce</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceHexTile.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceHexTile.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\Castleforce\CastleforcePawn.cpp">
       <Filter>Source\Castleforce</Filter>
     </ClCompile>
@@ -79,18 +85,12 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\Source\Castleforce\HexTile.h">
-      <Filter>Source\Castleforce</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\Castleforce\CastleForceHexTile.h">
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceHexPawn.h">
       <Filter>Source\Castleforce</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\Castleforce\HexTile.cpp">
-      <Filter>Source\Castleforce</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\Castleforce\CastleForceHexTile.cpp">
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceHexPawn.cpp">
       <Filter>Source\Castleforce</Filter>
     </ClCompile>
   </ItemGroup>
