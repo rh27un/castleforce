@@ -16,11 +16,15 @@ ACastleForceHexTile::ACastleForceHexTile()
 	text->SetupAttachment(hexMesh);
 }
 
+void ACastleForceHexTile::HandleClicked()
+{
+}
+
 // Called when the game starts or when spawned
 void ACastleForceHexTile::BeginPlay()
 {
 	Super::BeginPlay();
-	
+	hexMesh->SetMaterial(0, normalMat);
 }
 
 void ACastleForceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){
@@ -51,5 +55,15 @@ void ACastleForceHexTile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+}
+
+void ACastleForceHexTile::Highlight(bool highlit)
+{
+	if (highlit) {
+		hexMesh->SetMaterial(0, highlitMat);
+	}
+	else {
+		hexMesh->SetMaterial(0, normalMat);
+	}
 }
 

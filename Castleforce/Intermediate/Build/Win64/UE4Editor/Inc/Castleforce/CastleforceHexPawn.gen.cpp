@@ -15,8 +15,9 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 // Cross Module References
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexPawn_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexPawn();
-	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforcePawn();
+	ENGINE_API UClass* Z_Construct_UClass_APawn();
 	UPackage* Z_Construct_UPackage__Script_Castleforce();
+	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleForceHexTile_NoRegister();
 // End Cross Module References
 	void ACastleforceHexPawn::StaticRegisterNativesACastleforceHexPawn()
 	{
@@ -31,11 +32,16 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentTileFocus_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentTileFocus;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ACastleforceHexPawn_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_ACastleforcePawn,
+		(UObject* (*)())Z_Construct_UClass_APawn,
 		(UObject* (*)())Z_Construct_UPackage__Script_Castleforce,
 	};
 #if WITH_METADATA
@@ -45,6 +51,16 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentTileFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000805, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, CurrentTileFocus), Z_Construct_UClass_ACastleForceHexTile_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexPawn_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACastleforceHexPawn_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ACastleforceHexPawn>::IsAbstract,
 	};
@@ -53,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		DependentSingletons, ARRAY_COUNT(DependentSingletons),
 		0x009000A0u,
 		nullptr, 0,
-		nullptr, 0,
+		Z_Construct_UClass_ACastleforceHexPawn_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::PropPointers),
 		nullptr,
 		&StaticCppClassTypeInfo,
 		nullptr, 0,
@@ -68,7 +84,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexPawn, 3689755724);
+	IMPLEMENT_CLASS(ACastleforceHexPawn, 409191469);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexPawn(Z_Construct_UClass_ACastleforceHexPawn, &ACastleforceHexPawn::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -2,12 +2,12 @@
 
 #include "CastleforceGameMode.h"
 #include "CastleforcePlayerController.h"
-#include "CastleforcePawn.h"
+#include "CastleforceHexPawn.h"
 
 ACastleforceGameMode::ACastleforceGameMode()
 {
 	// no pawn by default
-	DefaultPawnClass = ACastleforcePawn::StaticClass();
+	DefaultPawnClass = ACastleforceHexPawn::StaticClass();
 	// use our own player controller class
 	PlayerControllerClass = ACastleforcePlayerController::StaticClass();
 }

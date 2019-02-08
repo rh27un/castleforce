@@ -4,6 +4,8 @@
 
 #include "CoreMinimal.h"
 #include "CastleforcePawn.h"
+#include "CastleForceHexTile.h"
+#include "CastleforceUnit.h"
 #include "CastleforceHexPawn.generated.h"
 
 /**
@@ -15,14 +17,15 @@ class CASTLEFORCE_API ACastleforceHexPawn : public APawn
 	GENERATED_BODY()
 public:
 
-	virtual void Tick(float DeltaSeconds) override;
-
+	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
-
-	virtual void CalcCamera(float DeltaTime, struct FMinimalViewInfo& OutResult) override;
+	
 
 protected:
-	void OnResetVR();
 	void TriggerClick();
 	void TraceForBlock(const FVector& Start, const FVector& End, bool bDrawDebugHelpers);
+	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
+	class ACastleForceHexTile* CurrentTileFocus;
+
+	TArray<ACastleforceUnit*> SelectedUnits;
 };

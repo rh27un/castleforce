@@ -88,9 +88,21 @@
     <ClInclude Include="..\..\Source\Castleforce\CastleforceHexPawn.h">
       <Filter>Source\Castleforce</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceUnity.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\Castleforce\CastleforceUnit.h">
+      <Filter>Source\Castleforce</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\Castleforce\CastleforceHexPawn.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceUnity.cpp">
+      <Filter>Source\Castleforce</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Castleforce\CastleforceUnit.cpp">
       <Filter>Source\Castleforce</Filter>
     </ClCompile>
   </ItemGroup>

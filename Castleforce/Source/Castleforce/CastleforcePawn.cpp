@@ -71,11 +71,6 @@ void ACastleforcePawn::TraceForBlock(const FVector& Start, const FVector& End, b
 {
 	FHitResult HitResult;
 	GetWorld()->LineTraceSingleByChannel(HitResult, Start, End, ECC_Visibility);
-	if (bDrawDebugHelpers)
-	{
-		DrawDebugLine(GetWorld(), Start, HitResult.Location, FColor::Red);
-		DrawDebugSolidBox(GetWorld(), HitResult.Location, FVector(20.0f), FColor::Red);
-	}
 	if (HitResult.Actor.IsValid())
 	{
 		ACastleforceBlock* HitBlock = Cast<ACastleforceBlock>(HitResult.Actor.Get());
