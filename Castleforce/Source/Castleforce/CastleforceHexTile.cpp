@@ -1,10 +1,10 @@
 // Copyright Rhun Jones 2019
 
-#include "CastleForceHexTile.h"
+#include "CastleforceHexTile.h"
 
 
 // Sets default values
-ACastleForceHexTile::ACastleForceHexTile()
+ACastleforceHexTile::ACastleforceHexTile()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -16,18 +16,30 @@ ACastleForceHexTile::ACastleForceHexTile()
 	text->SetupAttachment(hexMesh);
 }
 
-void ACastleForceHexTile::HandleClicked()
+ACastleforceObject* ACastleforceHexTile::GetOccupyingObject()
 {
+	if (occupyingObject) {
+		return occupyingObject;
+	} else {
+		return nullptr;
+	}
+}
+
+void ACastleforceHexTile::Occupy(ACastleforceObject * occupier) {
+	if (occupier) {
+		occupier->SetActorLocation(GetActorLocation());
+		occupyingObject = occupier;
+	}
 }
 
 // Called when the game starts or when spawned
-void ACastleForceHexTile::BeginPlay()
+void ACastleforceHexTile::BeginPlay()
 {
 	Super::BeginPlay();
 	hexMesh->SetMaterial(0, normalMat);
 }
 
-void ACastleForceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){
+void ACastleforceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){
 	TArray<FVector> normals;
 	TArray<FVector2D> UV0;
 	TArray<FLinearColor> vertexColors;
@@ -41,7 +53,7 @@ void ACastleForceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> tr
 	hexMesh->CreateMeshSection_LinearColor(0, vertices, triangles, normals, UV0,  vertexColors, tangents, true);
 }
 
-void ACastleForceHexTile::SetCoords(int x, int y){
+void ACastleforceHexTile::SetCoords(int x, int y){
 	X = x;
 	Y = y;
 	Z = -x - y;
@@ -51,13 +63,13 @@ void ACastleForceHexTile::SetCoords(int x, int y){
 
 
 // Called every frame
-void ACastleForceHexTile::Tick(float DeltaTime)
+void ACastleforceHexTile::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
 }
 
-void ACastleForceHexTile::Highlight(bool highlit)
+void ACastleforceHexTile::Highlight(bool highlit)
 {
 	if (highlit) {
 		hexMesh->SetMaterial(0, highlitMat);

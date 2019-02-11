@@ -17,44 +17,44 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_RPC_WRAPPERS_NO_PURE_DECLS
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_INCLASS_NO_PURE_DECLS \
 private: \
-	static void StaticRegisterNativesACastleForceHexTile(); \
-	friend struct Z_Construct_UClass_ACastleForceHexTile_Statics; \
+	static void StaticRegisterNativesACastleforceHexTile(); \
+	friend struct Z_Construct_UClass_ACastleforceHexTile_Statics; \
 public: \
-	DECLARE_CLASS(ACastleForceHexTile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
-	DECLARE_SERIALIZER(ACastleForceHexTile)
+	DECLARE_CLASS(ACastleforceHexTile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
+	DECLARE_SERIALIZER(ACastleforceHexTile)
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_INCLASS \
 private: \
-	static void StaticRegisterNativesACastleForceHexTile(); \
-	friend struct Z_Construct_UClass_ACastleForceHexTile_Statics; \
+	static void StaticRegisterNativesACastleforceHexTile(); \
+	friend struct Z_Construct_UClass_ACastleforceHexTile_Statics; \
 public: \
-	DECLARE_CLASS(ACastleForceHexTile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
-	DECLARE_SERIALIZER(ACastleForceHexTile)
+	DECLARE_CLASS(ACastleforceHexTile, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
+	DECLARE_SERIALIZER(ACastleforceHexTile)
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACastleForceHexTile(const FObjectInitializer& ObjectInitializer); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACastleForceHexTile) \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACastleForceHexTile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleForceHexTile); \
+	NO_API ACastleforceHexTile(const FObjectInitializer& ObjectInitializer); \
+	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACastleforceHexTile) \
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACastleforceHexTile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceHexTile); \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API ACastleForceHexTile(ACastleForceHexTile&&); \
-	NO_API ACastleForceHexTile(const ACastleForceHexTile&); \
+	NO_API ACastleforceHexTile(ACastleforceHexTile&&); \
+	NO_API ACastleforceHexTile(const ACastleforceHexTile&); \
 public:
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
-	NO_API ACastleForceHexTile(ACastleForceHexTile&&); \
-	NO_API ACastleForceHexTile(const ACastleForceHexTile&); \
+	NO_API ACastleforceHexTile(ACastleforceHexTile&&); \
+	NO_API ACastleforceHexTile(const ACastleforceHexTile&); \
 public: \
-	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACastleForceHexTile); \
-DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleForceHexTile); \
-	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACastleForceHexTile)
+	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACastleforceHexTile); \
+DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceHexTile); \
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACastleforceHexTile)
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexTile_h_15_PRIVATE_PROPERTY_OFFSET

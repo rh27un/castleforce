@@ -26,7 +26,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-	TArray<ACastleForceHexTile*> tiles;
+	TArray<ACastleforceHexTile*> tiles;
 	float innerRadius = Radius * 0.866025404f;
 	TArray<FVector> corners;
 	TArray<int> triangles = {
@@ -41,6 +41,6 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	ACastleForceHexTile* GetTileAt(int X, int Y);
-	TArray<ACastleForceHexTile*> GetTileNeighbours(int X, int Y);
+	ACastleforceHexTile* GetTileAt(int X, int Y);
+	TArray<ACastleforceHexTile*> GetTileNeighbours(int X, int Y);
 };

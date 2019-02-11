@@ -15,7 +15,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceUnit() {}
 // Cross Module References
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceUnit_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceUnit();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceObject();
 	UPackage* Z_Construct_UPackage__Script_Castleforce();
 // End Cross Module References
 	void ACastleforceUnit::StaticRegisterNativesACastleforceUnit()
@@ -35,7 +35,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceUnit() {}
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
 	UObject* (*const Z_Construct_UClass_ACastleforceUnit_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+		(UObject* (*)())Z_Construct_UClass_ACastleforceObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_Castleforce,
 	};
 #if WITH_METADATA
@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceUnit() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceUnit, 2385044540);
+	IMPLEMENT_CLASS(ACastleforceUnit, 1621996979);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceUnit(Z_Construct_UClass_ACastleforceUnit, &ACastleforceUnit::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceUnit"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceUnit);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

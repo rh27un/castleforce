@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "CastleforcePawn.h"
-#include "CastleForceHexTile.h"
+#include "CastleforceHexTile.h"
 #include "CastleforceUnit.h"
 #include "CastleforceHexPawn.generated.h"
 
@@ -20,12 +20,17 @@ public:
 	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TSubclassOf<ACastleforceUnit> KnightClass;
 
 protected:
-	void TriggerClick();
+	void Click();
+	void RightClick();
 	void TraceForBlock(const FVector& Start, const FVector& End, bool bDrawDebugHelpers);
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
-	class ACastleForceHexTile* CurrentTileFocus;
+	class ACastleforceHexTile* CurrentTileFocus;
 
-	TArray<ACastleforceUnit*> SelectedUnits;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+	ACastleforceUnit* SelectedUnit;
+
 };

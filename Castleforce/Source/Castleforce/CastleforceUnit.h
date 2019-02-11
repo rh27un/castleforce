@@ -3,26 +3,24 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GameFramework/Actor.h"
+#include "CastleforceObject.h"
+#include "CastleforceHexTile.h"
 #include "CastleforceUnit.generated.h"
 
+/**
+ * 
+ */
 UCLASS()
-class CASTLEFORCE_API ACastleforceUnit : public AActor
+class CASTLEFORCE_API ACastleforceUnit : public ACastleforceObject
 {
 	GENERATED_BODY()
-	
-public:	
-	// Sets default values for this actor's properties
-	ACastleforceUnit();
+
+public:
+	void NavigateTo(ACastleforceHexTile* tile);
 
 protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
 
-public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
+	void TeleportTo(ACastleforceHexTile* tile);
 	
 	
 };

@@ -13,29 +13,29 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CASTLEFORCE_CastleforceUnit_generated_h
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_RPC_WRAPPERS
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_INCLASS_NO_PURE_DECLS \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_RPC_WRAPPERS
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACastleforceUnit(); \
 	friend struct Z_Construct_UClass_ACastleforceUnit_Statics; \
 public: \
-	DECLARE_CLASS(ACastleforceUnit, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
+	DECLARE_CLASS(ACastleforceUnit, ACastleforceObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
 	DECLARE_SERIALIZER(ACastleforceUnit)
 
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_INCLASS \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesACastleforceUnit(); \
 	friend struct Z_Construct_UClass_ACastleforceUnit_Statics; \
 public: \
-	DECLARE_CLASS(ACastleforceUnit, AActor, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
+	DECLARE_CLASS(ACastleforceUnit, ACastleforceObject, COMPILED_IN_FLAGS(0), CASTCLASS_None, TEXT("/Script/Castleforce"), NO_API) \
 	DECLARE_SERIALIZER(ACastleforceUnit)
 
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_STANDARD_CONSTRUCTORS \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API ACastleforceUnit(const FObjectInitializer& ObjectInitializer); \
+	NO_API ACastleforceUnit(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACastleforceUnit) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, ACastleforceUnit); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceUnit); \
@@ -46,7 +46,9 @@ private: \
 public:
 
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_ENHANCED_CONSTRUCTORS \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_ENHANCED_CONSTRUCTORS \
+	/** Standard constructor, called after all reflected properties have been initialized */ \
+	NO_API ACastleforceUnit() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACastleforceUnit(ACastleforceUnit&&); \
@@ -57,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceUnit); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACastleforceUnit)
 
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_PRIVATE_PROPERTY_OFFSET
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_9_PROLOG
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_GENERATED_BODY_LEGACY \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_PRIVATE_PROPERTY_OFFSET
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_13_PROLOG
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_PRIVATE_PROPERTY_OFFSET \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_RPC_WRAPPERS \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_INCLASS \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_STANDARD_CONSTRUCTORS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_PRIVATE_PROPERTY_OFFSET \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_RPC_WRAPPERS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_INCLASS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Castleforce_Source_Castleforce_CastleforceUnit_h_12_GENERATED_BODY \
+#define Castleforce_Source_Castleforce_CastleforceUnit_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_PRIVATE_PROPERTY_OFFSET \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_INCLASS_NO_PURE_DECLS \
-	Castleforce_Source_Castleforce_CastleforceUnit_h_12_ENHANCED_CONSTRUCTORS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_PRIVATE_PROPERTY_OFFSET \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_INCLASS_NO_PURE_DECLS \
+	Castleforce_Source_Castleforce_CastleforceUnit_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

@@ -1,27 +1,15 @@
 // Copyright Rhun Jones 2019
 
 #include "CastleforceUnit.h"
+#include "Kismet/GameplayStatics.h"
+#include "CastleforceHexGrid.h"
 
 
-// Sets default values
-ACastleforceUnit::ACastleforceUnit()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
-
+void ACastleforceUnit::NavigateTo(ACastleforceHexTile* tile) {
+	//probably do some pathfinding here idk
+	TeleportTo(tile);
 }
 
-// Called when the game starts or when spawned
-void ACastleforceUnit::BeginPlay()
-{
-	Super::BeginPlay();
-	
+void ACastleforceUnit::TeleportTo(ACastleforceHexTile* tile) {
+	tile->Occupy(this);
 }
-
-// Called every frame
-void ACastleforceUnit::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-

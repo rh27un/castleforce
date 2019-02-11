@@ -16,12 +16,38 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 
 void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
 {
-	PlayerInputComponent->BindAction("TriggerClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::TriggerClick);
+	PlayerInputComponent->BindAction("Click", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::Click);
+	PlayerInputComponent->BindAction("RightClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::RightClick);
 }
 
-void ACastleforceHexPawn::TriggerClick()
+void ACastleforceHexPawn::Click()
 {
-	CurrentTileFocus->HandleClicked();
+	if (CurrentTileFocus) {
+		ACastleforceUnit* newUnit = Cast<ACastleforceUnit>(CurrentTileFocus->GetOccupyingObject());
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
+		if (SelectedUnit) {
+			if (newUnit && newUnit != SelectedUnit) {
+				SelectedUnit = newUnit;
+			}
+		} else {
+			if (newUnit) {
+				SelectedUnit = newUnit;
+			} else {
+				const FVector* NewLocation = new FVector();
+				const FRotator* NewRotation = new FRotator();
+				AActor* NewUnit = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
+				CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+			}
+		}
+	}
+}
+
+void ACastleforceHexPawn::RightClick() {
+	if (CurrentTileFocus) {
+		if (SelectedUnit) {
+			SelectedUnit->NavigateTo(CurrentTileFocus);
+		}
+	}
 }
 
 void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & End, bool bDrawDebugHelpers)
@@ -31,7 +57,7 @@ void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & E
 
 	if (HitResult.Actor.IsValid())
 	{
-		ACastleForceHexTile* HitTile = Cast<ACastleForceHexTile>(HitResult.Actor.Get());
+		ACastleforceHexTile* HitTile = Cast<ACastleforceHexTile>(HitResult.Actor.Get());
 		if (CurrentTileFocus != HitTile)
 		{
 			if (CurrentTileFocus)

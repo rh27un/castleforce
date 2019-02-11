@@ -60,7 +60,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceHexPawn); \
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexPawn_h_17_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CurrentTileFocus() { return STRUCT_OFFSET(ACastleforceHexPawn, CurrentTileFocus); }
+	FORCEINLINE static uint32 __PPO__CurrentTileFocus() { return STRUCT_OFFSET(ACastleforceHexPawn, CurrentTileFocus); } \
+	FORCEINLINE static uint32 __PPO__SelectedUnit() { return STRUCT_OFFSET(ACastleforceHexPawn, SelectedUnit); }
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexPawn_h_14_PROLOG
