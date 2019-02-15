@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "CastleforcePawn.generated.h"
 
+
+
 UCLASS(config=Game)
 class ACastleforcePawn : public APawn
 {
@@ -26,4 +28,6 @@ protected:
 
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 	class ACastleforceBlock* CurrentBlockFocus;
+
+	
 };

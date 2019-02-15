@@ -10,12 +10,24 @@ void ACastleforceUnit::NavigateTo(ACastleforceHexTile* tile) {
 	if (tile != currentTile) {
 		TArray<AActor*> FoundActors;
 		UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACastleforceHexGrid::StaticClass(), FoundActors);
-		TArray<ACastleforceHexTile*> path = Cast<ACastleforceHexGrid>(FoundActors[0])->AStar(currentTile, tile);
-		for (int i = 0; i < path.Num(); i++) {
-			path[i]->Highlight(true);
+		currentPath = Cast<ACastleforceHexGrid>(FoundActors[0])->AStar(currentTile, tile);
+		
+	}
+	GetWorldTimerManager().SetTimer(UnitTimerHandle, this, &ACastleforceUnit::ContinuePath, currentPath[0]->walkTime);
+	//TeleportToTile(tile);
+}
+
+void ACastleforceUnit::ContinuePath() {
+	if (currentPath.Num() >= 0) {
+		TeleportToTile(currentPath[0]);
+		currentPath.RemoveAt(0);
+		
+		if (currentPath.Num() == 0) {
+			GetWorldTimerManager().ClearTimer(UnitTimerHandle);
+		} else {
+			GetWorldTimerManager().SetTimer(UnitTimerHandle, this, &ACastleforceUnit::ContinuePath, currentPath[0]->walkTime);
 		}
 	}
-	TeleportToTile(tile);
 }
 
 void ACastleforceUnit::TeleportToTile(ACastleforceHexTile* tile) {

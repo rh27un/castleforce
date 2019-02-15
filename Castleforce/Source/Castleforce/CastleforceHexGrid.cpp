@@ -1,7 +1,7 @@
 // Copyright Rhun Jones 2019
 
 #include "CastleforceHexGrid.h"
-
+#include "SimplexNoiseBPLibrary.h"
 // Sets default values
 ACastleforceHexGrid::ACastleforceHexGrid()
 {
@@ -32,8 +32,9 @@ void ACastleforceHexGrid::BeginPlay()
 		//GEngine->AddOnScreenDebugMessage(-1, 120.f, FColor::Red, FString::Printf(TEXT("Coordinates of Cell %d: x: %d, y: %d"), i, (Y - X / 2), X));
 		float YOffset = (Y + X * 0.5f - X / 2)  * (InnerRadius * 2);
 		float XOffset =  X * (Radius * 1.5);
-
-		const FVector* NewLocation = new FVector(XOffset, YOffset, 0.f);
+		USimplexNoiseBPLibrary::setNoiseSeed(FMath::RandRange(-100000, 100000));
+		float ZOffset = USimplexNoiseBPLibrary::SimplexNoise2D(X / Scale, Y / Scale);// * HeightMultiplier;
+		const FVector* NewLocation = new FVector(XOffset, YOffset, 0.f);//ZOffset * HeightMultiplier);
 		const FRotator* NewRotation = new FRotator(0.f, 90.f, 0.f);
 		AActor* NewCell = GetWorld()->SpawnActor(CellClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceHexTile>(NewCell)) {
@@ -41,6 +42,7 @@ void ACastleforceHexGrid::BeginPlay()
 			Cast<ACastleforceHexTile>(NewCell)->CreateHexagon(corners, triangles);
 			Cast<ACastleforceHexTile>(NewCell)->SetCoords(Y - X / 2, X);
 			Cast<ACastleforceHexTile>(NewCell)->I = i;
+			Cast<ACastleforceHexTile>(NewCell)->SetHeightType(GetHeightType(ZOffset));
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
 		}
 	}
@@ -48,14 +50,28 @@ void ACastleforceHexGrid::BeginPlay()
 
 
 TArray<ACastleforceHexTile*> ACastleforceHexGrid::ReconstructPath(TMap<ACastleforceHexTile*, ACastleforceHexTile*> cameFrom, ACastleforceHexTile * end) {
-	TArray<ACastleforceHexTile*> path;
-	path.Add(end);
+	TArray<ACastleforceHexTile*> path; //the path, in order, from start to finish, not including start
+	path.Add(end);//we already know the end step
 	ACastleforceHexTile* nextStep = cameFrom[end];
-	do {
-		path.Insert(nextStep, 0);
+	//if camefrom contains nextstep, nextstep must have a step after
+	while (cameFrom.Contains(nextStep)) {
+		path.Insert(nextStep, 0); 
 		nextStep = cameFrom[nextStep];
-	} while (cameFrom.Contains(nextStep));
+	} 
+	
 	return path;
+}
+
+TEnumAsByte<TileHeight> ACastleforceHexGrid::GetHeightType(float height) {
+	if (height >= HeightTypes[Mountain]) {
+		return Mountain;
+	} else if (height >= HeightTypes[Hill]) {
+		return Hill;
+	} else if (height >= HeightTypes[Flat]) {
+		return Flat;
+	} else {
+		return NoneHeight;
+	}
 }
 
 ACastleforceHexTile * ACastleforceHexGrid::GetTileAt(int X, int Y)
@@ -123,7 +139,7 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::AStar(ACastleforceHexTile * st
 	
 	//initialize
 	gScore.Emplace(start, 0.f);
-	fScore.Emplace(start, FVector::Dist(start->GetActorLocation(), goal->GetActorLocation()));
+	fScore.Emplace(start, FVector::DistXY(start->GetActorLocation(), goal->GetActorLocation()));
 	
 	while (openSet.Num() > 0) {
 		//look at the node in the open set with the lowest f score
@@ -159,14 +175,14 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::AStar(ACastleforceHexTile * st
 			}
 			
 			//distance to neighbour from start
-			float tentativeGScore = 0.0f;// = gScore[current];// +neighbours[i]->walkTime;
+			float tentativeGScore  = gScore[current] + neighbours[i]->walkTime;
 
 			//discover a new node
 			
 			if (!openSet.Contains(neighbours[i])) {
 				openSet.Add(neighbours[i]);
 			} else if (tentativeGScore >= gScore[neighbours[i]]) { //ignore if there's a better path to neighbour
-				//continue;
+				continue;
 			}
 			
 			//save this path if it is the best so far

@@ -7,7 +7,7 @@
 ACastleforceHexTile::ACastleforceHexTile()
 {
  	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	PrimaryActorTick.bCanEverTick = false;
 
 	hexMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Hex Mesh"));
 	RootComponent = hexMesh;
@@ -25,12 +25,25 @@ ACastleforceObject* ACastleforceHexTile::GetOccupyingObject()
 	}
 }
 
+void ACastleforceHexTile::SetHeightType(TEnumAsByte<TileHeight> type) {
+	normalMat = materials[type];
+	hexMesh->SetMaterial(0, normalMat);
+	if (type == Mountain) {
+		walkable = false;
+	}
+	if (type == Hill) {
+		walkTime = 1.f;
+	}
+}
+
 void ACastleforceHexTile::Occupy(ACastleforceObject * occupier) {
 	if (occupier) {
 		occupier->SetActorLocation(GetActorLocation());
 		occupyingObject = occupier;
 	}
 }
+
+
 
 // Called when the game starts or when spawned
 void ACastleforceHexTile::BeginPlay()

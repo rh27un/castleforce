@@ -2,6 +2,12 @@
 
 #include "CastleforceHexPawn.h"
 #include "Kismet/GameplayStatics.h"
+
+ACastleforceHexPawn::ACastleforceHexPawn() {
+	AutoPossessPlayer = EAutoReceiveInput::Player0;
+	AutoReceiveInput = EAutoReceiveInput::Player0;
+}
+
 void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
@@ -11,6 +17,9 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 		PC->DeprojectMousePositionToWorld(Start, Dir);
 		End = Start + (Dir * 8000.0f);
 		TraceForBlock(Start, End, false);
+	}
+	if (!MovementInput.IsZero()) {
+		SetActorLocation(GetActorLocation() + (MovementInput * Speed));
 	}
 }
 
@@ -25,13 +34,16 @@ void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInpu
 {
 	PlayerInputComponent->BindAction("Click", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::Click);
 	PlayerInputComponent->BindAction("RightClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::RightClick);
+	PlayerInputComponent->BindAxis("Vertical", this, &ACastleforceHexPawn::MoveForward);
+	PlayerInputComponent->BindAxis("Horizontal", this, &ACastleforceHexPawn::MoveRight);
+
 }
 
 void ACastleforceHexPawn::Click()
 {
 	if (CurrentTileFocus) {
 		ACastleforceUnit* newUnit = Cast<ACastleforceUnit>(CurrentTileFocus->GetOccupyingObject());
-		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
+		//
 		if (SelectedUnit) {
 			if (newUnit && newUnit != SelectedUnit) {
 				SelectedUnit = newUnit;
@@ -59,6 +71,14 @@ void ACastleforceHexPawn::RightClick() {
 			SelectedUnit->NavigateTo(CurrentTileFocus);
 		}
 	}
+}
+
+void ACastleforceHexPawn::MoveForward(float AxisValue) {
+	MovementInput.X = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+}
+
+void ACastleforceHexPawn::MoveRight(float AxisValue) {
+	MovementInput.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f);
 }
 
 void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & End, bool bDrawDebugHelpers)

@@ -18,9 +18,10 @@ class CASTLEFORCE_API ACastleforceUnit : public ACastleforceObject
 public:
 	void NavigateTo(ACastleforceHexTile* tile);
 	ACastleforceHexTile* currentTile;
+	TArray<ACastleforceHexTile*> currentPath;
 protected:
 	
+	void ContinuePath();
 	void TeleportToTile(ACastleforceHexTile* tile);
-	
-	
+	FTimerHandle UnitTimerHandle;
 };
