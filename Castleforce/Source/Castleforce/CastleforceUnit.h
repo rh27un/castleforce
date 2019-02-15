@@ -17,10 +17,10 @@ class CASTLEFORCE_API ACastleforceUnit : public ACastleforceObject
 
 public:
 	void NavigateTo(ACastleforceHexTile* tile);
-
+	ACastleforceHexTile* currentTile;
 protected:
-
-	void TeleportTo(ACastleforceHexTile* tile);
+	
+	void TeleportToTile(ACastleforceHexTile* tile);
 	
 	
 };

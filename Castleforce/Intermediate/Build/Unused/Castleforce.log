@@ -1,7 +1,9 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading CastleforceEditor (modules to compile have changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Target is up to date
+  Building 3 actions with 8 processes...
+    [1/3] CastleforceHexGrid.cpp
+    [2/3] UE4Editor-Castleforce.lib
+       Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.exp
+    [3/3] UE4Editor-Castleforce.dll
+       Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce.suppressed.exp
   Deploying CastleforceEditor Win64 Development...
-  Total build time: 7.55 seconds (NoActionsToExecute executor: 0.00 seconds)
+  Total build time: 6.88 seconds (Parallel executor: 5.35 seconds)

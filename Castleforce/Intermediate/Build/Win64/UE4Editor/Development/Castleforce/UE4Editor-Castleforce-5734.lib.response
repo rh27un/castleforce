@@ -1,0 +1,33 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Castleforce-5734.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\Castleforce.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceBlock.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceBlockGrid.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceGameMode.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexGrid.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexPawn.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexTile.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceObject.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePawn.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePlayerController.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceUnit.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\Castleforce.init.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceBlock.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceBlockGrid.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceGameMode.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexGrid.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexPawn.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceHexTile.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceObject.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePawn.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePlayerController.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforceUnit.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\PCLaunch.rc.res"
+/OUT:"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5734.lib"

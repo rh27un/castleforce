@@ -1,7 +1,7 @@
 // Copyright Rhun Jones 2019
 
 #include "CastleforceHexPawn.h"
-
+#include "Kismet/GameplayStatics.h"
 void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 	Super::Tick(DeltaSeconds);
 
@@ -14,6 +14,13 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 	}
 }
 
+void ACastleforceHexPawn::BeginPlay() {
+	Super::BeginPlay();
+	TArray<AActor*> foundActors;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACastleforceHexGrid::StaticClass(), foundActors);
+	grid = Cast<ACastleforceHexGrid>(foundActors[0]);
+}
+
 void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
 {
 	PlayerInputComponent->BindAction("Click", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::Click);
@@ -24,7 +31,7 @@ void ACastleforceHexPawn::Click()
 {
 	if (CurrentTileFocus) {
 		ACastleforceUnit* newUnit = Cast<ACastleforceUnit>(CurrentTileFocus->GetOccupyingObject());
-		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
+		//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("This is an on screen message!"));
 		if (SelectedUnit) {
 			if (newUnit && newUnit != SelectedUnit) {
 				SelectedUnit = newUnit;
@@ -36,7 +43,10 @@ void ACastleforceHexPawn::Click()
 				const FVector* NewLocation = new FVector();
 				const FRotator* NewRotation = new FRotator();
 				AActor* NewUnit = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
-				CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+				if (Cast<ACastleforceUnit>(NewUnit)) {
+					Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
+					CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+				}
 			}
 		}
 	}
@@ -44,6 +54,7 @@ void ACastleforceHexPawn::Click()
 
 void ACastleforceHexPawn::RightClick() {
 	if (CurrentTileFocus) {
+		//GEngine->AddOnScreenDebugMessage(-1, 50.f, FColor::Red, FString::Printf(TEXT("Index of Cell at %d, %d: %d"), CurrentTileFocus->X, CurrentTileFocus->Y, CurrentTileFocus->I));
 		if (SelectedUnit) {
 			SelectedUnit->NavigateTo(CurrentTileFocus);
 		}

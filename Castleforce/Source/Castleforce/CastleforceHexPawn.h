@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "CastleforcePawn.h"
+#include "CastleforceHexGrid.h"
 #include "CastleforceHexTile.h"
 #include "CastleforceUnit.h"
 #include "CastleforceHexPawn.generated.h"
@@ -17,6 +18,7 @@ class CASTLEFORCE_API ACastleforceHexPawn : public APawn
 	GENERATED_BODY()
 public:
 
+	void BeginPlay() override;
 	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 	
@@ -32,5 +34,7 @@ protected:
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	ACastleforceUnit* SelectedUnit;
+
+	ACastleforceHexGrid* grid;
 
 };

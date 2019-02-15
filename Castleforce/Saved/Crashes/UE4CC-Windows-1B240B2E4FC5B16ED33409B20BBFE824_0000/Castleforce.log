@@ -1,0 +1,1017 @@
+﻿Log file open, 02/12/19 17:18:32
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Castleforce
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.339902
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.357s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Unreal/Engine/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.094s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.02.12-17.18.33:263][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.12-17.18.33:263][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.02.12-17.18.33:303][  0]LogHAL: Display: Platform has ~ 8 GB [8484548608 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.02.12-17.18.33:303][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.02.12-17.18.33:303][  0]LogInit: Going up to parent DeviceProfile []
+[2019.02.12-17.18.33:303][  0]LogInit: Computer: DESKTOP-TLUBEOD
+[2019.02.12-17.18.33:303][  0]LogInit: User: rh27u
+[2019.02.12-17.18.33:303][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.02.12-17.18.33:303][  0]LogInit: High frequency timer resolution =3.919321 MHz
+[2019.02.12-17.18.33:304][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.02.12-17.18.33:304][  0]LogMemory: Platform Memory Stats for Windows
+[2019.02.12-17.18.33:304][  0]LogMemory: Process Physical Memory: 100.28 MB used, 100.28 MB peak
+[2019.02.12-17.18.33:304][  0]LogMemory: Process Virtual Memory: 87.35 MB used, 87.35 MB peak
+[2019.02.12-17.18.33:304][  0]LogMemory: Physical Memory: 3580.37 MB used,  4511.13 MB free, 8091.50 MB total
+[2019.02.12-17.18.33:304][  0]LogMemory: Virtual Memory: 4641.60 MB used,  4511.13 MB free, 134217728.00 MB total
+[2019.02.12-17.18.33:329][  0]LogInit: Using OS detected language (en-US).
+[2019.02.12-17.18.33:329][  0]LogInit: Using OS detected locale (en-GB).
+[2019.02.12-17.18.33:331][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.02.12-17.18.33:815][  0]LogStreaming: Display: Took  0.486s to InitEngineTextLocalization.
+[2019.02.12-17.18.33:815][  0]LogInit: Setting process to per monitor DPI aware
+[2019.02.12-17.18.33:918][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.02.12-17.18.33:918][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.02.12-17.18.34:324][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.12-17.18.34:325][  0]LogD3D11RHI: D3D11 adapters:
+[2019.02.12-17.18.34:463][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2019.02.12-17.18.34:463][  0]LogD3D11RHI:       8080/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.02.12-17.18.34:465][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.02.12-17.18.34:465][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.02.12-17.18.34:465][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.02.12-17.18.34:473][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.02.12-17.18.34:473][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2019.02.12-17.18.34:473][  0]LogWindows: EnumDisplayDevices:
+[2019.02.12-17.18.34:473][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2019.02.12-17.18.34:474][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2019.02.12-17.18.34:474][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2019.02.12-17.18.34:474][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.02.12-17.18.34:474][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.02.12-17.18.34:474][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2019.02.12-17.18.34:474][  0]LogD3D11RHI:   Driver Version: 417.35 (internal:25.21.14.1735, unified:417.35)
+[2019.02.12-17.18.34:474][  0]LogD3D11RHI:      Driver Date: 12-11-2018
+[2019.02.12-17.18.34:474][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2019.02.12-17.18.34:540][  0]LogD3D11RHI: Async texture creation enabled
+[2019.02.12-17.18.34:587][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.02.12-17.18.34:691][  0]LogShaderCompilers: Guid format shader working directory is -32 characters bigger than the processId version (../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Intermediate/Shaders/WorkingDirectory/11632/).
+[2019.02.12-17.18.34:691][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rh27u/AppData/Local/Temp/UnrealShaderWorkingDir/16DDAD7949F5C64724F2DABF2608B78B/'.
+[2019.02.12-17.18.35:025][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.02.12-17.18.35:045][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.02.12-17.18.35:065][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.02.12-17.18.35:085][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.02.12-17.18.35:104][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.02.12-17.18.35:126][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.02.12-17.18.35:147][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.02.12-17.18.35:166][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.02.12-17.18.35:175][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:294][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:295][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.02.12-17.18.35:297][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.02.12-17.18.35:372][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.12-17.18.35:372][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.02.12-17.18.35:409][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.12-17.18.35:409][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.02.12-17.18.35:429][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.02.12-17.18.35:448][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.02.12-17.18.35:468][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.02.12-17.18.35:488][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.02.12-17.18.35:502][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.02.12-17.18.35:502][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.02.12-17.18.35:567][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.02.12-17.18.35:567][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.02.12-17.18.35:567][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.02.12-17.18.36:587][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.02.12-17.18.36:680][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.12-17.18.36:681][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.02.12-17.18.36:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.02.12-17.18.36:681][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.02.12-17.18.36:681][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.02.12-17.18.36:681][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.02.12-17.18.36:696][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.02.12-17.18.36:709][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rh27u/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.02.12-17.18.36:709][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.02.12-17.18.36:709][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.02.12-17.18.36:737][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.02.12-17.18.36:738][  0]LogSlate: Using FreeType 2.6.0
+[2019.02.12-17.18.36:739][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.02.12-17.18.36:845][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2019.02.12-17.18.37:422][  0]LogInit: Selected Device Profile: [Windows]
+[2019.02.12-17.18.37:586][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.02.12-17.18.37:590][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.02.12-17.18.37:590][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.02.12-17.18.37:590][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.02.12-17.18.37:590][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.02.12-17.18.37:648][  0]LogNetVersion: Castleforce 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2622368503)
+[2019.02.12-17.18.38:509][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.281141 seconds
+[2019.02.12-17.18.38:519][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.02.12-17.18.38:519][  0]LogUObjectAllocator: 6690872 out of 0 bytes used by permanent object pool.
+[2019.02.12-17.18.38:519][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.02.12-17.18.39:682][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.02.12-17.18.39:697][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.02.12-17.18.40:015][  0]SourceControl: Source control is disabled
+[2019.02.12-17.18.40:015][  0]SourceControl: Source control is disabled
+[2019.02.12-17.18.40:017][  0]SourceControl: Source control is disabled
+[2019.02.12-17.18.40:018][  0]SourceControl: Source control is disabled
+[2019.02.12-17.18.40:218][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.02.12-17.18.40:327][  0]LogOcInput: OculusInput pre-init called
+[2019.02.12-17.18.40:405][  0]LogEngine: Initializing Engine...
+[2019.02.12-17.18.40:406][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.02.12-17.18.40:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.12-17.18.40:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.12-17.18.40:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.12-17.18.40:408][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.12-17.18.40:662][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.02.12-17.18.40:679][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.02.12-17.18.40:808][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-17.18.40:825][  0]LogInit: FAudioDevice initialized.
+[2019.02.12-17.18.40:825][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.02.12-17.18.41:043][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.02.12-17.18.41:053][  0]LogInit: Texture streaming: Enabled
+[2019.02.12-17.18.41:077][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.02.12-17.18.41:095][  0]LogInit: Transaction tracking system initialized
+[2019.02.12-17.18.41:120][  0]BlueprintLog: New page: Editor Load
+[2019.02.12-17.18.41:212][  0]LocalizationService: Localization service is disabled
+[2019.02.12-17.18.41:551][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.02.12-17.18.41:551][  0]LogCook: Display: Mobile HDR setting 1
+[2019.02.12-17.18.41:551][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.02.12-17.18.41:551][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.02.12-17.18.41:551][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.02.12-17.18.41:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.02.12-17.18.41:552][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.02.12-17.18.41:563][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/' took 0.04s
+[2019.02.12-17.18.41:709][  0]SourceControl: Source control is disabled
+[2019.02.12-17.18.41:709][  0]Cmd: MAP LOAD FILE="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.02.12-17.18.41:750][  0]LightingResults: New page: Lighting Build
+[2019.02.12-17.18.41:753][  0]MapCheck: New page: Map Check
+[2019.02.12-17.18.41:753][  0]LightingResults: New page: Lighting Build
+[2019.02.12-17.18.42:292][  0]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-17.18.42:298][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.02.12-17.18.42:416][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.02.12-17.18.42:503][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 86.369ms to complete.
+[2019.02.12-17.18.42:503][  0]LogFileHelpers: Loading map 'Level1' took 0.794
+[2019.02.12-17.18.43:233][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.18.43:249][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.18.43:262][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.18.43:273][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.18.43:345][  0]LogCollectionManager: Loaded 0 collections in 0.001771 seconds
+[2019.02.12-17.18.43:495][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/Collections/' took 0.01s
+[2019.02.12-17.18.43:495][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Developers/rh27u/Collections/' took 0.01s
+[2019.02.12-17.18.43:495][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Collections/' took 0.01s
+[2019.02.12-17.18.43:495][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.02.12-17.18.43:514][  0]LogContentBrowser: Native class hierarchy populated in 0.0172 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.18.43:586][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2019.02.12-17.18.44:593][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.02.12-17.18.45:000][  0]LogSlate: Took 0.000631 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.02.12-17.18.45:029][  0]LogSlate: Took 0.000380 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.02.12-17.18.45:062][  0]LogSlate: Took 0.020099 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.02.12-17.18.45:339][  0]LogRenderer: Reallocating scene render targets to support 1200x576 Format 10 NumSamples 1 (Frame:1).
+[2019.02.12-17.18.45:594][  0]LogSlate: Took 0.014857 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.12-17.18.45:776][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.02.12-17.18.45:777][  0]LogLoad: (Engine Initialization) Total time: 16.39 seconds
+[2019.02.12-17.18.45:777][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.02.12-17.18.45:788][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.02.12-17.18.45:834][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.02.12-17.18.45:881][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/' took 0.08s
+[2019.02.12-17.18.46:001][  2]LogAssetRegistry: Asset discovery search completed in 9.1784 seconds
+[2019.02.12-17.18.46:003][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.02.12-17.18.46:003][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000106 seconds (updated 0 objects)
+[2019.02.12-17.20.08:818][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-17.21.27:892][428]LogSlate: Took 0.000455 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.02.12-17.21.27:918][428]LogAssetEditorManager: Opening Asset editor for Class /Script/Castleforce.CastleforceHexGrid
+[2019.02.12-17.24.18:564][186]Candidate modules for hot reload:
+[2019.02.12-17.24.18:564][186]  Castleforce
+[2019.02.12-17.24.18:564][186]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7378 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-17.24.18:566][186]Warning: Starting HotReload took  0.2s.
+[2019.02.12-17.27.57:250][ 76]CompilerResultsLog: New page: Compilation - 12 Feb 2019 17:27:57
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog: Creating makefile for hot reloading CastleforceEditor (modules to compile have changed)
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-17.27.57:265][ 76]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-17.27.57:266][ 76]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-7378.lib
+[2019.02.12-17.27.57:266][ 76]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7378.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7378.exp
+[2019.02.12-17.27.57:266][ 76]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-7378.dll
+[2019.02.12-17.27.57:266][ 76]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7378.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7378.suppressed.exp
+[2019.02.12-17.27.57:266][ 76]CompilerResultsLog: Total build time: 217.29 seconds (Parallel executor: 160.85 seconds)
+[2019.02.12-17.27.57:266][ 76]LogMainFrame: MainFrame: Module compiling took 218.812 seconds
+[2019.02.12-17.27.57:465][ 76]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0008 seconds. Added 10 classes and 2 folders.
+[2019.02.12-17.27.57:469][ 76]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-17.27.58:023][ 76]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.27.58:054][ 76]Display: HotReload took 219.7s.
+[2019.02.12-17.28.04:733][ 96]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-17.28.04:802][ 96]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.04:809][ 96]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-17.28.04:858][ 96]PIE: New page: PIE session: Level1 (12 Feb 2019 17:28:04)
+[2019.02.12-17.28.04:859][ 96]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-17.28.04:920][ 96]LogPlayLevel: PIE: StaticDuplicateObject took: (0.061171s)
+[2019.02.12-17.28.04:921][ 96]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-17.28.04:932][ 96]LogPlayLevel: PIE: World Init took: (0.011556s)
+[2019.02.12-17.28.04:937][ 96]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.078033s)
+[2019.02.12-17.28.05:087][ 96]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-17.28.05:098][ 96]LogInit: FAudioDevice initialized.
+[2019.02.12-17.28.05:327][ 96]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-17.28.05:427][ 96]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-17.28.05
+[2019.02.12-17.28.05:444][ 96]LogWorld: Bringing up level for play took: 0.016974
+[2019.02.12-17.28.05:654][ 96]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 10 classes and 0 folders.
+[2019.02.12-17.28.05:784][ 96]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.655
+[2019.02.12-17.28.05:784][ 96]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.14:042][957]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.14:055][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.28.14:118][957]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-17.28.14:118][957]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.14:255][957]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.28.14:298][958]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.02.12-17.28.38:037][166]Candidate modules for hot reload:
+[2019.02.12-17.28.38:037][166]  Castleforce
+[2019.02.12-17.28.38:037][166]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,6174 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-17.28.38:039][166]Warning: Starting HotReload took  0.0s.
+[2019.02.12-17.28.43:212][778]CompilerResultsLog: New page: Compilation - 12 Feb 2019 17:28:43
+[2019.02.12-17.28.43:212][778]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-17.28.43:212][778]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-17.28.43:212][778]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-17.28.43:212][778]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-17.28.43:212][778]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-6174.lib
+[2019.02.12-17.28.43:212][778]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6174.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6174.exp
+[2019.02.12-17.28.43:212][778]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-6174.dll
+[2019.02.12-17.28.43:212][778]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6174.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6174.suppressed.exp
+[2019.02.12-17.28.43:212][778]CompilerResultsLog: Total build time: 4.75 seconds (Parallel executor: 2.41 seconds)
+[2019.02.12-17.28.43:212][778]LogMainFrame: MainFrame: Module compiling took 5.213 seconds
+[2019.02.12-17.28.43:357][778]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 10 classes and 2 folders.
+[2019.02.12-17.28.43:360][778]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-17.28.43:549][778]LogContentBrowser: Native class hierarchy populated in 0.0165 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.28.43:549][778]Display: HotReload took  5.6s.
+[2019.02.12-17.28.46:317][106]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-17.28.46:350][106]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.46:350][106]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-17.28.46:350][106]PIE: New page: PIE session: Level1 (12 Feb 2019 17:28:46)
+[2019.02.12-17.28.46:350][106]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-17.28.46:366][106]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016180s)
+[2019.02.12-17.28.46:367][106]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-17.28.46:368][106]LogPlayLevel: PIE: World Init took: (0.001186s)
+[2019.02.12-17.28.46:368][106]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.017624s)
+[2019.02.12-17.28.46:505][106]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-17.28.46:517][106]LogInit: FAudioDevice initialized.
+[2019.02.12-17.28.46:567][106]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-17.28.46:569][106]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-17.28.46
+[2019.02.12-17.28.46:569][106]LogWorld: Bringing up level for play took: 0.000872
+[2019.02.12-17.28.46:592][106]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.464
+[2019.02.12-17.28.46:593][106]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.59:156][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.59:156][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.28.59:195][579]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-17.28.59:195][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.28.59:318][579]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.28.59:343][580]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.02.12-17.29.17:457][707]Candidate modules for hot reload:
+[2019.02.12-17.29.17:458][707]  Castleforce
+[2019.02.12-17.29.17:458][707]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,6483 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-17.29.17:460][707]Warning: Starting HotReload took  0.0s.
+[2019.02.12-17.29.22:463][302]CompilerResultsLog: New page: Compilation - 12 Feb 2019 17:29:22
+[2019.02.12-17.29.22:463][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-17.29.22:463][302]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-17.29.22:463][302]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-17.29.22:463][302]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-17.29.22:463][302]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-6483.lib
+[2019.02.12-17.29.22:464][302]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6483.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6483.exp
+[2019.02.12-17.29.22:464][302]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-6483.dll
+[2019.02.12-17.29.22:464][302]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6483.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-6483.suppressed.exp
+[2019.02.12-17.29.22:464][302]CompilerResultsLog: Total build time: 4.66 seconds (Parallel executor: 2.27 seconds)
+[2019.02.12-17.29.22:464][302]LogMainFrame: MainFrame: Module compiling took 5.043 seconds
+[2019.02.12-17.29.22:622][302]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 10 classes and 2 folders.
+[2019.02.12-17.29.22:625][302]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-17.29.22:813][302]LogContentBrowser: Native class hierarchy populated in 0.0168 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.29.22:813][302]Display: HotReload took  5.4s.
+[2019.02.12-17.29.24:020][442]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-17.29.24:049][442]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.29.24:049][442]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-17.29.24:049][442]PIE: New page: PIE session: Level1 (12 Feb 2019 17:29:24)
+[2019.02.12-17.29.24:049][442]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-17.29.24:063][442]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013624s)
+[2019.02.12-17.29.24:064][442]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-17.29.24:064][442]LogPlayLevel: PIE: World Init took: (0.001111s)
+[2019.02.12-17.29.24:064][442]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.014975s)
+[2019.02.12-17.29.24:188][442]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-17.29.24:201][442]LogInit: FAudioDevice initialized.
+[2019.02.12-17.29.24:236][442]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-17.29.24:237][442]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-17.29.24
+[2019.02.12-17.29.24:237][442]LogWorld: Bringing up level for play took: 0.000711
+[2019.02.12-17.29.24:259][442]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.131
+[2019.02.12-17.29.24:260][442]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.30.14:501][289]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.30.14:501][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.30.14:538][289]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-17.30.14:538][289]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.30.14:668][289]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.30.14:687][290]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.02.12-17.30.37:546][918]Candidate modules for hot reload:
+[2019.02.12-17.30.37:547][918]  Castleforce
+[2019.02.12-17.30.37:547][918]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,9845 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-17.30.37:549][918]Warning: Starting HotReload took  0.0s.
+[2019.02.12-17.30.42:564][513]CompilerResultsLog: New page: Compilation - 12 Feb 2019 17:30:42
+[2019.02.12-17.30.42:564][513]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-17.30.42:564][513]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-17.30.42:564][513]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-17.30.42:564][513]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-17.30.42:564][513]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-9845.lib
+[2019.02.12-17.30.42:564][513]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-9845.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-9845.exp
+[2019.02.12-17.30.42:565][513]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-9845.dll
+[2019.02.12-17.30.42:565][513]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-9845.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-9845.suppressed.exp
+[2019.02.12-17.30.42:565][513]CompilerResultsLog: Total build time: 4.68 seconds (Parallel executor: 2.35 seconds)
+[2019.02.12-17.30.42:565][513]LogMainFrame: MainFrame: Module compiling took 5.058 seconds
+[2019.02.12-17.30.42:721][513]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-17.30.42:724][513]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-17.30.42:910][513]LogContentBrowser: Native class hierarchy populated in 0.0162 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.30.42:910][513]Display: HotReload took  5.4s.
+[2019.02.12-17.30.45:148][778]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-17.30.45:176][778]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.30.45:177][778]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-17.30.45:177][778]PIE: New page: PIE session: Level1 (12 Feb 2019 17:30:45)
+[2019.02.12-17.30.45:177][778]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-17.30.45:193][778]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016186s)
+[2019.02.12-17.30.45:194][778]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-17.30.45:194][778]LogPlayLevel: PIE: World Init took: (0.001174s)
+[2019.02.12-17.30.45:194][778]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.017591s)
+[2019.02.12-17.30.45:330][778]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-17.30.45:343][778]LogInit: FAudioDevice initialized.
+[2019.02.12-17.30.45:373][778]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-17.30.45:374][778]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-17.30.45
+[2019.02.12-17.30.45:375][778]LogWorld: Bringing up level for play took: 0.000699
+[2019.02.12-17.30.45:398][778]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.731
+[2019.02.12-17.30.45:398][778]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.31.11:357][800]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.31.11:357][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.31.11:396][800]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-17.31.11:396][800]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-17.31.11:519][800]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-17.31.11:542][801]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.02.12-17.34.13:807][470]Candidate modules for hot reload:
+[2019.02.12-17.34.13:807][470]  Castleforce
+[2019.02.12-17.34.13:807][470]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,2269 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-17.34.13:810][470]Warning: Starting HotReload took  0.1s.
+[2019.02.12-17.35.41:219][939]CompilerResultsLog: New page: Compilation - 12 Feb 2019 17:35:41
+[2019.02.12-17.35.41:219][939]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-17.35.41:219][939]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-17.35.41:219][939]CompilerResultsLog: Parsing headers for CastleforceEditor
+[2019.02.12-17.35.41:219][939]CompilerResultsLog:   Running UnrealHeaderTool "D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Castleforce.uproject" "D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\CastleforceEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.02.12-17.35.41:220][939]CompilerResultsLog: Reflection code generated for CastleforceEditor in 17.7626218 seconds
+[2019.02.12-17.35.41:220][939]CompilerResultsLog: Building 11 actions with 8 processes...
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   [1/11] CastleforceHexGrid.cpp
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   [2/11] CastleforceHexTile.cpp
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Source\Castleforce\CastleforceHexTile.cpp(61): warning C4996: 'UTextRenderComponent::SetText': Passing text as FString is deprecated, please use FText instead (likely via a LOCTEXT). Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Components/TextRenderComponent.h(108): note: see declaration of 'UTextRenderComponent::SetText'
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   [3/11] CastleforceGameMode.cpp
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h(12): note: see declaration of 'AActor'
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   [4/11] CastleforceHexPawn.cpp
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-17.35.41:220][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [5/11] CastleforceHexGrid.gen.cpp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [6/11] CastleforceUnit.gen.cpp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Source\Castleforce/CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Source\Castleforce/CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [7/11] CastleforceHexPawn.gen.cpp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [8/11] CastleforceHexTile.gen.cpp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [9/11] CastleforceUnit.cpp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [10/11] UE4Editor-Castleforce-2269.lib
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-2269.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-2269.exp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:   [11/11] UE4Editor-Castleforce-2269.dll
+[2019.02.12-17.35.41:221][939]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-2269.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-2269.suppressed.exp
+[2019.02.12-17.35.41:221][939]CompilerResultsLog: Total build time: 86.75 seconds (Parallel executor: 66.48 seconds)
+[2019.02.12-17.35.41:221][939]LogMainFrame: MainFrame: Module compiling took 87.457 seconds
+[2019.02.12-17.35.41:380][939]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-17.35.41:383][939]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-17.35.41:570][939]LogContentBrowser: Native class hierarchy populated in 0.0166 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-17.35.41:570][939]Display: HotReload took 87.8s.
+[2019.02.12-18.07.15:861][ 81]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.07.15:897][ 81]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.15:898][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.07.15:898][ 81]PIE: New page: PIE session: Level1 (12 Feb 2019 18:07:15)
+[2019.02.12-18.07.15:898][ 81]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.07.15:921][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022895s)
+[2019.02.12-18.07.15:922][ 81]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.07.15:923][ 81]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2019.02.12-18.07.15:923][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.024964s)
+[2019.02.12-18.07.16:044][ 81]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.07.16:054][ 81]LogInit: FAudioDevice initialized.
+[2019.02.12-18.07.16:085][ 81]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.07.16:087][ 81]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.07.16
+[2019.02.12-18.07.16:087][ 81]LogWorld: Bringing up level for play took: 0.000871
+[2019.02.12-18.07.16:112][ 81]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.016
+[2019.02.12-18.07.16:113][ 81]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.17:971][271]LogActor: Warning: CastleforceKnight_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.12-18.07.20:118][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.07.20:190][503]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.20:191][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.07.20:227][503]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.07.20:227][503]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.20:356][503]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.07.20:377][504]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.02.12-18.07.22:119][709]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.07.22:147][709]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.22:148][709]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.07.22:148][709]PIE: New page: PIE session: Level1 (12 Feb 2019 18:07:22)
+[2019.02.12-18.07.22:148][709]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.07.22:165][709]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016738s)
+[2019.02.12-18.07.22:166][709]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.07.22:166][709]LogPlayLevel: PIE: World Init took: (0.001130s)
+[2019.02.12-18.07.22:166][709]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.018130s)
+[2019.02.12-18.07.22:294][709]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.07.22:305][709]LogInit: FAudioDevice initialized.
+[2019.02.12-18.07.22:336][709]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.07.22:337][709]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.07.22
+[2019.02.12-18.07.22:338][709]LogWorld: Bringing up level for play took: 0.001015
+[2019.02.12-18.07.22:361][709]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.233
+[2019.02.12-18.07.22:362][709]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.29:950][531]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.07.30:005][537]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.30:005][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.07.30:038][537]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.07.30:038][537]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.30:158][537]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.07.30:182][538]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.02.12-18.07.36:806][968]Candidate modules for hot reload:
+[2019.02.12-18.07.36:806][968]  Castleforce
+[2019.02.12-18.07.36:806][968]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,8173 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.07.36:809][968]Warning: Starting HotReload took  0.1s.
+[2019.02.12-18.07.42:337][622]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:07:42
+[2019.02.12-18.07.42:337][622]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.07.42:337][622]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.07.42:337][622]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   [1/3] CastleforceHexPawn.cpp
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-8173.lib
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8173.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8173.exp
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-8173.dll
+[2019.02.12-18.07.42:338][622]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8173.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8173.suppressed.exp
+[2019.02.12-18.07.42:338][622]CompilerResultsLog: Total build time: 4.87 seconds (Parallel executor: 2.53 seconds)
+[2019.02.12-18.07.42:338][622]LogMainFrame: MainFrame: Module compiling took 5.576 seconds
+[2019.02.12-18.07.42:500][622]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.07.42:502][622]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.07.42:697][622]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.07.42:697][622]Display: HotReload took  5.9s.
+[2019.02.12-18.07.53:388][887]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.07.53:416][887]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.07.53:416][887]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.07.53:416][887]PIE: New page: PIE session: Level1 (12 Feb 2019 18:07:53)
+[2019.02.12-18.07.53:416][887]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.07.53:433][887]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016094s)
+[2019.02.12-18.07.53:434][887]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.07.53:434][887]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2019.02.12-18.07.53:434][887]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.017505s)
+[2019.02.12-18.07.53:566][887]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.07.53:576][887]LogInit: FAudioDevice initialized.
+[2019.02.12-18.07.53:612][887]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.07.53:613][887]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.07.53
+[2019.02.12-18.07.53:613][887]LogWorld: Bringing up level for play took: 0.000745
+[2019.02.12-18.07.53:636][887]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.493
+[2019.02.12-18.07.53:636][887]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.08.09:521][712]LogActor: Warning: CastleforceKnight_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.12-18.09.12:637][997]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.09.12:742][  9]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.12:743][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.09.12:783][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.09.12:783][  9]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.12:908][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.09.12:929][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.02.12-18.09.27:378][641]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.09.27:410][641]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.27:410][641]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.09.27:410][641]PIE: New page: PIE session: Level1 (12 Feb 2019 18:09:27)
+[2019.02.12-18.09.27:410][641]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.09.27:425][641]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014721s)
+[2019.02.12-18.09.27:426][641]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.09.27:426][641]LogPlayLevel: PIE: World Init took: (0.001105s)
+[2019.02.12-18.09.27:426][641]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.016068s)
+[2019.02.12-18.09.27:553][641]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.09.27:564][641]LogInit: FAudioDevice initialized.
+[2019.02.12-18.09.27:595][641]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.09.27:597][641]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.09.27
+[2019.02.12-18.09.27:597][641]LogWorld: Bringing up level for play took: 0.000829
+[2019.02.12-18.09.27:621][641]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.507
+[2019.02.12-18.09.27:621][641]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.43:550][460]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.09.43:631][469]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.43:631][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.09.43:670][469]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.09.43:670][469]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.09.43:780][469]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.09.43:801][470]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.02.12-18.10.00:200][658]Candidate modules for hot reload:
+[2019.02.12-18.10.00:200][658]  Castleforce
+[2019.02.12-18.10.00:200][658]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7971 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.10.00:203][658]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.10.05:298][259]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:10:05
+[2019.02.12-18.10.05:298][259]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.10.05:298][259]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.10.05:298][259]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.10.05:298][259]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.10.05:298][259]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-7971.lib
+[2019.02.12-18.10.05:298][259]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7971.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7971.exp
+[2019.02.12-18.10.05:298][259]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-7971.dll
+[2019.02.12-18.10.05:298][259]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7971.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7971.suppressed.exp
+[2019.02.12-18.10.05:298][259]CompilerResultsLog: Total build time: 4.74 seconds (Parallel executor: 2.39 seconds)
+[2019.02.12-18.10.05:298][259]LogMainFrame: MainFrame: Module compiling took 5.139 seconds
+[2019.02.12-18.10.05:454][259]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.10.05:457][259]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.10.05:648][259]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.10.05:648][259]Display: HotReload took  5.5s.
+[2019.02.12-18.10.08:023][541]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.10.08:052][541]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.10.08:052][541]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.10.08:052][541]PIE: New page: PIE session: Level1 (12 Feb 2019 18:10:08)
+[2019.02.12-18.10.08:052][541]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.10.08:066][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013708s)
+[2019.02.12-18.10.08:067][541]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.10.08:068][541]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2019.02.12-18.10.08:068][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.015257s)
+[2019.02.12-18.10.08:203][541]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.10.08:213][541]LogInit: FAudioDevice initialized.
+[2019.02.12-18.10.08:248][541]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.10.08:249][541]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.10.08
+[2019.02.12-18.10.08:250][541]LogWorld: Bringing up level for play took: 0.000793
+[2019.02.12-18.10.08:273][541]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.144
+[2019.02.12-18.10.08:273][541]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.17:381][586]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.17:382][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.11.17:415][586]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.11.17:415][586]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.17:538][586]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.11.17:559][587]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.02.12-18.11.25:832][786]Candidate modules for hot reload:
+[2019.02.12-18.11.25:832][786]  Castleforce
+[2019.02.12-18.11.25:832][786]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7467 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.11.25:834][786]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.11.30:901][387]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:11:30
+[2019.02.12-18.11.30:902][387]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.11.30:902][387]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.11.30:902][387]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.11.30:902][387]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.11.30:902][387]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-7467.lib
+[2019.02.12-18.11.30:902][387]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7467.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7467.exp
+[2019.02.12-18.11.30:902][387]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-7467.dll
+[2019.02.12-18.11.30:902][387]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7467.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7467.suppressed.exp
+[2019.02.12-18.11.30:902][387]CompilerResultsLog: Total build time: 4.74 seconds (Parallel executor: 2.34 seconds)
+[2019.02.12-18.11.30:902][387]LogMainFrame: MainFrame: Module compiling took 5.108 seconds
+[2019.02.12-18.11.31:061][387]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.11.31:065][387]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.11.31:257][387]LogContentBrowser: Native class hierarchy populated in 0.0171 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.11.31:258][387]Display: HotReload took  5.5s.
+[2019.02.12-18.11.32:259][504]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.11.32:293][504]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.32:293][504]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.11.32:293][504]PIE: New page: PIE session: Level1 (12 Feb 2019 18:11:32)
+[2019.02.12-18.11.32:293][504]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.11.32:306][504]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012872s)
+[2019.02.12-18.11.32:307][504]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.11.32:307][504]LogPlayLevel: PIE: World Init took: (0.000952s)
+[2019.02.12-18.11.32:307][504]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.014031s)
+[2019.02.12-18.11.32:443][504]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.11.32:454][504]LogInit: FAudioDevice initialized.
+[2019.02.12-18.11.32:483][504]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.11.32:485][504]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.11.32
+[2019.02.12-18.11.32:485][504]LogWorld: Bringing up level for play took: 0.000970
+[2019.02.12-18.11.32:508][504]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.379
+[2019.02.12-18.11.32:508][504]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.55:151][149]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.55:151][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.11.55:190][149]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.11.55:190][149]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.11.55:311][149]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.11.55:331][150]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.02.12-18.12.21:939][393]Candidate modules for hot reload:
+[2019.02.12-18.12.21:939][393]  Castleforce
+[2019.02.12-18.12.21:939][393]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7188 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.12.21:942][393]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.12.26:953][988]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:12:26
+[2019.02.12-18.12.26:953][988]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.12.26:953][988]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.12.26:953][988]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.12.26:953][988]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.12.26:953][988]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-7188.lib
+[2019.02.12-18.12.26:953][988]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7188.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7188.exp
+[2019.02.12-18.12.26:953][988]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-7188.dll
+[2019.02.12-18.12.26:953][988]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7188.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7188.suppressed.exp
+[2019.02.12-18.12.26:953][988]CompilerResultsLog: Total build time: 4.67 seconds (Parallel executor: 2.31 seconds)
+[2019.02.12-18.12.26:953][988]LogMainFrame: MainFrame: Module compiling took 5.051 seconds
+[2019.02.12-18.12.27:115][988]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0009 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.12.27:119][988]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.12.27:291][988]LogContentBrowser: Native class hierarchy populated in 0.0200 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.12.27:291][988]Display: HotReload took  5.4s.
+[2019.02.12-18.12.28:622][144]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.12.28:652][144]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.12.28:652][144]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.12.28:652][144]PIE: New page: PIE session: Level1 (12 Feb 2019 18:12:28)
+[2019.02.12-18.12.28:652][144]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.12.28:665][144]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012969s)
+[2019.02.12-18.12.28:666][144]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.12.28:666][144]LogPlayLevel: PIE: World Init took: (0.001048s)
+[2019.02.12-18.12.28:666][144]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.014252s)
+[2019.02.12-18.12.28:798][144]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.12.28:810][144]LogInit: FAudioDevice initialized.
+[2019.02.12-18.12.28:844][144]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.12.28:845][144]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.12.28
+[2019.02.12-18.12.28:845][144]LogWorld: Bringing up level for play took: 0.000753
+[2019.02.12-18.12.28:868][144]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.739
+[2019.02.12-18.12.28:868][144]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.12.45:876][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.12.45:877][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.12.45:913][ 98]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.12.45:913][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.12.46:034][ 98]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.12.46:055][ 99]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.02.12-18.12.53:710][264]Candidate modules for hot reload:
+[2019.02.12-18.12.53:710][264]  Castleforce
+[2019.02.12-18.12.53:711][264]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,8986 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.12.53:714][264]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.12.58:718][859]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:12:58
+[2019.02.12-18.12.58:718][859]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.12.58:718][859]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.12.58:718][859]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.12.58:718][859]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.12.58:718][859]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-8986.lib
+[2019.02.12-18.12.58:718][859]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8986.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8986.exp
+[2019.02.12-18.12.58:719][859]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-8986.dll
+[2019.02.12-18.12.58:719][859]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8986.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8986.suppressed.exp
+[2019.02.12-18.12.58:719][859]CompilerResultsLog: Total build time: 4.64 seconds (Parallel executor: 2.27 seconds)
+[2019.02.12-18.12.58:719][859]LogMainFrame: MainFrame: Module compiling took 5.044 seconds
+[2019.02.12-18.12.58:875][859]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.12.58:878][859]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.12.59:069][859]LogContentBrowser: Native class hierarchy populated in 0.0175 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.12.59:069][859]Display: HotReload took  5.4s.
+[2019.02.12-18.13.00:160][987]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.13.00:190][987]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.13.00:190][987]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.13.00:190][987]PIE: New page: PIE session: Level1 (12 Feb 2019 18:13:00)
+[2019.02.12-18.13.00:190][987]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.13.00:203][987]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012538s)
+[2019.02.12-18.13.00:204][987]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.13.00:204][987]LogPlayLevel: PIE: World Init took: (0.000927s)
+[2019.02.12-18.13.00:204][987]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.013665s)
+[2019.02.12-18.13.00:345][987]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.13.00:356][987]LogInit: FAudioDevice initialized.
+[2019.02.12-18.13.00:393][987]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.13.00:395][987]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.13.00
+[2019.02.12-18.13.00:395][987]LogWorld: Bringing up level for play took: 0.000804
+[2019.02.12-18.13.00:418][987]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.29
+[2019.02.12-18.13.00:418][987]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.13.38:225][411]LogActor: Warning: CastleforceKnight_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.02.12-18.13.40:158][628]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.13.40:246][638]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.13.40:246][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.13.40:284][638]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.13.40:284][638]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.13.40:412][638]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.13.40:432][639]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.02.12-18.14.01:413][222]Candidate modules for hot reload:
+[2019.02.12-18.14.01:413][222]  Castleforce
+[2019.02.12-18.14.01:413][222]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7126 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.14.01:415][222]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.14.06:541][826]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:14:06
+[2019.02.12-18.14.06:542][826]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.14.06:542][826]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.14.06:542][826]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.14.06:542][826]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.14.06:542][826]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-7126.lib
+[2019.02.12-18.14.06:542][826]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7126.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7126.exp
+[2019.02.12-18.14.06:542][826]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-7126.dll
+[2019.02.12-18.14.06:542][826]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7126.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-7126.suppressed.exp
+[2019.02.12-18.14.06:542][826]CompilerResultsLog: Total build time: 4.78 seconds (Parallel executor: 2.40 seconds)
+[2019.02.12-18.14.06:542][826]LogMainFrame: MainFrame: Module compiling took 5.166 seconds
+[2019.02.12-18.14.06:707][826]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0009 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.14.06:711][826]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.14.06:904][826]LogContentBrowser: Native class hierarchy populated in 0.0193 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.14.06:904][826]Display: HotReload took  5.5s.
+[2019.02.12-18.14.08:279][988]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.14.08:307][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.14.08:307][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.14.08:308][988]PIE: New page: PIE session: Level1 (12 Feb 2019 18:14:08)
+[2019.02.12-18.14.08:308][988]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.14.08:320][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011867s)
+[2019.02.12-18.14.08:320][988]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.14.08:321][988]LogPlayLevel: PIE: World Init took: (0.000865s)
+[2019.02.12-18.14.08:321][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.012914s)
+[2019.02.12-18.14.08:449][988]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.14.08:461][988]LogInit: FAudioDevice initialized.
+[2019.02.12-18.14.08:496][988]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.14.08:498][988]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.14.08
+[2019.02.12-18.14.08:498][988]LogWorld: Bringing up level for play took: 0.000729
+[2019.02.12-18.14.08:521][988]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.393
+[2019.02.12-18.14.08:522][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.14.11:900][362]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.14.11:900][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.14.11:934][362]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.14.11:934][362]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.14.12:061][362]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.14.12:082][363]LogPlayLevel: Display: Destroying online subsystem :Context_14
+[2019.02.12-18.14.21:023][602]Candidate modules for hot reload:
+[2019.02.12-18.14.21:023][602]  Castleforce
+[2019.02.12-18.14.21:023][602]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,5843 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.14.21:026][602]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.14.26:032][195]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:14:26
+[2019.02.12-18.14.26:032][195]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.14.26:032][195]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.14.26:032][195]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.14.26:033][195]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.14.26:033][195]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-5843.lib
+[2019.02.12-18.14.26:033][195]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5843.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5843.exp
+[2019.02.12-18.14.26:033][195]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-5843.dll
+[2019.02.12-18.14.26:033][195]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5843.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-5843.suppressed.exp
+[2019.02.12-18.14.26:033][195]CompilerResultsLog: Total build time: 4.65 seconds (Parallel executor: 2.34 seconds)
+[2019.02.12-18.14.26:033][195]LogMainFrame: MainFrame: Module compiling took 5.047 seconds
+[2019.02.12-18.14.26:189][195]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.14.26:193][195]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.14.26:389][195]LogContentBrowser: Native class hierarchy populated in 0.0176 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.14.26:389][195]Display: HotReload took  5.4s.
+[2019.02.12-18.14.27:366][309]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.14.27:395][309]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.14.27:395][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.14.27:395][309]PIE: New page: PIE session: Level1 (12 Feb 2019 18:14:27)
+[2019.02.12-18.14.27:395][309]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.14.27:409][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.013620s)
+[2019.02.12-18.14.27:410][309]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.14.27:410][309]LogPlayLevel: PIE: World Init took: (0.000874s)
+[2019.02.12-18.14.27:410][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.014686s)
+[2019.02.12-18.14.27:543][309]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.14.27:554][309]LogInit: FAudioDevice initialized.
+[2019.02.12-18.14.27:587][309]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.14.27:588][309]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.14.27
+[2019.02.12-18.14.27:588][309]LogWorld: Bringing up level for play took: 0.000729
+[2019.02.12-18.14.27:610][309]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 -0.519
+[2019.02.12-18.14.27:610][309]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.15.06:007][765]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.15.06:087][774]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.15.06:087][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.15.06:126][774]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.15.06:126][774]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.15.06:254][774]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.15.06:275][775]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.02.12-18.15.25:052][256]Candidate modules for hot reload:
+[2019.02.12-18.15.25:052][256]  Castleforce
+[2019.02.12-18.15.25:052][256]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,3115 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.15.25:056][256]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.15.30:102][850]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:15:30
+[2019.02.12-18.15.30:102][850]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.15.30:102][850]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.15.30:102][850]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.15.30:102][850]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.15.30:102][850]CompilerResultsLog:   [2/3] UE4Editor-Castleforce-3115.lib
+[2019.02.12-18.15.30:102][850]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-3115.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-3115.exp
+[2019.02.12-18.15.30:102][850]CompilerResultsLog:   [3/3] UE4Editor-Castleforce-3115.dll
+[2019.02.12-18.15.30:102][850]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-3115.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-3115.suppressed.exp
+[2019.02.12-18.15.30:102][850]CompilerResultsLog: Total build time: 4.69 seconds (Parallel executor: 2.35 seconds)
+[2019.02.12-18.15.30:103][850]LogMainFrame: MainFrame: Module compiling took 5.087 seconds
+[2019.02.12-18.15.30:268][850]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0007 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.15.30:271][850]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.15.30:429][850]LogContentBrowser: Native class hierarchy populated in 0.0167 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.15.30:430][850]Display: HotReload took  5.4s.
+[2019.02.12-18.15.32:155][ 54]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.15.32:184][ 54]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.15.32:184][ 54]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.15.32:184][ 54]PIE: New page: PIE session: Level1 (12 Feb 2019 18:15:32)
+[2019.02.12-18.15.32:184][ 54]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.15.32:196][ 54]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011667s)
+[2019.02.12-18.15.32:197][ 54]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.15.32:197][ 54]LogPlayLevel: PIE: World Init took: (0.001183s)
+[2019.02.12-18.15.32:197][ 54]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.013105s)
+[2019.02.12-18.15.32:327][ 54]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.15.32:337][ 54]LogInit: FAudioDevice initialized.
+[2019.02.12-18.15.32:372][ 54]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.15.32:374][ 54]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.15.32
+[2019.02.12-18.15.32:374][ 54]LogWorld: Bringing up level for play took: 0.000746
+[2019.02.12-18.15.32:397][ 54]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.268
+[2019.02.12-18.15.32:397][ 54]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.16.21:114][733]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.02.12-18.16.21:202][743]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.16.21:202][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.16.21:236][743]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.02.12-18.16.21:236][743]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.16.21:360][743]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.02.12-18.16.21:382][744]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.02.12-18.17.29:810][167]Candidate modules for hot reload:
+[2019.02.12-18.17.29:810][167]  Castleforce
+[2019.02.12-18.17.29:811][167]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,7847 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.17.29:813][167]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.17.33:469][600]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:17:33
+[2019.02.12-18.17.33:470][600]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.17.33:470][600]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.17.33:470][600]CompilerResultsLog: Building 3 actions with 8 processes...
+[2019.02.12-18.17.33:470][600]CompilerResultsLog:   [1/3] CastleforceHexGrid.cpp
+[2019.02.12-18.17.33:470][600]CompilerResultsLog:    D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Source\Castleforce\CastleforceHexGrid.cpp(58) : error C2146: syntax error: missing ';' before identifier 'GEngine'
+[2019.02.12-18.17.33:470][600]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Binaries\Win64\UE4Editor-Castleforce-7847.dll
+[2019.02.12-18.17.33:470][600]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.02.12-18.17.33:470][600]CompilerResultsLog: Total build time: 3.31 seconds (Parallel executor: 0.00 seconds)
+[2019.02.12-18.17.33:470][600]LogMainFrame: MainFrame: Module compiling took 3.696 seconds
+[2019.02.12-18.17.33:470][600]Warning: HotReload failed, recompile failed
+[2019.02.12-18.18.38:308][703]Candidate modules for hot reload:
+[2019.02.12-18.18.38:308][703]  Castleforce
+[2019.02.12-18.18.38:308][703]Launching UnrealBuildTool... [D:/Unreal/Engine/UE_4.20/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Castleforce,8247 Win64 Development -TargetType=Editor -Project="../../../../../../Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" -canskiplink "D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject" ]
+[2019.02.12-18.18.38:311][703]Warning: Starting HotReload took  0.0s.
+[2019.02.12-18.18.43:446][312]CompilerResultsLog: New page: Compilation - 12 Feb 2019 18:18:43
+[2019.02.12-18.18.43:446][312]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build.
+[2019.02.12-18.18.43:446][312]CompilerResultsLog: Compiling game modules for hot reload
+[2019.02.12-18.18.43:446][312]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   [1/4] CastleforceHexPawn.cpp
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(23): warning C4263: 'void ACastleforceUnit::TeleportTo(ACastleforceHexTile *)': member function does not override any base class virtual member function
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   d:\shitty ue4 games i make\castleforce\castleforce\castleforce\source\castleforce\CastleforceUnit.h(26): warning C4264: 'bool AActor::TeleportTo(const FVector &,const FRotator &,bool,bool)': no override available for virtual member function from base 'AActor'; function is hidden
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\GameFramework/Actor.h(2256): note: see declaration of 'AActor::TeleportTo'
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   D:\Unreal\Engine\UE_4.20\Engine\Source\Runtime\Engine\Classes\Engine/LocalPlayer.h(24): note: see declaration of 'AActor'
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   [2/4] CastleforceHexGrid.cpp
+[2019.02.12-18.18.43:446][312]CompilerResultsLog:   [3/4] UE4Editor-Castleforce-8247.lib
+[2019.02.12-18.18.43:447][312]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8247.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8247.exp
+[2019.02.12-18.18.43:447][312]CompilerResultsLog:   [4/4] UE4Editor-Castleforce-8247.dll
+[2019.02.12-18.18.43:447][312]CompilerResultsLog:      Creating library D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8247.suppressed.lib and object D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-8247.suppressed.exp
+[2019.02.12-18.18.43:447][312]CompilerResultsLog: Total build time: 4.79 seconds (Parallel executor: 2.46 seconds)
+[2019.02.12-18.18.43:447][312]LogMainFrame: MainFrame: Module compiling took 5.173 seconds
+[2019.02.12-18.18.43:601][312]LogContentBrowser: Native class hierarchy updated for 'Castleforce' in 0.0006 seconds. Added 10 classes and 2 folders.
+[2019.02.12-18.18.43:604][312]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.02.12-18.18.43:790][312]LogContentBrowser: Native class hierarchy populated in 0.0163 seconds. Added 2583 classes and 607 folders.
+[2019.02.12-18.18.43:790][312]Display: HotReload took  5.5s.
+[2019.02.12-18.18.44:868][438]LogTemp: Repeating last play command: Selected Viewport
+[2019.02.12-18.18.44:896][438]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.02.12-18.18.44:896][438]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.02.12-18.18.44:896][438]PIE: New page: PIE session: Level1 (12 Feb 2019 18:18:44)
+[2019.02.12-18.18.44:896][438]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.02.12-18.18.44:909][438]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012421s)
+[2019.02.12-18.18.44:910][438]LogAIModule: Creating AISystem for world Level1
+[2019.02.12-18.18.44:910][438]LogPlayLevel: PIE: World Init took: (0.000892s)
+[2019.02.12-18.18.44:910][438]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.013532s)
+[2019.02.12-18.18.45:048][438]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.02.12-18.18.45:059][438]LogInit: FAudioDevice initialized.
+[2019.02.12-18.18.45:092][438]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.02.12-18.18.45:093][438]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.02.12-18.18.45
+[2019.02.12-18.18.45:093][438]LogWorld: Bringing up level for play took: 0.000716
+[2019.02.12-18.18.45:114][438]LogWindows: Windows GetLastError: The operation completed successfully. (0)

@@ -35,6 +35,15 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_walkTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_walkTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_walkable_MetaData[];
+#endif
+		static void NewProp_walkable_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_walkable;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Y_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_Y;
@@ -72,6 +81,24 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		{ "ModuleRelativePath", "CastleforceHexTile.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime_MetaData[] = {
+		{ "Category", "Hex" },
+		{ "ModuleRelativePath", "CastleforceHexTile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime = { UE4CodeGen_Private::EPropertyClass::Float, "walkTime", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000020015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexTile, walkTime), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_MetaData[] = {
+		{ "Category", "Hex" },
+		{ "ModuleRelativePath", "CastleforceHexTile.h" },
+	};
+#endif
+	void Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_SetBit(void* Obj)
+	{
+		((ACastleforceHexTile*)Obj)->walkable = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable = { UE4CodeGen_Private::EPropertyClass::Bool, "walkable", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ACastleforceHexTile), &Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_Y_MetaData[] = {
 		{ "Category", "Hex" },
@@ -117,6 +144,8 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_hexMesh = { UE4CodeGen_Private::EPropertyClass::Object, "hexMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(ACastleforceHexTile, hexMesh), Z_Construct_UClass_UProceduralMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_hexMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_hexMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexTile_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_Y,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_X,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_highlitMat,
@@ -147,7 +176,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexTile, 4101945432);
+	IMPLEMENT_CLASS(ACastleforceHexTile, 1865971150);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexTile(Z_Construct_UClass_ACastleforceHexTile, &ACastleforceHexTile::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexTile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexTile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

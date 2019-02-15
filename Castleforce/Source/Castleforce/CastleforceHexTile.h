@@ -33,7 +33,12 @@ public:
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
 	int Y;
 	int Z;
+	int I;
 
+	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
+		bool walkable = true;
+	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
+		float walkTime = 5.f;
 	ACastleforceObject* occupyingObject;
 
 	

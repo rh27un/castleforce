@@ -37,10 +37,10 @@ protected:
 		0, 5, 6,
 		0, 6, 1
 	};
+	TArray<ACastleforceHexTile*> ReconstructPath(TMap<ACastleforceHexTile*, ACastleforceHexTile*> cameFrom, ACastleforceHexTile* end);
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-
 	ACastleforceHexTile* GetTileAt(int X, int Y);
 	TArray<ACastleforceHexTile*> GetTileNeighbours(int X, int Y);
+	TArray<ACastleforceHexTile*> GetTileNeighbours(ACastleforceHexTile* tile);
+	TArray<ACastleforceHexTile*> AStar(ACastleforceHexTile* start, ACastleforceHexTile* goal);
 };
