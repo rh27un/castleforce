@@ -9,9 +9,9 @@
 #include "CastleforceUnit.h"
 #include "CastleforceHexPawn.generated.h"
 
-enum BuildMode { NoneMode, BuildUnits, BuildBuildings };
-enum UnitType { NoneUnit, Knight, Priest, Mythic };
-enum BuildingType { NoneBuilding, Mine, WatchTower, Town };
+UENUM() enum BuildMode { NoneMode, BuildUnits, BuildBuildings };
+UENUM() enum UnitType { NoneUnit UMETA(DisplayName = "None"), Knight UMETA(DisplayName = "Knight"), Mythic UMETA(DisplayName = "Mythic"), Priest UMETA(DisplayName = "Priest") };
+UENUM() enum BuildingType { NoneBuilding UMETA(DisplayName = "None"), Mine UMETA(DisplayName = "Mine"), Workshop UMETA(DisplayName = "Crystal Workshop"), Excavation UMETA(DisplayName = "Relic Excavation") };
 
 /**
  * 
@@ -23,18 +23,28 @@ class CASTLEFORCE_API ACastleforceHexPawn : public APawn
 public:
 	ACastleforceHexPawn();
 
-	BuildMode currentMode = BuildMode::NoneMode;
-	UnitType unitType = UnitType::NoneUnit;
-	BuildingType buildingType = BuildingType::NoneBuilding;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TEnumAsByte<BuildMode> currentMode = BuildMode::BuildUnits;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TEnumAsByte<UnitType> unitType = UnitType::NoneUnit;
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	TEnumAsByte<BuildingType> buildingType = BuildingType::NoneBuilding;
 
 	void BeginPlay() override;
 	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
 	
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		TSubclassOf<ACastleforceUnit> KnightClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceUnit> MythicClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceUnit> PriestClass;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Speed;
+
+	UFUNCTION(BlueprintCallable)
+		void SetUnitType(int type);
 protected:
 	void Click();
 	void RightClick();
@@ -52,4 +62,7 @@ protected:
 	ACastleforceHexGrid* grid;
 
 	FVector MovementInput;
+
+	void BuildUnit();
+	void BuildBuilding();
 };

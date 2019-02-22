@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CASTLEFORCE_CastleforceHexPawn_generated_h
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS_NO_PURE_DECLS
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execSetUnitType) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_type); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUnitType(Z_Param_type); \
+		P_NATIVE_END; \
+	}
+
+
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetUnitType) \
+	{ \
+		P_GET_PROPERTY(UIntProperty,Z_Param_type); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetUnitType(Z_Param_type); \
+		P_NATIVE_END; \
+	}
+
+
 #define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACastleforceHexPawn(); \
@@ -89,4 +111,18 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #define CURRENT_FILE_ID Castleforce_Source_Castleforce_CastleforceHexPawn_h
 
 
+#define FOREACH_ENUM_BUILDINGTYPE(op) \
+	op(NoneBuilding) \
+	op(Mine) \
+	op(Workshop) \
+	op(Excavation) 
+#define FOREACH_ENUM_UNITTYPE(op) \
+	op(NoneUnit) \
+	op(Knight) \
+	op(Mythic) \
+	op(Priest) 
+#define FOREACH_ENUM_BUILDMODE(op) \
+	op(NoneMode) \
+	op(BuildUnits) \
+	op(BuildBuildings) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

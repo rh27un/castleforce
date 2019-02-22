@@ -407,6 +407,10 @@
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent
+/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Inc\SimplexNoise
+/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source
+/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise\Public
+/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"

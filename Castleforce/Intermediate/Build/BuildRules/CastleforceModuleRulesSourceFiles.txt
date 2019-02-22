@@ -1,4 +1,4 @@
-C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce\Castleforce.Build.cs
-C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise\SimplexNoise.Build.cs
-C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce.Target.cs
-C:\Temp\Rhun\castleforce\Castleforce\Source\CastleforceEditor.Target.cs
+C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source\Castleforce\Castleforce.Build.cs
+C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise\SimplexNoise.Build.cs
+C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source\Castleforce.Target.cs
+C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source\CastleforceEditor.Target.cs

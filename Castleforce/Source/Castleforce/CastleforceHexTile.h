@@ -20,11 +20,7 @@ public:
 	ACastleforceHexTile();
 
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
-		UProceduralMeshComponent* hexMesh;
-
-	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
-		UTextRenderComponent* text;
-		
+		UProceduralMeshComponent* hexMesh;		
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		UMaterialInterface* highlitMat;
 	void CreateHexagon(TArray<FVector> vertices, TArray<int> triangles);

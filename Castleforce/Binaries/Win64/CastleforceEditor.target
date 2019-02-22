@@ -6,8 +6,8 @@
 	{
 		"MajorVersion": 4,
 		"MinorVersion": 20,
-		"PatchVersion": 3,
-		"Changelist": 4369336,
+		"PatchVersion": 1,
+		"Changelist": 4233996,
 		"CompatibleChangelist": 4212847,
 		"IsLicenseeVersion": 0,
 		"IsPromotedBuild": 1,
@@ -16,19 +16,19 @@
 	},
 	"BuildProducts": [
 		{
-			"Path": "$(ProjectDir)/Plugins/SimplexNoise-master/Binaries/Win64/UE4Editor-SimplexNoise-3919.dll",
+			"Path": "$(ProjectDir)/Plugins/SimplexNoise-master/Binaries/Win64/UE4Editor-SimplexNoise-5470.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Plugins/SimplexNoise-master/Binaries/Win64/UE4Editor-SimplexNoise-3919.pdb",
+			"Path": "$(ProjectDir)/Plugins/SimplexNoise-master/Binaries/Win64/UE4Editor-SimplexNoise-5470.pdb",
 			"Type": "SymbolFile"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Castleforce-6002.dll",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Castleforce-1431.dll",
 			"Type": "DynamicLibrary"
 		},
 		{
-			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Castleforce-6002.pdb",
+			"Path": "$(ProjectDir)/Binaries/Win64/UE4Editor-Castleforce-1431.pdb",
 			"Type": "SymbolFile"
 		},
 		{

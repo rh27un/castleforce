@@ -401,29 +401,29 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Inc\Castleforce
-/I C:\Temp\Rhun\castleforce\Castleforce\Source
-/I C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Inc\Castleforce
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source\Castleforce
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\UE4Editor\Inc\ProceduralMeshComponent
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent\Public
 /I ..\Plugins\Runtime\ProceduralMeshComponent\Source\ProceduralMeshComponent
-/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Inc\SimplexNoise
-/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source
-/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise\Public
-/I C:\Temp\Rhun\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Inc\SimplexNoise
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Source
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise\Public
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Source\SimplexNoise
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"
-/FI"C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Temp\Rhun\castleforce\Castleforce\Source\Castleforce\CastleforcePawn.cpp"
-/FI"C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\Definitions.Castleforce.h"
-/Fo"C:\Temp\Rhun\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePawn.cpp.obj"
+/FI"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Source\Castleforce\CastleforcePawn.cpp"
+/FI"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\Definitions.Castleforce.h"
+/Fo"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\CastleforcePawn.cpp.obj"
 /TP
 /GR-
 /W4

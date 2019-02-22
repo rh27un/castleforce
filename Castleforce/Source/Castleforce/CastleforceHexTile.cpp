@@ -11,9 +11,6 @@ ACastleforceHexTile::ACastleforceHexTile()
 
 	hexMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Hex Mesh"));
 	RootComponent = hexMesh;
-
-	text = CreateDefaultSubobject<UTextRenderComponent>(TEXT("Text"));
-	text->SetupAttachment(hexMesh);
 }
 
 ACastleforceObject* ACastleforceHexTile::GetOccupyingObject()
@@ -71,7 +68,6 @@ void ACastleforceHexTile::SetCoords(int x, int y){
 	Y = y;
 	Z = -x - y;
 	FString coordString = FString::FromInt(X) + ", " + FString::FromInt(Y) + ", " + FString::FromInt(Z);
-	text->SetText(coordString);
 }
 
 

@@ -25,6 +25,7 @@ void ACastleforceHexGrid::BeginPlay()
 		FVector(-innerRadius, Radius * 0.5f, 0.f)
 	};
 	int32 NumCells = Size * Size;
+	USimplexNoiseBPLibrary::setNoiseSeed(FMath::RandRange(-100000, 100000));
 	float InnerRadius = (Radius * 0.866025404);
 	for (int i = 0; i < NumCells; i++) {
 		int X = (i / Size);
@@ -32,7 +33,7 @@ void ACastleforceHexGrid::BeginPlay()
 		//GEngine->AddOnScreenDebugMessage(-1, 120.f, FColor::Red, FString::Printf(TEXT("Coordinates of Cell %d: x: %d, y: %d"), i, (Y - X / 2), X));
 		float YOffset = (Y + X * 0.5f - X / 2)  * (InnerRadius * 2);
 		float XOffset =  X * (Radius * 1.5);
-		USimplexNoiseBPLibrary::setNoiseSeed(FMath::RandRange(-100000, 100000));
+		
 		float ZOffset = USimplexNoiseBPLibrary::SimplexNoise2D(X / Scale, Y / Scale);// * HeightMultiplier;
 		const FVector* NewLocation = new FVector(XOffset, YOffset, 0.f);//ZOffset * HeightMultiplier);
 		const FRotator* NewRotation = new FRotator(0.f, 90.f, 0.f);
