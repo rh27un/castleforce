@@ -34,7 +34,7 @@ void ACastleforceHexGrid::BeginPlay()
 		float YOffset = (Y + X * 0.5f - X / 2)  * (InnerRadius * 2);
 		float XOffset =  X * (Radius * 1.5);
 		
-		float ZOffset = USimplexNoiseBPLibrary::SimplexNoise2D(X / Scale, Y / Scale);// * HeightMultiplier;
+		float ZOffset = USimplexNoiseBPLibrary::SimplexNoise2D(XOffset, YOffset);// * HeightMultiplier;
 		const FVector* NewLocation = new FVector(XOffset, YOffset, 0.f);//ZOffset * HeightMultiplier);
 		const FRotator* NewRotation = new FRotator(0.f, 90.f, 0.f);
 		AActor* NewCell = GetWorld()->SpawnActor(CellClass, NewLocation, NewRotation);
