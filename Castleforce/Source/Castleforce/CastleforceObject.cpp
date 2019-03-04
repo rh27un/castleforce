@@ -16,6 +16,7 @@ ACastleforceObject::ACastleforceObject()
 void ACastleforceObject::BeginPlay()
 {
 	Super::BeginPlay();
+
 }
 
 // Called every frame

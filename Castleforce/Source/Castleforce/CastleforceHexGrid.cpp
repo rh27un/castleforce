@@ -44,6 +44,7 @@ void ACastleforceHexGrid::BeginPlay()
 			Cast<ACastleforceHexTile>(NewCell)->SetCoords(Y - X / 2, X);
 			Cast<ACastleforceHexTile>(NewCell)->I = i;
 			Cast<ACastleforceHexTile>(NewCell)->SetHeightType(GetHeightType(ZOffset));
+			Cast<ACastleforceHexTile>(NewCell)->MakeVisible(false);
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
 		}
 	}
@@ -195,4 +196,50 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::AStar(ACastleforceHexTile * st
 		
 	}
 	return TArray<ACastleforceHexTile*>();
+}
+
+TArray<ACastleforceHexTile*> ACastleforceHexGrid::GetTileSight(ACastleforceHexTile* tile, int range) {
+	if (range > 0) {
+		TArray<ACastleforceHexTile*> visibleTiles;
+		TArray<ACastleforceHexTile*> neighbours;
+		neighbours = GetTileNeighbours(tile);
+
+		for (int i = 0; i < neighbours.Num(); i++) {
+			if (neighbours[i]) {
+				//if (neighbours[i]->walkable) {
+					visibleTiles.Add(neighbours[i]);
+				//}
+			}
+		}
+
+		if (range > 1) {
+			int currentLayer = visibleTiles.Num();
+			for (int r = 0; r < range - 1; r++) {
+				for (int i = 0; i < currentLayer; i++) {
+					if (visibleTiles[i]->walkable) {
+						TArray<ACastleforceHexTile*> newNeighbours = GetTileNeighbours(visibleTiles[i]);
+						for (int j = 0; j < newNeighbours.Num(); j++) {
+							if (newNeighbours[j]) {
+								if (newNeighbours[j]->walkable) {
+									visibleTiles.Add(newNeighbours[j]);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+		return visibleTiles;
+	} 
+	return TArray<ACastleforceHexTile*>();
+}
+
+void ACastleforceHexGrid::UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibleTiles) {
+	for (int i = 0; i < tiles.Num(); i++) {
+		if (visibleTiles.Contains(tiles[i])) {
+			tiles[i]->MakeVisible(true);
+		} else {
+			tiles[i]->MakeVisible(false);
+		}
+	}
 }

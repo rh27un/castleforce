@@ -4,7 +4,9 @@
 
 #include "CoreMinimal.h"
 #include "CastleforceObject.h"
+#include "CastleforceHexGrid.h"
 #include "CastleforceHexTile.h"
+
 #include "CastleforceUnit.generated.h"
 
 /**
@@ -19,9 +21,12 @@ public:
 	void NavigateTo(ACastleforceHexTile* tile);
 	ACastleforceHexTile* currentTile;
 	TArray<ACastleforceHexTile*> currentPath;
-protected:
-	
-	void ContinuePath();
+	TArray<ACastleforceHexTile*> visibleTiles;
+	ACastleforceHexGrid* grid;
 	void TeleportToTile(ACastleforceHexTile* tile);
+protected:
+	virtual void BeginPlay() override;
+	void ContinuePath();
+	
 	FTimerHandle UnitTimerHandle;
 };

@@ -56,6 +56,7 @@ protected:
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
 	class ACastleforceHexTile* CurrentTileFocus;
 
+	TArray<ACastleforceUnit*> myUnits;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	ACastleforceUnit* SelectedUnit;
 
@@ -65,4 +66,6 @@ protected:
 
 	void BuildUnit();
 	void BuildBuilding();
+
+	TArray<ACastleforceHexTile*> visibleTiles;
 };

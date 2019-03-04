@@ -40,8 +40,6 @@ void ACastleforceHexTile::Occupy(ACastleforceObject * occupier) {
 	}
 }
 
-
-
 // Called when the game starts or when spawned
 void ACastleforceHexTile::BeginPlay()
 {
@@ -71,13 +69,6 @@ void ACastleforceHexTile::SetCoords(int x, int y){
 }
 
 
-// Called every frame
-void ACastleforceHexTile::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-
 void ACastleforceHexTile::Highlight(bool highlit)
 {
 	if (highlit) {
@@ -85,6 +76,14 @@ void ACastleforceHexTile::Highlight(bool highlit)
 	}
 	else {
 		hexMesh->SetMaterial(0, normalMat);
+	}
+}
+
+void ACastleforceHexTile::MakeVisible(bool visible) {
+	if (visible) {
+		hexMesh->SetMaterial(0, normalMat);
+	} else {
+		hexMesh->SetMaterial(0, invisibleMat);
 	}
 }
 

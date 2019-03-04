@@ -51,5 +51,6 @@ public:
 	TArray<ACastleforceHexTile*> GetTileNeighbours(int X, int Y);
 	TArray<ACastleforceHexTile*> GetTileNeighbours(ACastleforceHexTile* tile);
 	TArray<ACastleforceHexTile*> AStar(ACastleforceHexTile* start, ACastleforceHexTile* goal);
-	
+	TArray<ACastleforceHexTile*> GetTileSight(ACastleforceHexTile* tile, int range);
+	void UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibleTiles);
 };

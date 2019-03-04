@@ -21,6 +21,11 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 	if (!MovementInput.IsZero()) {
 		SetActorLocation(GetActorLocation() + (MovementInput * Speed));
 	}
+	TArray<ACastleforceHexTile*> visibleTiles;
+	for (int i = 0; i < myUnits.Num(); i++) {
+		visibleTiles.Append(myUnits[i]->visibleTiles);
+	}
+	grid->UpdateVisibleTiles(visibleTiles);
 }
 
 void ACastleforceHexPawn::BeginPlay() {
@@ -72,6 +77,11 @@ void ACastleforceHexPawn::RightClick() {
 		//GEngine->AddOnScreenDebugMessage(-1, 50.f, FColor::Red, FString::Printf(TEXT("Index of Cell at %d, %d: %d"), CurrentTileFocus->X, CurrentTileFocus->Y, CurrentTileFocus->I));
 		if (SelectedUnit) {
 			SelectedUnit->NavigateTo(CurrentTileFocus);
+		} else {
+			TArray<ACastleforceHexTile*> visibleTiles = grid->GetTileSight(CurrentTileFocus, 2);
+			for (int i = 0; i < visibleTiles.Num(); i++) {
+				visibleTiles[i]->MakeVisible(true);
+			}
 		}
 	}
 }
@@ -126,21 +136,24 @@ void ACastleforceHexPawn::BuildUnit(){
 		NewUnit = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewUnit)) {
 			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
+			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
 		}
 		break;
 	case Mythic:
 		NewUnit = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewUnit)) {
 			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
+			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
 		}
 		break;
 	case Priest:
 		NewUnit = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewUnit)) {
 			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			CurrentTileFocus->Occupy(Cast<ACastleforceUnit>(NewUnit));
+			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
+			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
 		}
 		break;
 	default:

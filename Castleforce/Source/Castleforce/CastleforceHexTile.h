@@ -23,6 +23,8 @@ public:
 		UProceduralMeshComponent* hexMesh;		
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		UMaterialInterface* highlitMat;
+	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
+		UMaterialInterface* invisibleMat;
 	void CreateHexagon(TArray<FVector> vertices, TArray<int> triangles);
 	void SetCoords(int x, int y);
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
@@ -48,9 +50,9 @@ protected:
 	virtual void BeginPlay() override;
 	UMaterialInterface* normalMat;
 public:	
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
+
 	void Highlight(bool highlit);
+	void MakeVisible(bool visible);
 	ACastleforceObject* GetOccupyingObject();
 	void SetHeightType(TEnumAsByte<TileHeight> type);
 	void Occupy(ACastleforceObject* occupier);

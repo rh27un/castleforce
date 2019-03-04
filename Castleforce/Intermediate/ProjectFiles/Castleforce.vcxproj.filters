@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Castleforce.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{78ADC242-572C-4627-BC78-80E929DB1D75}</UniqueIdentifier>
+			<UniqueIdentifier>{C2B00306-526A-4094-B7C6-AA10F94E3962}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Castleforce.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{A61E9D70-E4E9-4748-9CBE-E197E3C8D399}</UniqueIdentifier>
+			<UniqueIdentifier>{7858C395-232E-44E8-9DA7-3BB0A590BB27}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,22 +31,22 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{F9051F6F-9B49-4A6A-859C-16A31A117D25}</UniqueIdentifier>
+			<UniqueIdentifier>{0B9E8355-7EB5-4C4B-AE04-F25A239A1DD9}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master">
-			<UniqueIdentifier>{A470CDBE-1B93-4A53-90C2-D50F2F583AC5}</UniqueIdentifier>
+			<UniqueIdentifier>{E28D4170-5A09-4A01-9B8C-1F035A6AEB2B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master\Source">
-			<UniqueIdentifier>{6BB9F7F5-F80D-4EA0-AFE3-145DE6D19214}</UniqueIdentifier>
+			<UniqueIdentifier>{B700564C-3CF1-405B-A963-0BAAC5C146FF}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise">
-			<UniqueIdentifier>{B10CABB4-B270-473E-88B7-A52BFC760E1A}</UniqueIdentifier>
+			<UniqueIdentifier>{1B58E6A9-D89F-40C1-A3C7-5188C2911977}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\SimplexNoise.Build.cs">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise</Filter>
 		</None >
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise\Private">
-			<UniqueIdentifier>{12F6C719-9C92-47CC-BEA8-26EC91DFE790}</UniqueIdentifier>
+			<UniqueIdentifier>{B9B8EC45-DCD2-47F3-8DFE-05DB1C8623B6}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\Private\SimplexNoiseBPLibrary.cpp">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Private</Filter>
@@ -58,7 +58,7 @@
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Private</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise\Public">
-			<UniqueIdentifier>{1717582C-C5DA-4DB6-A081-DB7AF90CA7B5}</UniqueIdentifier>
+			<UniqueIdentifier>{029F96D8-513E-43AA-8AF2-2DF662FA3709}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\Public\ISimplexNoise.h">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Public</Filter>
@@ -70,13 +70,13 @@
 			<Filter>Plugins\SimplexNoise-master</Filter>
 		</None >
 		<Filter Include="Plugins\SimplexNoise-master\Resources">
-			<UniqueIdentifier>{C70F0D5A-471C-4F82-A826-895B4C607E11}</UniqueIdentifier>
+			<UniqueIdentifier>{314565A9-0698-487B-B26B-B67BE1498341}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\SimplexNoise-master\Resources\Icon128.png">
 			<Filter>Plugins\SimplexNoise-master\Resources</Filter>
 		</None >
 		<Filter Include="Source\Castleforce">
-			<UniqueIdentifier>{0E8C2932-8B1F-4BED-9BDD-467E7A42FA04}</UniqueIdentifier>
+			<UniqueIdentifier>{2DA498AD-8CC7-4DE5-A6AB-27D7811D9EE0}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Castleforce\Castleforce.Build.cs">
 			<Filter>Source\Castleforce</Filter>
@@ -97,6 +97,12 @@
 			<Filter>Source\Castleforce</Filter>
 		</ClCompile >
 		<ClInclude Include="..\..\Source\Castleforce\CastleforceBlockGrid.h">
+			<Filter>Source\Castleforce</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\Castleforce\CastleforceBuilding.cpp">
+			<Filter>Source\Castleforce</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\Castleforce\CastleforceBuilding.h">
 			<Filter>Source\Castleforce</Filter>
 		</ClInclude >
 		<ClCompile Include="..\..\Source\Castleforce\CastleforceGameMode.cpp">
