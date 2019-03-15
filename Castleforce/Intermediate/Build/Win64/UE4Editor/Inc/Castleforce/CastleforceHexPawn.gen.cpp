@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceUnit_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexTile_NoRegister();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceBuilding_NoRegister();
 // End Cross Module References
 	static UEnum* BuildType_StaticEnum()
 	{
@@ -33,7 +34,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		return Singleton;
 	}
 	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_BuildType(BuildType_StaticEnum, TEXT("/Script/Castleforce"), TEXT("BuildType"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_Castleforce_BuildType_CRC() { return 2017801154U; }
+	uint32 Get_Z_Construct_UEnum_Castleforce_BuildType_CRC() { return 1186503793U; }
 	UEnum* Z_Construct_UEnum_Castleforce_BuildType()
 	{
 #if WITH_HOT_RELOAD
@@ -52,9 +53,11 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 				{ "Mine", (int64)Mine },
 				{ "Workshop", (int64)Workshop },
 				{ "Excavation", (int64)Excavation },
+				{ "Castle", (int64)Castle },
 			};
 #if WITH_METADATA
 			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Castle.DisplayName", "Castle" },
 				{ "Excavation.DisplayName", "Relic Excavation" },
 				{ "Knight.DisplayName", "Knight" },
 				{ "Mine.DisplayName", "Mine" },
@@ -145,6 +148,22 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Speed;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CastleClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_CastleClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ExcavationClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_ExcavationClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_WorkshopClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_WorkshopClass;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_MineClass_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_MineClass;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_PriestClass_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FClassPropertyParams NewProp_PriestClass;
@@ -200,6 +219,34 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed = { UE4CodeGen_Private::EPropertyClass::Float, "Speed", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, Speed), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass = { UE4CodeGen_Private::EPropertyClass::Class, "CastleClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, CastleClass), Z_Construct_UClass_ACastleforceBuilding_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass = { UE4CodeGen_Private::EPropertyClass::Class, "ExcavationClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, ExcavationClass), Z_Construct_UClass_ACastleforceBuilding_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_WorkshopClass_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_WorkshopClass = { UE4CodeGen_Private::EPropertyClass::Class, "WorkshopClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, WorkshopClass), Z_Construct_UClass_ACastleforceBuilding_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_WorkshopClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_WorkshopClass_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MineClass_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MineClass = { UE4CodeGen_Private::EPropertyClass::Class, "MineClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000010015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, MineClass), Z_Construct_UClass_ACastleforceBuilding_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MineClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MineClass_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_PriestClass_MetaData[] = {
 		{ "Category", "CastleforceHexPawn" },
 		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
@@ -231,6 +278,10 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_SelectedUnit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_WorkshopClass,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MineClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_PriestClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_MythicClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_KnightClass,
@@ -259,7 +310,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexPawn, 821272403);
+	IMPLEMENT_CLASS(ACastleforceHexPawn, 2459033868);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexPawn(Z_Construct_UClass_ACastleforceHexPawn, &ACastleforceHexPawn::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -179,17 +179,17 @@
 /I Runtime\AudioMixer\Classes
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
-/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/I "D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine"
-/Yc"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.cpp"
-/Fo"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.15063.0\winrt"
+/I C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine
+/Yc"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.cpp"
+/Fo"C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.obj"
 /TP
 /GR-
 /W4

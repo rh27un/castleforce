@@ -42,5 +42,5 @@ void ACastleforceUnit::ContinuePath() {
 void ACastleforceUnit::TeleportToTile(ACastleforceHexTile* tile) {
 	currentTile = tile;
 	tile->Occupy(this);
-	visibleTiles = grid->GetTileSight(currentTile, 2);
+	visibleTiles = grid->GetTileSight(currentTile, sightRange);
 }

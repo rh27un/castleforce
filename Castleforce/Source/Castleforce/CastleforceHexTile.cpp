@@ -2,7 +2,6 @@
 
 #include "CastleforceHexTile.h"
 
-
 // Sets default values
 ACastleforceHexTile::ACastleforceHexTile()
 {
@@ -40,6 +39,12 @@ void ACastleforceHexTile::Occupy(ACastleforceObject * occupier) {
 	}
 }
 
+FString ACastleforceHexTile::PrintCoords()
+{
+	FString coordString = FString::FromInt(X) + ", " + FString::FromInt(Y) + ", " + FString::FromInt(Z);
+	return coordString;
+}
+
 // Called when the game starts or when spawned
 void ACastleforceHexTile::BeginPlay()
 {
@@ -66,7 +71,7 @@ void ACastleforceHexTile::SetCoords(int x, int y){
 	X = x;
 	Y = y;
 	Z = -x - y;
-	FString coordString = FString::FromInt(X) + ", " + FString::FromInt(Y) + ", " + FString::FromInt(Z);
+	
 }
 
 

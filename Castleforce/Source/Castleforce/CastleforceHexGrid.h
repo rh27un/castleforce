@@ -28,6 +28,7 @@ public:
 		TMap<TEnumAsByte<TileHeight>, float> HeightTypes;
 	UPROPERTY(Category = HexGrid, EditAnywhere, BlueprintReadOnly)
 		float Scale;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -53,4 +54,5 @@ public:
 	TArray<ACastleforceHexTile*> AStar(ACastleforceHexTile* start, ACastleforceHexTile* goal);
 	TArray<ACastleforceHexTile*> GetTileSight(ACastleforceHexTile* tile, int range);
 	void UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibleTiles);
+	ACastleforceHexTile* SpawnRandom(int X, int Y);
 };

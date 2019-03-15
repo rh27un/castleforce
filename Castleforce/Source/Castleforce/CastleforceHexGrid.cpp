@@ -45,6 +45,8 @@ void ACastleforceHexGrid::BeginPlay()
 			Cast<ACastleforceHexTile>(NewCell)->I = i;
 			Cast<ACastleforceHexTile>(NewCell)->SetHeightType(GetHeightType(ZOffset));
 			Cast<ACastleforceHexTile>(NewCell)->MakeVisible(false);
+			FString tileName = "Tile " + Cast<ACastleforceHexTile>(NewCell)->PrintCoords();
+			NewCell->SetActorLabel(tileName);
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
 		}
 	}
@@ -55,20 +57,8 @@ void ACastleforceHexGrid::BeginPlay()
 	//randomly select one tile from each area
 	//if can pathfind between the tiles, spawn castles there
 	//otherwise try again
-	ACastleforceHexTile* playerSpawnCentre = GetTileAt(5, 5);
-	ACastleforceHexTile* AISpawnCentre = GetTileAt(Size - 5, Size - 5);
-	TArray<ACastleforceHexTile*> playerSpawnCircle = GetTileSight(playerSpawnCentre, 5);
-	TArray<ACastleforceHexTile*> AISpawnCircle = GetTileSight(AISpawnCentre, 5);
-	ACastleforceHexTile* playerSpawn = nullptr;
-	ACastleforceHexTile* AISpawn = nullptr;
-	do {
-		if (playerSpawn && AISpawn) {
-			playerSpawnCircle.Remove(playerSpawn);
-			AISpawnCircle.Remove(AISpawn);
-		}
-		playerSpawn = playerSpawnCircle[FMath::RandRange(0, playerSpawnCircle.Num())];
-		AISpawn = AISpawnCircle[FMath::RandRange(0, playerSpawnCircle.Num())];
-	} while (AStar(playerSpawn, AISpawn).Num() == 0);
+	
+	
 }
 
 
@@ -234,15 +224,18 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::GetTileSight(ACastleforceHexTi
 		}
 
 		if (range > 1) {
-			int currentLayer = visibleTiles.Num();
+			int currentLayer = 1;
 			for (int r = 0; r < range - 1; r++) {
-				for (int i = 0; i < currentLayer; i++) {
+				for (int i = 0; i < visibleTiles.Num(); i++) {
 					if (visibleTiles[i]->walkable) {
 						TArray<ACastleforceHexTile*> newNeighbours = GetTileNeighbours(visibleTiles[i]);
+						currentLayer++;
 						for (int j = 0; j < newNeighbours.Num(); j++) {
 							if (newNeighbours[j]) {
-								if (newNeighbours[j]->walkable) {
-									visibleTiles.Add(newNeighbours[j]);
+								if (!neighbours.Contains(newNeighbours[j])) {
+									if (newNeighbours[j]->walkable) {
+										visibleTiles.Add(newNeighbours[j]);
+									}
 								}
 							}
 						}
@@ -263,4 +256,12 @@ void ACastleforceHexGrid::UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibl
 			tiles[i]->MakeVisible(false);
 		}
 	}
+}
+
+ACastleforceHexTile * ACastleforceHexGrid::SpawnRandom(int X, int Y)
+{
+	ACastleforceHexTile* spawnCentre = GetTileAt(X, Y);
+	TArray<ACastleforceHexTile*> spawnCircle = GetTileSight(spawnCentre, 5);
+	ACastleforceHexTile* spawn = spawnCircle[FMath::RandRange(0, spawnCircle.Num())];
+	return spawn;
 }

@@ -13,7 +13,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define CASTLEFORCE_CastleforceHexPawn_generated_h
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS \
  \
 	DECLARE_FUNCTION(execSetBuildType) \
 	{ \
@@ -25,7 +25,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
  \
 	DECLARE_FUNCTION(execSetBuildType) \
 	{ \
@@ -37,7 +37,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 	}
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_INCLASS_NO_PURE_DECLS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesACastleforceHexPawn(); \
 	friend struct Z_Construct_UClass_ACastleforceHexPawn_Statics; \
@@ -46,7 +46,7 @@ public: \
 	DECLARE_SERIALIZER(ACastleforceHexPawn)
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_INCLASS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_INCLASS \
 private: \
 	static void StaticRegisterNativesACastleforceHexPawn(); \
 	friend struct Z_Construct_UClass_ACastleforceHexPawn_Statics; \
@@ -55,7 +55,7 @@ public: \
 	DECLARE_SERIALIZER(ACastleforceHexPawn)
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_STANDARD_CONSTRUCTORS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ACastleforceHexPawn(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ACastleforceHexPawn) \
@@ -68,7 +68,7 @@ private: \
 public:
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_ENHANCED_CONSTRUCTORS \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ACastleforceHexPawn(ACastleforceHexPawn&&); \
@@ -79,30 +79,30 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ACastleforceHexPawn); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ACastleforceHexPawn)
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_PRIVATE_PROPERTY_OFFSET \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__CurrentTileFocus() { return STRUCT_OFFSET(ACastleforceHexPawn, CurrentTileFocus); } \
 	FORCEINLINE static uint32 __PPO__SelectedUnit() { return STRUCT_OFFSET(ACastleforceHexPawn, SelectedUnit); }
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_19_PROLOG
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_GENERATED_BODY_LEGACY \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_20_PROLOG
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_PRIVATE_PROPERTY_OFFSET \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_INCLASS \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_STANDARD_CONSTRUCTORS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_PRIVATE_PROPERTY_OFFSET \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_INCLASS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_GENERATED_BODY \
+#define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_PRIVATE_PROPERTY_OFFSET \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_RPC_WRAPPERS_NO_PURE_DECLS \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_INCLASS_NO_PURE_DECLS \
-	Castleforce_Source_Castleforce_CastleforceHexPawn_h_22_ENHANCED_CONSTRUCTORS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_PRIVATE_PROPERTY_OFFSET \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_INCLASS_NO_PURE_DECLS \
+	Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -118,5 +118,6 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 	op(Priest) \
 	op(Mine) \
 	op(Workshop) \
-	op(Excavation) 
+	op(Excavation) \
+	op(Castle) 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

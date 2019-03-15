@@ -56,4 +56,5 @@ public:
 	ACastleforceObject* GetOccupyingObject();
 	void SetHeightType(TEnumAsByte<TileHeight> type);
 	void Occupy(ACastleforceObject* occupier);
+	FString PrintCoords();
 };

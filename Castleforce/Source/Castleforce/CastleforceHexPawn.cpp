@@ -25,6 +25,9 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 	for (int i = 0; i < myUnits.Num(); i++) {
 		visibleTiles.Append(myUnits[i]->visibleTiles);
 	}
+	for (int i = 0; i < myBuildings.Num(); i++) {
+		visibleTiles.Append(myBuildings[i]->visibleTiles);
+	}
 	grid->UpdateVisibleTiles(visibleTiles);
 }
 
@@ -33,6 +36,12 @@ void ACastleforceHexPawn::BeginPlay() {
 	TArray<AActor*> foundActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACastleforceHexGrid::StaticClass(), foundActors);
 	grid = Cast<ACastleforceHexGrid>(foundActors[0]);
+
+	ACastleforceHexTile* spawnLoc = grid->SpawnRandom(0, 0);
+	if(!spawnLoc)
+		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Spawn failed"));
+	else
+		Build(Castle, spawnLoc);
 }
 
 void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
@@ -69,7 +78,7 @@ void ACastleforceHexPawn::Click()
 				//BUILDINGS
 			}
 		} else {
-			Build();
+			Build(selectedBuildType, CurrentTileFocus);
 		}
 	}
 }
@@ -127,38 +136,38 @@ void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & E
 	}
 }
 
-void ACastleforceHexPawn::Build(){
+void ACastleforceHexPawn::Build(TEnumAsByte<BuildType> buildType, ACastleforceHexTile* location){
 	const FVector* NewLocation = new FVector(0.f);
 	const FRotator* NewRotation = new FRotator(0.f);
 	AActor* NewObject;
-	switch (selectedBuildType) {
+	switch (buildType) {
 	case NoneBuild:
 		break;
 	case Knight:
 		NewObject = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
 			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
 			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
 		}
 		break;
 	case Mythic:
 		NewObject = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
 			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
 			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
 		}
 		break;
 	case Priest:
 		NewObject = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
 			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
 			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
 		}
 		break;
 	case Mine:
@@ -166,6 +175,14 @@ void ACastleforceHexPawn::Build(){
 	case Workshop:
 		break;
 	case Excavation:
+		break;
+	case Castle:
+		NewObject = GetWorld()->SpawnActor(CastleClass, NewLocation, NewRotation);
+		if(Cast<ACastleforceBuilding>(NewObject)){
+			Cast<ACastleforceBuilding>(NewObject)->SetOwner(0);
+			myBuildings.Add(Cast<ACastleforceBuilding>(NewObject));
+			Cast<ACastleforceBuilding>(NewObject)->TeleportToTile(location);
+		}
 		break;
 	default:
 		break;

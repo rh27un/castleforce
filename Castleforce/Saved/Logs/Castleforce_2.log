@@ -1,8 +1,6 @@
-﻿Log file open, 03/04/19 17:34:34
+﻿Log file open, 03/15/19 15:07:59
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
-LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
-LogWindows: File 'VSPerf140.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi.dll' does not exist
 LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
@@ -10,11 +8,21 @@ LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Castleforce
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.709021
+LogStats: Stats thread started at 0.306317
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
-LogPluginManager: Warning: Engine version string in D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Plugins/SimplexNoise-master/SimplexNoise.uplugin could not be parsed ("4.10")
+LogConfig: Warning: Failed to saved backup for config[Engine]
+LogConfig: Warning: Failed to saved backup for config[Input]
+LogConfig: Warning: Failed to saved backup for config[EditorPerProjectUserSettings]
+LogConfig: Warning: Failed to saved backup for config[EditorSettings]
+LogConfig: Warning: Failed to saved backup for config[EditorLayout]
+LogConfig: Warning: Failed to saved backup for config[EditorKeyBindings]
+LogConfig: Warning: Failed to saved backup for config[Compat]
+LogConfig: Warning: Failed to saved backup for config[Lightmass]
+LogConfig: Warning: Failed to saved backup for config[Hardware]
+LogPluginManager: Warning: Engine version string in ../../../../../../Temp/Rhun/Castleforce/castleforce/Castleforce/Plugins/SimplexNoise-master/SimplexNoise.uplugin could not be parsed ("4.10")
 LogPluginManager: Mounting plugin Paper2D
+LogConfig: Warning: Failed to saved backup for config[Paper2D]
 LogPluginManager: Mounting plugin AISupport
 LogPluginManager: Mounting plugin LightPropagationVolume
 LogPluginManager: Mounting plugin CLionSourceCodeAccess
@@ -69,6 +77,7 @@ LogPluginManager: Mounting plugin OnlineSubsystemIOS
 LogPluginManager: Mounting plugin OnlineSubsystem
 LogPluginManager: Mounting plugin OnlineSubsystemNull
 LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogConfig: Warning: Failed to saved backup for config[OnlineSubsystemUtils]
 LogPluginManager: Mounting plugin LauncherChunkInstaller
 LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
 LogPluginManager: Mounting plugin AndroidMoviePlayer
@@ -92,10 +101,13 @@ LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtim
 LogPluginManager: Mounting plugin PhysXVehicles
 LogPluginManager: Mounting plugin ProceduralMeshComponent
 LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogConfig: Warning: Failed to saved backup for config[RuntimePhysXCooking]
 LogPluginManager: Mounting plugin SteamVR
+LogConfig: Warning: Failed to saved backup for config[SteamVR]
 LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogConfig: Warning: Failed to saved backup for config[WindowsMoviePlayer]
 LogPluginManager: Mounting plugin SimplexNoise
-LogStreaming: Display: Took  0.264s to configure plugins.
+LogStreaming: Display: Took  0.496s to configure plugins.
 LogInit: Using libcurl 7.55.1-DEV
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2h
@@ -116,16 +128,16 @@ LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connecti
 LogInit:  - LocalHostAddr = Default
 LogInit:  - BufferSize = 65536
 LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-LogInit: Build: ++UE4+Release-4.20-CL-4369336
-LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Build: ++UE4+Release-4.20-CL-4233996
+LogInit: Engine Version: 4.20.1-4233996+++UE4+Release-4.20
 LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
 LogInit: Net CL: 4212847
-LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 1070 Ti
-LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i7-4790 CPU @ 3.60GHz, GPU: NVIDIA GeForce GTX 780
+LogInit: Compiled (64-bit): Jul 26 2018 10:07:30
 LogInit: Compiled with Visual C++: 19.13.26129.00
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.20
-LogInit: Command Line:  -skipcompile
+LogInit: Command Line:  
 LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogDevObjectVersion: Number of dev versions registered: 20
@@ -149,206 +161,49 @@ LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC
 LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
 LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
 LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
-LogStreaming: Display: Took  0.004s to delete old logs.
+LogStreaming: Display: Took  0.006s to delete old logs.
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2019.03.04-17.34.36:998][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.04-17.34.36:999][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.03.04-17.34.37:029][  0]LogHAL: Display: Platform has ~ 8 GB [8484548608 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.03.04-17.34.37:029][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
-[2019.03.04-17.34.37:030][  0]LogInit: Going up to parent DeviceProfile []
-[2019.03.04-17.34.37:038][  0]LogInit: Computer: DESKTOP-TLUBEOD
-[2019.03.04-17.34.37:038][  0]LogInit: User: rh27u
-[2019.03.04-17.34.37:038][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.03.04-17.34.37:038][  0]LogInit: High frequency timer resolution =3.919345 MHz
-[2019.03.04-17.34.37:038][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2019.03.04-17.34.37:039][  0]LogMemory: Platform Memory Stats for Windows
-[2019.03.04-17.34.37:039][  0]LogMemory: Process Physical Memory: 101.67 MB used, 101.67 MB peak
-[2019.03.04-17.34.37:039][  0]LogMemory: Process Virtual Memory: 87.51 MB used, 87.51 MB peak
-[2019.03.04-17.34.37:039][  0]LogMemory: Physical Memory: 5951.45 MB used,  2140.04 MB free, 8091.50 MB total
-[2019.03.04-17.34.37:039][  0]LogMemory: Virtual Memory: 4641.60 MB used,  2140.04 MB free, 134217728.00 MB total
-[2019.03.04-17.34.37:709][  0]LogInit: Using OS detected language (en-US).
-[2019.03.04-17.34.37:710][  0]LogInit: Using OS detected locale (en-GB).
-[2019.03.04-17.34.37:712][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.03.04-17.34.38:297][  0]LogStreaming: Display: Took  0.588s to InitEngineTextLocalization.
-[2019.03.04-17.34.38:306][  0]LogInit: Setting process to per monitor DPI aware
-[2019.03.04-17.34.38:564][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.03.04-17.34.38:564][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.03.04-17.34.41:785][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.04-17.34.41:785][  0]LogD3D11RHI: D3D11 adapters:
-[2019.03.04-17.34.42:087][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
-[2019.03.04-17.34.42:087][  0]LogD3D11RHI:       8080/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
-[2019.03.04-17.34.42:099][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.03.04-17.34.42:099][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.03.04-17.34.42:099][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.03.04-17.34.42:110][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.03.04-17.34.42:110][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
-[2019.03.04-17.34.42:111][  0]LogWindows: EnumDisplayDevices:
-[2019.03.04-17.34.42:111][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2019.03.04-17.34.42:112][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
-[2019.03.04-17.34.42:112][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
-[2019.03.04-17.34.42:113][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
-[2019.03.04-17.34.42:114][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2019.03.04-17.34.42:114][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
-[2019.03.04-17.34.42:114][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
-[2019.03.04-17.34.42:114][  0]LogD3D11RHI:      Driver Date: 2-20-2019
-[2019.03.04-17.34.42:114][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
-[2019.03.04-17.34.42:193][  0]LogD3D11RHI: Async texture creation enabled
-[2019.03.04-17.34.42:230][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2019.03.04-17.34.42:338][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Intermediate/Shaders/WorkingDirectory/12012/).
-[2019.03.04-17.34.42:338][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rh27u/AppData/Local/Temp/UnrealShaderWorkingDir/F951B5F24E36C9D67FDAF4866D0A9964/'.
-[2019.03.04-17.34.42:943][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2019.03.04-17.34.42:996][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2019.03.04-17.34.43:048][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2019.03.04-17.34.43:102][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2019.03.04-17.34.43:165][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2019.03.04-17.34.43:221][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2019.03.04-17.34.43:276][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2019.03.04-17.34.43:333][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2019.03.04-17.34.43:375][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2019.03.04-17.34.43:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:549][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:550][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:551][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:551][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:551][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2019.03.04-17.34.43:586][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2019.03.04-17.34.43:814][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.04-17.34.43:814][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2019.03.04-17.34.43:883][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.04-17.34.43:884][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2019.03.04-17.34.43:943][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2019.03.04-17.34.43:996][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2019.03.04-17.34.44:049][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2019.03.04-17.34.44:113][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2019.03.04-17.34.44:160][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
-[2019.03.04-17.34.44:160][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.03.04-17.34.45:165][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2019.03.04-17.34.45:165][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2019.03.04-17.34.45:165][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2019.03.04-17.34.48:025][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.03.04-17.34.48:620][  0]LogDerivedDataCache: Loaded boot cache 0.59s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.04-17.34.48:620][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
-[2019.03.04-17.34.48:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.03.04-17.34.48:621][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.03.04-17.34.48:621][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.03.04-17.34.48:621][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.03.04-17.34.48:640][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.03.04-17.34.48:656][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rh27u/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.03.04-17.34.48:656][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.03.04-17.34.48:656][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.03.04-17.34.48:686][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.03.04-17.34.48:688][  0]LogSlate: Using FreeType 2.6.0
-[2019.03.04-17.34.48:711][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.03.04-17.34.49:034][  0]LogAssetRegistry: FAssetRegistry took 0.0327 seconds to start up
-[2019.03.04-17.34.49:589][  0]LogInit: Selected Device Profile: [Windows]
-[2019.03.04-17.34.50:259][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2019.03.04-17.34.50:375][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2019.03.04-17.34.50:375][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.03.04-17.34.50:375][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.03.04-17.34.50:375][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2019.03.04-17.34.50:433][  0]LogNetVersion: Castleforce 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2622368503)
-[2019.03.04-17.34.51:338][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.190915 seconds
-[2019.03.04-17.34.51:346][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
-[2019.03.04-17.34.51:347][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
-[2019.03.04-17.34.51:347][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.03.04-17.34.56:844][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.03.04-17.34.56:894][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.03.04-17.34.58:146][  0]SourceControl: Source control is disabled
-[2019.03.04-17.34.58:146][  0]SourceControl: Source control is disabled
-[2019.03.04-17.34.58:214][  0]SourceControl: Source control is disabled
-[2019.03.04-17.34.58:251][  0]SourceControl: Source control is disabled
-[2019.03.04-17.34.59:897][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.03.04-17.35.00:319][  0]LogOcInput: OculusInput pre-init called
-[2019.03.04-17.35.00:583][  0]LogEngine: Initializing Engine...
-[2019.03.04-17.35.00:586][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.03.04-17.35.00:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.04-17.35.00:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.04-17.35.00:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.04-17.35.00:588][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.04-17.35.00:892][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.03.04-17.35.00:966][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.03.04-17.35.01:123][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.04-17.35.01:156][  0]LogInit: FAudioDevice initialized.
-[2019.03.04-17.35.01:156][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.03.04-17.35.01:362][  0]LogDerivedDataCache: Saved boot cache 0.21s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
-[2019.03.04-17.35.01:376][  0]LogInit: Texture streaming: Enabled
-[2019.03.04-17.35.01:539][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.03.04-17.35.01:596][  0]LogInit: Transaction tracking system initialized
-[2019.03.04-17.35.01:813][  0]BlueprintLog: New page: Editor Load
-[2019.03.04-17.35.02:843][  0]LocalizationService: Localization service is disabled
-[2019.03.04-17.35.03:830][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.03.04-17.35.03:831][  0]LogCook: Display: Mobile HDR setting 1
-[2019.03.04-17.35.03:831][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2019.03.04-17.35.03:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
-[2019.03.04-17.35.03:831][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2019.03.04-17.35.03:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
-[2019.03.04-17.35.03:832][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2019.03.04-17.35.04:461][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/' took 0.03s
-[2019.03.04-17.35.05:138][  0]SourceControl: Source control is disabled
-[2019.03.04-17.35.05:138][  0]Cmd: MAP LOAD FILE="D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.03.04-17.35.05:139][  0]LightingResults: New page: Lighting Build
-[2019.03.04-17.35.05:144][  0]MapCheck: New page: Map Check
-[2019.03.04-17.35.05:144][  0]LightingResults: New page: Lighting Build
-[2019.03.04-17.35.06:087][  0]LogAIModule: Creating AISystem for world Level1
-[2019.03.04-17.35.06:210][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.03.04-17.35.06:314][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.03.04-17.35.06:442][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 127.887ms to complete.
-[2019.03.04-17.35.06:443][  0]LogFileHelpers: Loading map 'Level1' took 1.304
-[2019.03.04-17.35.06:769][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.04-17.35.06:783][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.04-17.35.06:794][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.04-17.35.06:806][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.03.04-17.35.06:860][  0]LogCollectionManager: Loaded 0 collections in 0.004834 seconds
-[2019.03.04-17.35.06:950][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/Collections/' took 0.01s
-[2019.03.04-17.35.06:950][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Developers/rh27u/Collections/' took 0.01s
-[2019.03.04-17.35.06:950][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Collections/' took 0.02s
-[2019.03.04-17.35.06:950][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2019.03.04-17.35.06:970][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2586 classes and 610 folders.
-[2019.03.04-17.35.06:987][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2019.03.04-17.35.07:494][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
-[2019.03.04-17.35.07:525][  0]LogSlate: Took 0.009052 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.03.04-17.35.07:540][  0]LogSlate: Took 0.007752 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.03.04-17.35.07:551][  0]LogSlate: Took 0.008186 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.03.04-17.35.07:650][  0]LogRenderer: Reallocating scene render targets to support 1192x600 Format 10 NumSamples 1 (Frame:1).
-[2019.03.04-17.35.07:775][  0]LogSlate: Took 0.008665 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.03.04-17.35.07:996][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2019.03.04-17.35.07:997][  0]LogLoad: (Engine Initialization) Total time: 37.67 seconds
-[2019.03.04-17.35.07:997][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.03.04-17.35.08:007][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2019.03.04-17.35.08:047][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.03.04-17.35.08:096][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/' took 0.07s
-[2019.03.04-17.35.08:249][  2]LogAssetRegistry: Asset discovery search completed in 19.2405 seconds
-[2019.03.04-17.35.08:252][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2019.03.04-17.35.08:252][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000229 seconds (updated 0 objects)
-[2019.03.04-17.35.14:827][728]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.03.04-17.35.14:902][737]LogTemp: Repeating last play command: Selected Viewport
-[2019.03.04-17.35.14:930][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2019.03.04-17.35.14:931][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.03.04-17.35.14:947][737]PIE: New page: PIE session: Level1 (4 Mar 2019 17:35:14)
-[2019.03.04-17.35.14:948][737]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
-[2019.03.04-17.35.14:978][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030070s)
-[2019.03.04-17.35.14:979][737]LogAIModule: Creating AISystem for world Level1
-[2019.03.04-17.35.14:980][737]LogPlayLevel: PIE: World Init took: (0.001459s)
-[2019.03.04-17.35.14:980][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.032302s)
-[2019.03.04-17.35.15:138][737]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2019.03.04-17.35.15:155][737]LogInit: FAudioDevice initialized.
-[2019.03.04-17.35.15:628][737]LogLoad: Game class is 'MyCastleforceGameMode_C'
-[2019.03.04-17.35.15:632][737]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.04-17.35.15
-[2019.03.04-17.35.15:634][737]LogWorld: Bringing up level for play took: 0.002044
-[2019.03.04-17.35.15:667][737]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 10 classes and 0 folders.
-[2019.03.04-17.35.15:931][737]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.795
-[2019.03.04-17.35.15:937][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
-[2019.03.04-17.35.20:932][258]LogActor: Warning: CastleforceKnight_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.15-15.08.09:672][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.15-15.08.09:688][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.15-15.08.09:781][  0]LogConfig: Warning: Failed to saved backup for config[DeviceProfiles]
+[2019.03.15-15.08.09:918][  0]LogHAL: Display: Platform has ~ 16 GB [17080971264 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.15-15.08.10:001][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.15-15.08.10:002][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.15-15.08.10:386][  0]LogInit: Computer: AMTX222-20
+[2019.03.15-15.08.10:386][  0]LogInit: User: trj1crt
+[2019.03.15-15.08.10:386][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.15-15.08.10:386][  0]LogInit: High frequency timer resolution =3.507497 MHz
+[2019.03.15-15.08.10:386][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.03.15-15.08.10:386][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.15-15.08.10:386][  0]LogMemory: Process Physical Memory: 99.38 MB used, 99.38 MB peak
+[2019.03.15-15.08.10:386][  0]LogMemory: Process Virtual Memory: 91.20 MB used, 91.20 MB peak
+[2019.03.15-15.08.10:386][  0]LogMemory: Physical Memory: 5541.57 MB used,  10748.11 MB free, 16289.68 MB total
+[2019.03.15-15.08.10:386][  0]LogMemory: Virtual Memory: 4640.61 MB used,  10748.11 MB free, 134217728.00 MB total
+[2019.03.15-15.08.13:871][  0]LogInit: Using OS detected language (en-GB).
+[2019.03.15-15.08.13:871][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.15-15.08.14:113][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2019.03.15-15.08.17:425][  0]LogStreaming: Display: Took  3.606s to InitEngineTextLocalization.
+[2019.03.15-15.08.17:456][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.15-15.08.19:601][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.15-15.08.19:601][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.15-15.08.25:305][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.15-15.08.25:305][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.15-15.08.25:687][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 780' (Feature Level 11_0)
+[2019.03.15-15.08.25:687][  0]LogD3D11RHI:       3029/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.03.15-15.08.25:690][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.15-15.08.25:690][  0]LogD3D11RHI:       0/0/8144 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.15-15.08.25:690][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.15-15.08.25:717][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.15-15.08.25:717][  0]LogD3D11RHI:     GPU DeviceId: 0x1004 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.15-15.08.25:760][  0]LogWindows: EnumDisplayDevices:
+[2019.03.15-15.08.25:760][  0]LogWindows:    0. 'NVIDIA GeForce GTX 780' (P:1 D:1)
+[2019.03.15-15.08.25:761][  0]LogWindows:    1. 'NVIDIA GeForce GTX 780' (P:0 D:1)
+[2019.03.15-15.08.25:761][  0]LogWindows:    2. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2019.03.15-15.08.25:761][  0]LogWindows:    3. 'NVIDIA GeForce GTX 780' (P:0 D:0)
+[2019.03.15-15.08.25:762][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.15-15.08.25:762][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 780
+[2019.03.15-15.08.25:780][  0]LogD3D11RHI:   Driver Version: 399.07 (internal:24.21.13.9907, unified:399.07)
+[2019.03.15-15.08.25:780][  0]LogD3D11RHI:      Driver Date: 8-21-2018
+[2019.03.15-15.08.25:780][  0]LogRHI: Texture pool is 2120 MB (70% of 3029 MB)
+[2019.03.15-15.08.26:121][  0]LogD3D11RHI: Async texture creation enabled

@@ -7,11 +7,12 @@
 #include "CastleforceHexGrid.h"
 #include "CastleforceHexTile.h"
 #include "CastleforceUnit.h"
+#include "CastleforceBuilding.h"
 #include "CastleforceHexPawn.generated.h"
 
 
 UENUM() enum BuildType { NoneBuild UMETA(DisplayName = "None"), Knight UMETA(DisplayName = "Knight"), Mythic UMETA(DisplayName = "Mythic"), Priest UMETA(DisplayName = "Priest"),
-						Mine UMETA(DisplayName = "Mine"), Workshop UMETA(DisplayName = "Crystal Workshop"), Excavation UMETA(DisplayName = "Relic Excavation")};
+						Mine UMETA(DisplayName = "Mine"), Workshop UMETA(DisplayName = "Crystal Workshop"), Excavation UMETA(DisplayName = "Relic Excavation"), Castle UMETA(DisplayName = "Castle")};
 
 /**
  * 
@@ -35,6 +36,14 @@ public:
 		TSubclassOf<ACastleforceUnit> MythicClass;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		TSubclassOf<ACastleforceUnit> PriestClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceBuilding> MineClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceBuilding> WorkshopClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceBuilding> ExcavationClass;
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
+		TSubclassOf<ACastleforceBuilding> CastleClass;
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Speed;
 
@@ -52,6 +61,7 @@ protected:
 	class ACastleforceHexTile* CurrentTileFocus;
 
 	TArray<ACastleforceUnit*> myUnits;
+	TArray<ACastleforceBuilding*> myBuildings;
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
 	ACastleforceUnit* SelectedUnit;
 
@@ -59,7 +69,7 @@ protected:
 
 	FVector MovementInput;
 
-	void Build();
+	void Build(TEnumAsByte<BuildType> buildType, ACastleforceHexTile* location);
 
 	TArray<ACastleforceHexTile*> visibleTiles;
 };

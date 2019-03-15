@@ -17,6 +17,8 @@ public:
 	ACastleforceObject();
 	UPROPERTY(Category = Object, EditAnywhere, BlueprintReadWrite)
 		UStaticMeshComponent* ObjectMesh;
+	UPROPERTY(Category = Object, EditAnywhere, BlueprintReadWrite)
+		int sightRange;
 	int owner;
 protected:
 	// Called when the game starts or when spawned

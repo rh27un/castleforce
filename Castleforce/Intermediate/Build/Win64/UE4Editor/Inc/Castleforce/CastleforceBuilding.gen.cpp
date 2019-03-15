@@ -67,7 +67,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceBuilding() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceBuilding, 2245593397);
+	IMPLEMENT_CLASS(ACastleforceBuilding, 3754642549);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceBuilding(Z_Construct_UClass_ACastleforceBuilding, &ACastleforceBuilding::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceBuilding"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceBuilding);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

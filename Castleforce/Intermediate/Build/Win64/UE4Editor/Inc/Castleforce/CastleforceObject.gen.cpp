@@ -33,6 +33,10 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceObject() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sightRange_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_sightRange;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_ObjectMesh_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_ObjectMesh;
@@ -51,6 +55,13 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceObject() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceObject_Statics::NewProp_sightRange_MetaData[] = {
+		{ "Category", "Object" },
+		{ "ModuleRelativePath", "CastleforceObject.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ACastleforceObject_Statics::NewProp_sightRange = { UE4CodeGen_Private::EPropertyClass::Int, "sightRange", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ACastleforceObject, sightRange), METADATA_PARAMS(Z_Construct_UClass_ACastleforceObject_Statics::NewProp_sightRange_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceObject_Statics::NewProp_sightRange_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceObject_Statics::NewProp_ObjectMesh_MetaData[] = {
 		{ "Category", "Object" },
 		{ "EditInline", "true" },
@@ -59,6 +70,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceObject() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceObject_Statics::NewProp_ObjectMesh = { UE4CodeGen_Private::EPropertyClass::Object, "ObjectMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x001000000008000d, 1, nullptr, STRUCT_OFFSET(ACastleforceObject, ObjectMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceObject_Statics::NewProp_ObjectMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceObject_Statics::NewProp_ObjectMesh_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceObject_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceObject_Statics::NewProp_sightRange,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceObject_Statics::NewProp_ObjectMesh,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ACastleforceObject_Statics::StaticCppClassTypeInfo = {
@@ -84,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceObject() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceObject, 292044949);
+	IMPLEMENT_CLASS(ACastleforceObject, 3632847339);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceObject(Z_Construct_UClass_ACastleforceObject, &ACastleforceObject::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceObject"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceObject);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
