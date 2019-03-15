@@ -48,6 +48,27 @@ void ACastleforceHexGrid::BeginPlay()
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
 		}
 	}
+
+	//select areas to spawn
+	//select the "centres" (probably near  0,0 and Size, Size. Like 5, 5 and Size - 5, Size - 5)
+	//get arrays of tiles in range (probably five)
+	//randomly select one tile from each area
+	//if can pathfind between the tiles, spawn castles there
+	//otherwise try again
+	ACastleforceHexTile* playerSpawnCentre = GetTileAt(5, 5);
+	ACastleforceHexTile* AISpawnCentre = GetTileAt(Size - 5, Size - 5);
+	TArray<ACastleforceHexTile*> playerSpawnCircle = GetTileSight(playerSpawnCentre, 5);
+	TArray<ACastleforceHexTile*> AISpawnCircle = GetTileSight(AISpawnCentre, 5);
+	ACastleforceHexTile* playerSpawn = nullptr;
+	ACastleforceHexTile* AISpawn = nullptr;
+	do {
+		if (playerSpawn && AISpawn) {
+			playerSpawnCircle.Remove(playerSpawn);
+			AISpawnCircle.Remove(AISpawn);
+		}
+		playerSpawn = playerSpawnCircle[FMath::RandRange(0, playerSpawnCircle.Num())];
+		AISpawn = AISpawnCircle[FMath::RandRange(0, playerSpawnCircle.Num())];
+	} while (AStar(playerSpawn, AISpawn).Num() == 0);
 }
 
 

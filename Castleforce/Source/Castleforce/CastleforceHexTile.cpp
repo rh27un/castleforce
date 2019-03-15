@@ -45,6 +45,7 @@ void ACastleforceHexTile::BeginPlay()
 {
 	Super::BeginPlay();
 	hexMesh->SetMaterial(0, normalMat);
+	hexMesh->SetCastShadow(false);
 }
 
 void ACastleforceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){

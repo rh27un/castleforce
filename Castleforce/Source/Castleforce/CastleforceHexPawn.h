@@ -9,9 +9,9 @@
 #include "CastleforceUnit.h"
 #include "CastleforceHexPawn.generated.h"
 
-UENUM() enum BuildMode { NoneMode, BuildUnits, BuildBuildings };
-UENUM() enum UnitType { NoneUnit UMETA(DisplayName = "None"), Knight UMETA(DisplayName = "Knight"), Mythic UMETA(DisplayName = "Mythic"), Priest UMETA(DisplayName = "Priest") };
-UENUM() enum BuildingType { NoneBuilding UMETA(DisplayName = "None"), Mine UMETA(DisplayName = "Mine"), Workshop UMETA(DisplayName = "Crystal Workshop"), Excavation UMETA(DisplayName = "Relic Excavation") };
+
+UENUM() enum BuildType { NoneBuild UMETA(DisplayName = "None"), Knight UMETA(DisplayName = "Knight"), Mythic UMETA(DisplayName = "Mythic"), Priest UMETA(DisplayName = "Priest"),
+						Mine UMETA(DisplayName = "Mine"), Workshop UMETA(DisplayName = "Crystal Workshop"), Excavation UMETA(DisplayName = "Relic Excavation")};
 
 /**
  * 
@@ -24,12 +24,7 @@ public:
 	ACastleforceHexPawn();
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	TEnumAsByte<BuildMode> currentMode = BuildMode::BuildUnits;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	TEnumAsByte<UnitType> unitType = UnitType::NoneUnit;
-	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
-	TEnumAsByte<BuildingType> buildingType = BuildingType::NoneBuilding;
-
+		TEnumAsByte<BuildType> selectedBuildType;
 	void BeginPlay() override;
 	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
@@ -44,7 +39,7 @@ public:
 		float Speed;
 
 	UFUNCTION(BlueprintCallable)
-		void SetUnitType(int type);
+		void SetBuildType(int type);
 protected:
 	void Click();
 	void RightClick();
@@ -64,8 +59,7 @@ protected:
 
 	FVector MovementInput;
 
-	void BuildUnit();
-	void BuildBuilding();
+	void Build();
 
 	TArray<ACastleforceHexTile*> visibleTiles;
 };

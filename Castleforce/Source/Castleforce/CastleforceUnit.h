@@ -21,12 +21,14 @@ public:
 	void NavigateTo(ACastleforceHexTile* tile);
 	ACastleforceHexTile* currentTile;
 	TArray<ACastleforceHexTile*> currentPath;
-	TArray<ACastleforceHexTile*> visibleTiles;
+	
 	ACastleforceHexGrid* grid;
 	void TeleportToTile(ACastleforceHexTile* tile);
+	TArray<ACastleforceHexTile*> visibleTiles;
 protected:
 	virtual void BeginPlay() override;
 	void ContinuePath();
 	
 	FTimerHandle UnitTimerHandle;
+	
 };

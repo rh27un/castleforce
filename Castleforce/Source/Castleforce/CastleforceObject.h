@@ -1,4 +1,4 @@
-// Copyright Rhun Jones 2019
+ // Copyright Rhun Jones 2019
 
 #pragma once
 
@@ -25,7 +25,8 @@ protected:
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
-
+	void SetCastleforceOwner(int newOwner);
+	int GetCastleforceOwner();
 	
 	
 };

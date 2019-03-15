@@ -26,3 +26,11 @@ void ACastleforceObject::Tick(float DeltaTime)
 
 }
 
+void ACastleforceObject::SetCastleforceOwner(int newOwner) {
+	owner = newOwner;
+}
+
+int ACastleforceObject::GetCastleforceOwner() {
+	return owner;
+}
+

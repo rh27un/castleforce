@@ -68,7 +68,7 @@ void EmptyLinkFunctionForGeneratedCodeMyCastleforceHexPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyCastleforceHexPawn, 3737614384);
+	IMPLEMENT_CLASS(AMyCastleforceHexPawn, 2492342721);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_AMyCastleforceHexPawn(Z_Construct_UClass_AMyCastleforceHexPawn, &AMyCastleforceHexPawn::StaticClass, TEXT("/Script/Castleforce"), TEXT("AMyCastleforceHexPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMyCastleforceHexPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

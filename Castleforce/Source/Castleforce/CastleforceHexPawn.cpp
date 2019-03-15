@@ -44,30 +44,32 @@ void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInpu
 
 }
 
-void ACastleforceHexPawn::SetUnitType(int type)
+void ACastleforceHexPawn::SetBuildType(int type)
 {
-	unitType = (UnitType)type;
+	selectedBuildType = (BuildType)type;
 }
 
 void ACastleforceHexPawn::Click()
 {
 	if (CurrentTileFocus) {
-		ACastleforceUnit* newUnit = Cast<ACastleforceUnit>(CurrentTileFocus->GetOccupyingObject());
+		ACastleforceObject* newObject = (CurrentTileFocus->GetOccupyingObject());
 		//
-		if (newUnit) {
-			if (SelectedUnit) {
-				if (SelectedUnit != newUnit) {
+		if (newObject) {
+			if (Cast<ACastleforceUnit>(newObject)) {
+				ACastleforceUnit* newUnit = Cast<ACastleforceUnit>(newObject);
+				//UNITS
+				if (SelectedUnit) {
+					if (SelectedUnit != newUnit) {
+						SelectedUnit = newUnit;
+					}
+				} else {
 					SelectedUnit = newUnit;
 				}
+			} else {
+				//BUILDINGS
 			}
-			else {
-				SelectedUnit = newUnit;
-			}
-		}
-		else {
-			if (currentMode == BuildUnits) {
-				BuildUnit();
-			}
+		} else {
+			Build();
 		}
 	}
 }
@@ -125,42 +127,47 @@ void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & E
 	}
 }
 
-void ACastleforceHexPawn::BuildUnit(){
-	const FVector* NewLocation = new FVector();
-	const FRotator* NewRotation = new FRotator();
-	AActor* NewUnit;
-	switch (unitType) {
-	case NoneUnit:
+void ACastleforceHexPawn::Build(){
+	const FVector* NewLocation = new FVector(0.f);
+	const FRotator* NewRotation = new FRotator(0.f);
+	AActor* NewObject;
+	switch (selectedBuildType) {
+	case NoneBuild:
 		break;
 	case Knight:
-		NewUnit = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewUnit)) {
-			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
-			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
+		NewObject = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
+		if (Cast<ACastleforceUnit>(NewObject)) {
+			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
 		}
 		break;
 	case Mythic:
-		NewUnit = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewUnit)) {
-			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
-			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
+		NewObject = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
+		if (Cast<ACastleforceUnit>(NewObject)) {
+			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
 		}
 		break;
 	case Priest:
-		NewUnit = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewUnit)) {
-			Cast<ACastleforceUnit>(NewUnit)->currentTile = CurrentTileFocus;
-			myUnits.Add(Cast<ACastleforceUnit>(NewUnit));
-			Cast<ACastleforceUnit>(NewUnit)->TeleportToTile(CurrentTileFocus);
+		NewObject = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
+		if (Cast<ACastleforceUnit>(NewObject)) {
+			Cast<ACastleforceUnit>(NewObject)->currentTile = CurrentTileFocus;
+			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(CurrentTileFocus);
 		}
+		break;
+	case Mine:
+		break;
+	case Workshop:
+		break;
+	case Excavation:
 		break;
 	default:
 		break;
 	}
-}
-
-void ACastleforceHexPawn::BuildBuilding()
-{
 }

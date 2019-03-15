@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-SimplexNoise-6963.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\CastleforceEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\Module.SimplexNoise.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\Module.SimplexNoise.gen.cpp.obj"
+"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\PCLaunch.rc.res"
+/OUT:"D:\Shitty UE4 Games I Make\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\UE4Editor-SimplexNoise-6963.lib"
