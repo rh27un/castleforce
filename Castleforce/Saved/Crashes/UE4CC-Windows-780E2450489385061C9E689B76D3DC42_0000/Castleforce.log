@@ -1,0 +1,596 @@
+﻿Log file open, 03/17/19 18:01:14
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine without a game
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: Loading recent project file: D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Castleforce.uproject
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.362939
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +0:00, Platform Override: ''
+LogPluginManager: Warning: Engine version string in D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Plugins/SimplexNoise-master/SimplexNoise.uplugin could not be parsed ("4.10")
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin SimplexNoise
+LogStreaming: Display: Took  0.199s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: AMD FX(tm)-8350 Eight-Core Processor           , GPU: NVIDIA GeForce GTX 1070 Ti
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.03.17-18.01.15:448][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.17-18.01.15:448][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.03.17-18.01.15:480][  0]LogHAL: Display: Platform has ~ 8 GB [8484548608 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.03.17-18.01.15:480][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.03.17-18.01.15:480][  0]LogInit: Going up to parent DeviceProfile []
+[2019.03.17-18.01.15:481][  0]LogInit: Computer: DESKTOP-TLUBEOD
+[2019.03.17-18.01.15:481][  0]LogInit: User: rh27u
+[2019.03.17-18.01.15:481][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.03.17-18.01.15:481][  0]LogInit: High frequency timer resolution =3.919311 MHz
+[2019.03.17-18.01.15:481][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2019.03.17-18.01.15:481][  0]LogMemory: Platform Memory Stats for Windows
+[2019.03.17-18.01.15:481][  0]LogMemory: Process Physical Memory: 99.75 MB used, 99.75 MB peak
+[2019.03.17-18.01.15:481][  0]LogMemory: Process Virtual Memory: 91.05 MB used, 91.05 MB peak
+[2019.03.17-18.01.15:481][  0]LogMemory: Physical Memory: 5346.71 MB used,  2744.79 MB free, 8091.50 MB total
+[2019.03.17-18.01.15:482][  0]LogMemory: Virtual Memory: 4645.15 MB used,  2744.79 MB free, 134217728.00 MB total
+[2019.03.17-18.01.15:522][  0]LogInit: Using OS detected language (en-US).
+[2019.03.17-18.01.15:522][  0]LogInit: Using OS detected locale (en-GB).
+[2019.03.17-18.01.15:523][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.03.17-18.01.16:073][  0]LogStreaming: Display: Took  0.552s to InitEngineTextLocalization.
+[2019.03.17-18.01.16:073][  0]LogInit: Setting process to per monitor DPI aware
+[2019.03.17-18.01.16:193][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.03.17-18.01.16:193][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.03.17-18.01.18:846][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.17-18.01.18:846][  0]LogD3D11RHI: D3D11 adapters:
+[2019.03.17-18.01.18:957][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070 Ti' (Feature Level 11_0)
+[2019.03.17-18.01.18:957][  0]LogD3D11RHI:       8080/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:3, VendorId:0x10de
+[2019.03.17-18.01.18:962][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.03.17-18.01.18:962][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.03.17-18.01.18:962][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.03.17-18.01.18:972][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.03.17-18.01.18:972][  0]LogD3D11RHI:     GPU DeviceId: 0x1b82 (for the marketing name, search the web for "GPU Device Id")
+[2019.03.17-18.01.18:972][  0]LogWindows: EnumDisplayDevices:
+[2019.03.17-18.01.18:972][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2019.03.17-18.01.18:973][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070 Ti' (P:1 D:1)
+[2019.03.17-18.01.18:973][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:1)
+[2019.03.17-18.01.18:975][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070 Ti' (P:0 D:0)
+[2019.03.17-18.01.18:975][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.03.17-18.01.18:975][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070 Ti
+[2019.03.17-18.01.18:975][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.03.17-18.01.18:975][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.03.17-18.01.18:975][  0]LogRHI: Texture pool is 5656 MB (70% of 8080 MB)
+[2019.03.17-18.01.19:044][  0]LogD3D11RHI: Async texture creation enabled
+[2019.03.17-18.01.19:077][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.03.17-18.01.19:181][  0]LogShaderCompilers: Guid format shader working directory is -17 characters bigger than the processId version (D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Intermediate/Shaders/WorkingDirectory/16164/).
+[2019.03.17-18.01.19:181][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rh27u/AppData/Local/Temp/UnrealShaderWorkingDir/F962FA3549C823CC9505E791E885BBEC/'.
+[2019.03.17-18.01.19:628][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.03.17-18.01.19:652][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.03.17-18.01.19:674][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.03.17-18.01.19:697][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.03.17-18.01.19:729][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.03.17-18.01.19:752][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.03.17-18.01.19:775][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.03.17-18.01.19:797][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.03.17-18.01.19:810][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:952][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.03.17-18.01.19:954][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.03.17-18.01.20:039][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.17-18.01.20:039][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.03.17-18.01.20:080][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.17-18.01.20:080][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.03.17-18.01.20:101][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.03.17-18.01.20:122][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.03.17-18.01.20:144][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.03.17-18.01.20:177][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.03.17-18.01.20:192][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.03.17-18.01.20:192][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.03.17-18.01.20:296][  0]LogXGEController: Cleaning working directory: C:/Users/rh27u/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.03.17-18.01.20:296][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.03.17-18.01.20:296][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.03.17-18.01.20:296][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.03.17-18.01.21:475][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.03.17-18.01.22:033][  0]LogDerivedDataCache: Loaded boot cache 0.56s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.17-18.01.22:033][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.03.17-18.01.22:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.03.17-18.01.22:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.03.17-18.01.22:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.03.17-18.01.22:034][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.03.17-18.01.22:054][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.03.17-18.01.22:067][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rh27u/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.03.17-18.01.22:067][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.03.17-18.01.22:067][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.03.17-18.01.22:098][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.03.17-18.01.22:100][  0]LogSlate: Using FreeType 2.6.0
+[2019.03.17-18.01.22:119][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.03.17-18.01.22:426][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
+[2019.03.17-18.01.22:981][  0]LogInit: Selected Device Profile: [Windows]
+[2019.03.17-18.01.23:175][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.03.17-18.01.23:183][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.03.17-18.01.23:183][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.03.17-18.01.23:183][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.03.17-18.01.23:183][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.03.17-18.01.23:237][  0]LogNetVersion: Castleforce 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2622368503)
+[2019.03.17-18.01.24:013][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.158825 seconds
+[2019.03.17-18.01.24:022][  0]LogUObjectArray: 38425 objects as part of root set at end of initial load.
+[2019.03.17-18.01.24:022][  0]LogUObjectAllocator: 6690864 out of 0 bytes used by permanent object pool.
+[2019.03.17-18.01.24:022][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.03.17-18.01.27:858][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.03.17-18.01.27:873][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.03.17-18.01.28:164][  0]SourceControl: Source control is disabled
+[2019.03.17-18.01.28:165][  0]SourceControl: Source control is disabled
+[2019.03.17-18.01.28:169][  0]SourceControl: Source control is disabled
+[2019.03.17-18.01.28:171][  0]SourceControl: Source control is disabled
+[2019.03.17-18.01.28:425][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.03.17-18.01.28:549][  0]LogOcInput: OculusInput pre-init called
+[2019.03.17-18.01.28:636][  0]LogEngine: Initializing Engine...
+[2019.03.17-18.01.28:637][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.03.17-18.01.28:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.17-18.01.28:639][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.17-18.01.28:640][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.17-18.01.28:640][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.17-18.01.28:923][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.03.17-18.01.28:946][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.03.17-18.01.29:083][  0]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-18.01.29:098][  0]LogInit: FAudioDevice initialized.
+[2019.03.17-18.01.29:099][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.03.17-18.01.29:299][  0]LogDerivedDataCache: Saved boot cache 0.20s 71MB C:/Users/rh27u/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.03.17-18.01.29:317][  0]LogInit: Texture streaming: Enabled
+[2019.03.17-18.01.29:351][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.03.17-18.01.29:380][  0]LogInit: Transaction tracking system initialized
+[2019.03.17-18.01.29:426][  0]BlueprintLog: New page: Editor Load
+[2019.03.17-18.01.29:575][  0]LocalizationService: Localization service is disabled
+[2019.03.17-18.01.29:949][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.03.17-18.01.29:949][  0]LogCook: Display: Mobile HDR setting 1
+[2019.03.17-18.01.29:949][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.03.17-18.01.29:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.03.17-18.01.29:949][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.03.17-18.01.29:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.03.17-18.01.29:950][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.03.17-18.01.30:228][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/' took 0.02s
+[2019.03.17-18.01.30:228][  0]SourceControl: Source control is disabled
+[2019.03.17-18.01.30:228][  0]Cmd: MAP LOAD FILE="D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.03.17-18.01.30:229][  0]LightingResults: New page: Lighting Build
+[2019.03.17-18.01.30:235][  0]MapCheck: New page: Map Check
+[2019.03.17-18.01.30:235][  0]LightingResults: New page: Lighting Build
+[2019.03.17-18.01.31:168][  0]LogAIModule: Creating AISystem for world Level1
+[2019.03.17-18.01.31:176][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.03.17-18.01.31:287][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.03.17-18.01.31:395][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 107.079ms to complete.
+[2019.03.17-18.01.31:395][  0]LogFileHelpers: Loading map 'Level1' took 1.166
+[2019.03.17-18.01.31:638][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.01.31:649][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.01.31:659][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.01.31:671][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.01.31:686][  0]LogCollectionManager: Loaded 0 collections in 0.002834 seconds
+[2019.03.17-18.01.31:788][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/Collections/' took 0.01s
+[2019.03.17-18.01.31:788][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Developers/rh27u/Collections/' took 0.01s
+[2019.03.17-18.01.31:788][  0]LogFileCache: Scanning file cache for directory 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/Collections/' took 0.01s
+[2019.03.17-18.01.31:788][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2019.03.17-18.01.31:807][  0]LogContentBrowser: Native class hierarchy populated in 0.0194 seconds. Added 2586 classes and 610 folders.
+[2019.03.17-18.01.31:822][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.03.17-18.01.32:255][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.03.17-18.01.32:284][  0]LogSlate: Took 0.010299 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.03.17-18.01.32:296][  0]LogSlate: Took 0.006865 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.03.17-18.01.32:306][  0]LogSlate: Took 0.006607 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.03.17-18.01.32:404][  0]LogRenderer: Reallocating scene render targets to support 1192x600 Format 10 NumSamples 1 (Frame:1).
+[2019.03.17-18.01.32:505][  0]LogSlate: Took 0.000259 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.17-18.01.32:572][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.03.17-18.01.32:573][  0]LogLoad: (Engine Initialization) Total time: 20.62 seconds
+[2019.03.17-18.01.32:573][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.03.17-18.01.32:583][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.03.17-18.01.32:611][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.03.17-18.01.32:733][  2]LogAssetRegistry: Asset discovery search completed in 10.3296 seconds
+[2019.03.17-18.01.32:735][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.03.17-18.01.32:735][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000073 seconds (updated 0 objects)
+[2019.03.17-18.01.37:707][581]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.17-18.01.37:807][593]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.17-18.01.37:828][593]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.01.37:828][593]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-18.01.37:841][593]PIE: New page: PIE session: Level1 (17 Mar 2019 18:01:37)
+[2019.03.17-18.01.37:841][593]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.03.17-18.01.37:868][593]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026643s)
+[2019.03.17-18.01.37:869][593]LogAIModule: Creating AISystem for world Level1
+[2019.03.17-18.01.37:869][593]LogPlayLevel: PIE: World Init took: (0.001000s)
+[2019.03.17-18.01.37:869][593]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.027896s)
+[2019.03.17-18.01.38:006][593]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-18.01.38:017][593]LogInit: FAudioDevice initialized.
+[2019.03.17-18.01.38:235][593]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.03.17-18.01.38:237][593]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.17-18.01.38
+[2019.03.17-18.01.38:237][593]LogWorld: Bringing up level for play took: 0.000963
+[2019.03.17-18.01.38:259][593]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 10 classes and 0 folders.
+[2019.03.17-18.01.39:002][593]LogActor: Warning: CastleforceCastle_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceCastle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.01.39:003][593]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.888
+[2019.03.17-18.01.39:003][593]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.01.51:853][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.17-18.01.52:684][363]LogActor: Warning: CastleforceKnight_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.18:798][798]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.17-18.02.18:874][803]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.02.18:874][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.02.18:949][803]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.17-18.02.18:950][803]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.02.19:070][803]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.02.19:113][804]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.03.17-18.02.21:571][ 88]LogActor: Warning: CastleforceWorkshop_C /Engine/Transient.World_1:PersistentLevel.CastleforceWorkshop_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:587][ 89]LogActor: Warning: CastleforcePriest_C /Engine/Transient.World_2:PersistentLevel.CastleforcePriest_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:607][ 90]LogActor: Warning: CastleforceMythic_C /Engine/Transient.World_3:PersistentLevel.CastleforceMythic_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:627][ 91]LogActor: Warning: CastleforceMine_C /Engine/Transient.World_4:PersistentLevel.CastleforceMine_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:645][ 92]LogActor: Warning: CastleforceKnight_C /Engine/Transient.World_5:PersistentLevel.CastleforceKnight_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:659][ 93]LogActor: Warning: CastleforceExcavation_C /Engine/Transient.World_6:PersistentLevel.CastleforceExcavation_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.21:673][ 94]LogActor: Warning: CastleforceCastle_C /Engine/Transient.World_7:PersistentLevel.CastleforceCastle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.02.24:123][371]LogSlate: Took 0.000285 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.03.17-18.02.24:132][371]LogAssetEditorManager: Opening Asset editor for Material /Game/FogMaterial.FogMaterial
+[2019.03.17-18.02.24:135][371]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.24:525][371]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.24:538][371]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.24:554][371]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.24:555][371]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.24:555][371]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.24:555][371]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.24:581][371]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.02.24:631][371]LogSlate: Took 0.000331 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.03.17-18.02.24:918][377]LogSlate: Took 0.000359 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.03.17-18.02.25:360][409]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.25:373][410]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.25:373][410]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.02.25:403][412]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.02.25:611][427]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.02.25:705][434]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.02.25:943][451]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.02.25:964][452]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.26:958][550]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.02.26:958][550]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.02.26:958][550]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.02.33:650][176]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.33:663][176]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.33:664][176]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.33:664][176]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.33:664][176]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.33:667][176]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.02.33:929][187]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.33:974][190]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.33:990][191]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.02.34:023][193]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.02.34:171][203]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.02.34:230][208]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.02.34:528][229]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.02.34:603][234]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.35:090][270]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.02.35:090][270]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.02.35:090][270]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.02.36:561][413]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.36:576][413]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.36:576][413]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.36:576][413]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.36:576][413]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.36:576][413]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.02.36:834][430]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.36:847][431]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.36:887][434]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.02.36:900][435]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.02.37:067][448]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.02.37:107][451]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.02.37:352][469]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.02.37:383][471]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.37:929][513]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.02.37:929][513]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.02.37:929][513]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.02.39:481][659]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.39:494][659]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.02.39:511][659]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.02.39:511][659]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.02.39:511][659]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.39:511][659]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.39:522][659]LogSlate: Window 'Color Picker' being destroyed
+[2019.03.17-18.02.39:773][679]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.39:796][681]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.39:845][685]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.02.39:856][686]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.02.39:997][698]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.02.40:057][703]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.02.40:333][723]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.02.40:389][727]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.40:882][765]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.02.40:882][765]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.02.40:882][765]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.02.43:821][ 46]LogMaterialEditor: Saving and Compiling material FogMaterial
+[2019.03.17-18.02.44:695][ 46]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.44:758][ 46]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.44:759][ 46]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.44:759][ 46]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.44:759][ 46]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.44:800][ 46]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.44:820][ 46]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.44:952][ 46]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy FogMaterial, compiling. 
+[2019.03.17-18.02.45:675][ 46]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.17-18.02.45:675][ 46]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.17-18.02.45:675][ 46]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.17-18.02.45:675][ 46]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.17-18.02.45:675][ 46]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.17-18.02.45:676][ 46]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.17-18.02.45:676][ 46]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.02.45:676][ 46]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.02.45:676][ 46]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.45:677][ 46]TextureStreamingBuild: Display: Compiling optional shaders took 0.732 seconds.
+[2019.03.17-18.02.47:874][ 46]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FogMaterial" FILE="D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset" SILENT=true
+[2019.03.17-18.02.47:897][ 46]LogSavePackage: Moving 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/FogMaterial1FB748684D016E256EDFBE85DBD9D196.tmp' to 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset'
+[2019.03.17-18.02.52:117][440]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.52:132][440]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.52:132][440]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.52:132][440]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.52:133][440]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.52:158][440]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.02.52:165][440]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.52:180][440]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.52:194][440]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.52:343][447]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.02.52:356][448]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.02.52:396][451]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.52:433][454]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.52:639][470]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.52:691][473]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.52:744][477]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.02.52:831][484]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.02.52:890][488]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.02.52:975][494]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.02.52:988][495]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.02.53:088][503]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.53:822][560]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.02.53:822][560]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.02.53:822][560]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.02.55:446][716]LogMaterialEditor: Saving and Compiling material FogMaterial
+[2019.03.17-18.02.56:358][716]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.56:422][716]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.02.56:422][716]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.02.56:422][716]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.02.56:422][716]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.02.56:437][716]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.56:454][716]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.02.56:589][716]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy FogMaterial, compiling. 
+[2019.03.17-18.02.57:333][716]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.17-18.02.57:333][716]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.17-18.02.57:333][716]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.02.57:334][716]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.02.57:335][716]TextureStreamingBuild: Display: Compiling optional shaders took 0.753 seconds.
+[2019.03.17-18.02.59:581][716]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FogMaterial" FILE="D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset" SILENT=true
+[2019.03.17-18.02.59:606][716]LogSavePackage: Moving 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/FogMaterialBD072B5A41829AADA23684AC099D7AA2.tmp' to 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset'
+[2019.03.17-18.03.00:454][799]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.17-18.03.00:483][799]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.03.00:483][799]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-18.03.00:483][799]PIE: New page: PIE session: Level1 (17 Mar 2019 18:03:00)
+[2019.03.17-18.03.00:483][799]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.03.17-18.03.00:498][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014559s)
+[2019.03.17-18.03.00:499][799]LogAIModule: Creating AISystem for world Level1
+[2019.03.17-18.03.00:499][799]LogPlayLevel: PIE: World Init took: (0.001080s)
+[2019.03.17-18.03.00:499][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.015864s)
+[2019.03.17-18.03.00:635][799]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-18.03.00:645][799]LogInit: FAudioDevice initialized.
+[2019.03.17-18.03.00:678][799]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.03.17-18.03.00:680][799]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.17-18.03.00
+[2019.03.17-18.03.00:680][799]LogWorld: Bringing up level for play took: 0.000789
+[2019.03.17-18.03.01:405][799]LogActor: Warning: CastleforceCastle_C /Game/Levels/UEDPIE_0_Level1.Level1:PersistentLevel.CastleforceCastle_C_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2019.03.17-18.03.01:405][799]PIE: Play in editor start time for /Game/Levels/UEDPIE_0_Level1 1.291
+[2019.03.17-18.03.01:405][799]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.03.05:240][948]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.03.17-18.03.05:286][949]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.03.05:287][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.03.05:362][949]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.03.17-18.03.05:362][949]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.03.05:494][949]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.03.17-18.03.05:534][950]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.03.17-18.03.10:451][316]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.10:479][316]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.03.10:479][316]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.03.10:479][316]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.03.10:479][316]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.03.10:492][316]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2019.03.17-18.03.10:499][316]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.10:512][316]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.10:528][316]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.10:687][324]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.03.10:700][325]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.03.10:724][327]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.03.10:736][328]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.03.10:955][345]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.03.10:969][346]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.03.11:025][350]LogShaderCompilers: Display: Shaders left to compile 6
+[2019.03.17-18.03.11:105][356]LogShaderCompilers: Display: Shaders left to compile 5
+[2019.03.17-18.03.11:196][363]LogShaderCompilers: Display: Shaders left to compile 4
+[2019.03.17-18.03.11:209][364]LogShaderCompilers: Display: Shaders left to compile 3
+[2019.03.17-18.03.11:220][365]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.03.17-18.03.11:326][374]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.03.12:048][430]MaterialEditorStats: Base pass shader without light map: 45 instructions
+[2019.03.17-18.03.12:048][430]MaterialEditorStats: Base pass vertex shader: 107 instructions
+[2019.03.17-18.03.12:048][430]MaterialEditorStats: Texture samplers: 3/16
+[2019.03.17-18.03.13:043][522]LogMaterialEditor: Saving and Compiling material FogMaterial
+[2019.03.17-18.03.13:941][522]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.14:007][522]LogShaderCompilers: Display: Shaders left to compile 10
+[2019.03.17-18.03.14:007][522]LogShaderCompilers: Display: Shaders left to compile 9
+[2019.03.17-18.03.14:007][522]LogShaderCompilers: Display: Shaders left to compile 8
+[2019.03.17-18.03.14:007][522]LogShaderCompilers: Display: Shaders left to compile 7
+[2019.03.17-18.03.14:022][522]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.14:037][522]LogMaterial: Display: Missing cached shader map for material FogMaterial, compiling. 
+[2019.03.17-18.03.14:168][522]LogMaterial: Display: Missing cached shader map for material FDebugViewModeMaterialProxy FogMaterial, compiling. 
+[2019.03.17-18.03.14:891][522]LogShaderCompilers: Display: Shaders left to compile 18
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 17
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 16
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 15
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 14
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 13
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 11
+[2019.03.17-18.03.14:892][522]LogShaderCompilers: Display: Shaders left to compile 1
+[2019.03.17-18.03.14:893][522]TextureStreamingBuild: Display: Compiling optional shaders took 0.732 seconds.
+[2019.03.17-18.03.17:207][522]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FogMaterial" FILE="D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset" SILENT=true
+[2019.03.17-18.03.17:234][522]LogSavePackage: Moving 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Saved/FogMaterialA671AD3745D1C1D5BFB677B25A4C7E3D.tmp' to 'D:/Shitty UE4 Games I Make/Castleforce/castleforce/Castleforce/Content/FogMaterial.uasset'
+[2019.03.17-18.03.17:946][589]LogTemp: Repeating last play command: Selected Viewport
+[2019.03.17-18.03.17:967][589]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Level1.Level1:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Level1.Level1:PersistentLevel.Level1' with GeneratedClass '/Game/Levels/Level1.Level1_C' with ClassGeneratedBy '/Game/Levels/Level1.Level1:PersistentLevel.Level1'
+[2019.03.17-18.03.17:967][589]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.03.17-18.03.17:967][589]PIE: New page: PIE session: Level1 (17 Mar 2019 18:03:17)
+[2019.03.17-18.03.17:967][589]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2019.03.17-18.03.17:982][589]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014436s)
+[2019.03.17-18.03.17:983][589]LogAIModule: Creating AISystem for world Level1
+[2019.03.17-18.03.17:983][589]LogPlayLevel: PIE: World Init took: (0.001082s)
+[2019.03.17-18.03.17:983][589]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.015743s)
+[2019.03.17-18.03.18:114][589]LogInit: XAudio2 using 'Headset Earphone (HyperX 7.1 Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2019.03.17-18.03.18:124][589]LogInit: FAudioDevice initialized.
+[2019.03.17-18.03.18:158][589]LogLoad: Game class is 'MyCastleforceGameMode_C'
+[2019.03.17-18.03.18:160][589]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2019.03.17-18.03.18
+[2019.03.17-18.03.18:160][589]LogWorld: Bringing up level for play took: 0.000784
+[2019.03.17-18.03.18:879][589]LogWindows: Windows GetLastError: The operation completed successfully. (0)

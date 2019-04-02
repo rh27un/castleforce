@@ -4,7 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "ProceduralMeshComponent.h"
-#include "Components/TextRenderComponent.h"
+#include "Components/InstancedStaticMeshComponent.h"
 #include "CastleforceObject.h"
 #include "GameFramework/Actor.h"
 #include "CastleForceHexTile.generated.h"
@@ -20,7 +20,10 @@ public:
 	ACastleforceHexTile();
 
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
-		UProceduralMeshComponent* hexMesh;		
+		UProceduralMeshComponent* hexMesh;
+	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
+		UProceduralMeshComponent* fogMesh;
+
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		UMaterialInterface* highlitMat;
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
@@ -56,5 +59,6 @@ public:
 	ACastleforceObject* GetOccupyingObject();
 	void SetHeightType(TEnumAsByte<TileHeight> type);
 	void Occupy(ACastleforceObject* occupier);
+	bool IsTileHidden();
 	FString PrintCoords();
 };

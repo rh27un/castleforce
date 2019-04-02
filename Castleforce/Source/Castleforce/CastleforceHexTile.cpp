@@ -9,7 +9,11 @@ ACastleforceHexTile::ACastleforceHexTile()
 	PrimaryActorTick.bCanEverTick = false;
 
 	hexMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Hex Mesh"));
+	fogMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Fog Mesh"));
+	
 	RootComponent = hexMesh;
+	fogMesh->SetupAttachment(RootComponent);
+	//fogMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.1f));
 }
 
 ACastleforceObject* ACastleforceHexTile::GetOccupyingObject()
@@ -39,6 +43,10 @@ void ACastleforceHexTile::Occupy(ACastleforceObject * occupier) {
 	}
 }
 
+bool ACastleforceHexTile::IsTileHidden() {
+	return fogMesh->IsVisible();
+}
+
 FString ACastleforceHexTile::PrintCoords()
 {
 	FString coordString = FString::FromInt(X) + ", " + FString::FromInt(Y) + ", " + FString::FromInt(Z);
@@ -49,8 +57,12 @@ FString ACastleforceHexTile::PrintCoords()
 void ACastleforceHexTile::BeginPlay()
 {
 	Super::BeginPlay();
+	fogMesh->SetMaterial(0, invisibleMat);
 	hexMesh->SetMaterial(0, normalMat);
+	
 	hexMesh->SetCastShadow(false);
+	fogMesh->SetCastShadow(false);
+	fogMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.1f));
 }
 
 void ACastleforceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){
@@ -65,6 +77,8 @@ void ACastleforceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> tr
 	tangents.Init(FProcMeshTangent(1.0f, 0.0f, 0.0f), vertices.Num());
 
 	hexMesh->CreateMeshSection_LinearColor(0, vertices, triangles, normals, UV0,  vertexColors, tangents, true);
+	fogMesh->CreateMeshSection_LinearColor(0, vertices, triangles, normals, UV0, vertexColors, tangents, true);
+	//
 }
 
 void ACastleforceHexTile::SetCoords(int x, int y){
@@ -86,10 +100,13 @@ void ACastleforceHexTile::Highlight(bool highlit)
 }
 
 void ACastleforceHexTile::MakeVisible(bool visible) {
+	fogMesh->SetVisibility(!visible);
+	/*
 	if (visible) {
 		hexMesh->SetMaterial(0, normalMat);
 	} else {
 		hexMesh->SetMaterial(0, invisibleMat);
 	}
+	*/
 }
 

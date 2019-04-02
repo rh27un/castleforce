@@ -210,6 +210,7 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::AStar(ACastleforceHexTile * st
 }
 
 TArray<ACastleforceHexTile*> ACastleforceHexGrid::GetTileSight(ACastleforceHexTile* tile, int range) {
+	/*
 	if (range > 0) {
 		TArray<ACastleforceHexTile*> visibleTiles;
 		TArray<ACastleforceHexTile*> neighbours;
@@ -245,7 +246,44 @@ TArray<ACastleforceHexTile*> ACastleforceHexGrid::GetTileSight(ACastleforceHexTi
 		}
 		return visibleTiles;
 	} 
-	return TArray<ACastleforceHexTile*>();
+	*/
+	//okay so
+	//each layer of range
+	//layer 0 = current tile
+	//layer n = neighbours of layer n - 1
+	//if(range > 0){
+		TArray<ACastleforceHexTile*> visibleTiles;
+		TArray<ACastleforceHexTile*> currentLayer;
+		TArray<ACastleforceHexTile*> nextLayer;
+		visibleTiles.Add(tile);
+		currentLayer.Add(tile);
+		for(int r = 0; r < range; r++){
+		//go through each tile in the current layer (in visibleTiles)
+			for (int i = 0; i < currentLayer.Num(); i++) {
+				//put the tile's neighbours in an array
+				TArray<ACastleforceHexTile*> tileNeighbours = GetTileNeighbours(currentLayer[i]);
+				//for each neighbour
+				for (int j = 0; j < tileNeighbours.Num(); j++) {
+					if (tileNeighbours[j]) { //if it exists
+						if (!visibleTiles.Contains(tileNeighbours[j])) { //if this new neighbour is not already considered visible
+							if (tileNeighbours[j]->walkable) { //if this bad boy is not a mountain
+								nextLayer.Add(tileNeighbours[j]); //add this bad boy to the next layer
+								visibleTiles.Add(tileNeighbours[j]); //and also the visible tiles
+							}
+						}
+					}
+				}
+				
+			}
+			//replace the current layer with the next layer
+			currentLayer = nextLayer;
+			nextLayer.Empty();
+		}
+		return visibleTiles;
+	//}
+
+	//return TArray<ACastleforceHexTile*>();
+	
 }
 
 void ACastleforceHexGrid::UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibleTiles) {
@@ -260,8 +298,14 @@ void ACastleforceHexGrid::UpdateVisibleTiles(TArray<ACastleforceHexTile*> visibl
 
 ACastleforceHexTile * ACastleforceHexGrid::SpawnRandom(int X, int Y)
 {
+	while (!GetTileAt(X, Y)->walkable) {
+		Y++;
+	}
 	ACastleforceHexTile* spawnCentre = GetTileAt(X, Y);
 	TArray<ACastleforceHexTile*> spawnCircle = GetTileSight(spawnCentre, 5);
-	ACastleforceHexTile* spawn = spawnCircle[FMath::RandRange(0, spawnCircle.Num())];
-	return spawn;
+	if (spawnCircle.Num() > 0) {
+		ACastleforceHexTile* spawn = spawnCircle[FMath::RandRange(0, spawnCircle.Num())];
+		return spawn;
+	}
+	return nullptr;
 }

@@ -1,16 +1,5 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build.
-  Creating makefile for hot reloading CastleforceEditor (modules to compile have changed)
   Compiling game modules for hot reload
-  Using Visual Studio 2017 14.15.26726 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.15.26726) and Windows 10.0.15063.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    UE4Editor-SimplexNoise-579.lib
-       Creating library C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\UE4Editor-SimplexNoise-579.lib and object C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\UE4Editor-SimplexNoise-579.exp
-    UE4Editor-SimplexNoise-579.dll
-       Creating library C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\UE4Editor-SimplexNoise-579.suppressed.lib and object C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Plugins\SimplexNoise-master\Intermediate\Build\Win64\UE4Editor\Development\SimplexNoise\UE4Editor-SimplexNoise-579.suppressed.exp
-    CastleforceHexGrid.cpp
-    UE4Editor-Castleforce-579.lib
-       Creating library C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-579.lib and object C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-579.exp
-    UE4Editor-Castleforce-579.dll
-       Creating library C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-579.suppressed.lib and object C:\Temp\Rhun\Castleforce\castleforce\Castleforce\Intermediate\Build\Win64\UE4Editor\Development\Castleforce\UE4Editor-Castleforce-579.suppressed.exp
+  Target is up to date
   Deploying CastleforceEditor Win64 Development...
-  Total build time: 10.32 seconds (Parallel executor: 2.99 seconds)
+  Total build time: 3.10 seconds (NoActionsToExecute executor: 0.00 seconds)

@@ -78,7 +78,8 @@ void ACastleforceHexPawn::Click()
 				//BUILDINGS
 			}
 		} else {
-			Build(selectedBuildType, CurrentTileFocus);
+			if(!CurrentTileFocus->IsTileHidden())
+				Build(selectedBuildType, CurrentTileFocus);
 		}
 	}
 }
