@@ -52,6 +52,11 @@ public:
 protected:
 	void Click();
 	void RightClick();
+	void MiddleDown();
+	void MiddleUp();
+
+	void MouseForward(float AxisValue);
+	void MouseRight(float AxisValue);
 
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
@@ -72,4 +77,6 @@ protected:
 	void Build(TEnumAsByte<BuildType> buildType, ACastleforceHexTile* location);
 
 	TArray<ACastleforceHexTile*> visibleTiles;
+	
+	bool bIsDragging = false;
 };

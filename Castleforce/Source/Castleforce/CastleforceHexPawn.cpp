@@ -19,6 +19,7 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 		TraceForBlock(Start, End, false);
 	}
 	if (!MovementInput.IsZero()) {
+		MovementInput.Normalize();
 		SetActorLocation(GetActorLocation() + (MovementInput * Speed));
 	}
 	TArray<ACastleforceHexTile*> visibleTiles;
@@ -50,7 +51,10 @@ void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInpu
 	PlayerInputComponent->BindAction("RightClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::RightClick);
 	PlayerInputComponent->BindAxis("Vertical", this, &ACastleforceHexPawn::MoveForward);
 	PlayerInputComponent->BindAxis("Horizontal", this, &ACastleforceHexPawn::MoveRight);
-
+	PlayerInputComponent->BindAction("MiddleClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::MiddleDown);
+	PlayerInputComponent->BindAction("MiddleClick", EInputEvent::IE_Released, this, &ACastleforceHexPawn::MiddleUp);
+	PlayerInputComponent->BindAxis("MVert", this, &ACastleforceHexPawn::MouseForward);
+	PlayerInputComponent->BindAxis("MHor", this, &ACastleforceHexPawn::MouseRight);
 }
 
 void ACastleforceHexPawn::SetBuildType(int type)
@@ -95,6 +99,30 @@ void ACastleforceHexPawn::RightClick() {
 				visibleTiles[i]->MakeVisible(true);
 			}
 		}
+	}
+}
+
+void ACastleforceHexPawn::MiddleDown() {
+	if (!bIsDragging) {
+		bIsDragging = true;
+	}
+}
+
+void ACastleforceHexPawn::MiddleUp() {
+	if (bIsDragging) {
+		bIsDragging = false;
+	}
+}
+
+void ACastleforceHexPawn::MouseForward(float AxisValue) {
+	if (bIsDragging) {
+		MovementInput.X = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+	}
+}
+
+void ACastleforceHexPawn::MouseRight(float AxisValue) {
+	if (bIsDragging) {
+		MovementInput.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f);
 	}
 }
 
