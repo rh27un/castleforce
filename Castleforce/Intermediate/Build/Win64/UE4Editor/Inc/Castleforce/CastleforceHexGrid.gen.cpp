@@ -39,6 +39,10 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_Scale;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_resourceProb_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_resourceProb;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HeightTypes_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMapPropertyParams NewProp_HeightTypes;
@@ -82,6 +86,13 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Scale = { UE4CodeGen_Private::EPropertyClass::Float, "Scale", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, Scale), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Scale_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Scale_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_resourceProb_MetaData[] = {
+		{ "Category", "HexGrid" },
+		{ "ModuleRelativePath", "CastleforceHexGrid.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_resourceProb = { UE4CodeGen_Private::EPropertyClass::Float, "resourceProb", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, resourceProb), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_resourceProb_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_resourceProb_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HeightTypes_MetaData[] = {
 		{ "Category", "HexGrid" },
 		{ "ModuleRelativePath", "CastleforceHexGrid.h" },
@@ -120,6 +131,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_CellClass = { UE4CodeGen_Private::EPropertyClass::Class, "CellClass", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0014000000000015, 1, nullptr, STRUCT_OFFSET(ACastleforceHexGrid, CellClass), Z_Construct_UClass_AActor_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_CellClass_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_CellClass_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexGrid_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_Scale,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_resourceProb,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HeightTypes,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HeightTypes_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexGrid_Statics::NewProp_HeightTypes_ValueProp,
@@ -151,7 +163,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexGrid() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexGrid, 1795638064);
+	IMPLEMENT_CLASS(ACastleforceHexGrid, 4282701166);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexGrid(Z_Construct_UClass_ACastleforceHexGrid, &ACastleforceHexGrid::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexGrid"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexGrid);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

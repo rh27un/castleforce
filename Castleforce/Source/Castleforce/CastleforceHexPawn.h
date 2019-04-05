@@ -29,6 +29,12 @@ public:
 	void BeginPlay() override;
 	void Tick(float DeltaSeconds) override;
 	virtual void SetupPlayerInputComponent(UInputComponent* PlayerInputComponent) override;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int iron = 100;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int crystals = 100;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly)
+		int relics = 100;
 	
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		TSubclassOf<ACastleforceUnit> KnightClass;

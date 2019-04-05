@@ -173,30 +173,45 @@ void ACastleforceHexPawn::Build(TEnumAsByte<BuildType> buildType, ACastleforceHe
 	case NoneBuild:
 		break;
 	case Knight:
-		NewObject = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
-			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
-			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+		if (iron >= 10) {
+			iron -= 10;
+			NewObject = GetWorld()->SpawnActor(KnightClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceUnit>(NewObject)) {
+				Cast<ACastleforceUnit>(NewObject)->currentTile = location;
+				Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+				myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+				Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Not Enough Iron!"));
 		}
 		break;
 	case Mythic:
-		NewObject = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
-			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
-			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+		if (crystals >= 10) {
+			crystals -= 10;
+			NewObject = GetWorld()->SpawnActor(MythicClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceUnit>(NewObject)) {
+				Cast<ACastleforceUnit>(NewObject)->currentTile = location;
+				Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+				myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+				Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Not enough crystals!"));
 		}
 		break;
 	case Priest:
-		NewObject = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
-		if (Cast<ACastleforceUnit>(NewObject)) {
-			Cast<ACastleforceUnit>(NewObject)->currentTile = location;
-			Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
-			myUnits.Add(Cast<ACastleforceUnit>(NewObject));
-			Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+		if (relics >= 10) {
+			relics -= 10;
+			NewObject = GetWorld()->SpawnActor(PriestClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceUnit>(NewObject)) {
+				Cast<ACastleforceUnit>(NewObject)->currentTile = location;
+				Cast<ACastleforceUnit>(NewObject)->SetOwner(0);
+				myUnits.Add(Cast<ACastleforceUnit>(NewObject));
+				Cast<ACastleforceUnit>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Not enough relics!"));
 		}
 		break;
 	case Mine:

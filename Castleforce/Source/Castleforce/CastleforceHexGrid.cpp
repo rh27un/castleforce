@@ -39,15 +39,21 @@ void ACastleforceHexGrid::BeginPlay()
 		const FRotator* NewRotation = new FRotator(0.f, 90.f, 0.f);
 		AActor* NewCell = GetWorld()->SpawnActor(CellClass, NewLocation, NewRotation);
 		if (Cast<ACastleforceHexTile>(NewCell)) {
-			tiles.Add(Cast<ACastleforceHexTile>(NewCell));
-			Cast<ACastleforceHexTile>(NewCell)->CreateHexagon(corners, triangles);
-			Cast<ACastleforceHexTile>(NewCell)->SetCoords(Y - X / 2, X);
-			Cast<ACastleforceHexTile>(NewCell)->I = i;
-			Cast<ACastleforceHexTile>(NewCell)->SetHeightType(GetHeightType(ZOffset));
-			Cast<ACastleforceHexTile>(NewCell)->MakeVisible(false);
-			FString tileName = "Tile " + Cast<ACastleforceHexTile>(NewCell)->PrintCoords();
+			ACastleforceHexTile* NewCellAsTile = Cast<ACastleforceHexTile>(NewCell);
+			tiles.Add(NewCellAsTile);
+			NewCellAsTile->CreateHexagon(corners, triangles);
+			NewCellAsTile->SetCoords(Y - X / 2, X);
+			NewCellAsTile->I = i;
+			NewCellAsTile->SetHeightType(GetHeightType(ZOffset));
+			NewCellAsTile->MakeVisible(false);
+			FString tileName = "Tile " + NewCellAsTile->PrintCoords();
 			NewCell->SetActorLabel(tileName);
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
+
+			if (FMath::FRand() > resourceProb) {
+				TEnumAsByte<TileResource> newRes = TileResource(FMath::RandRange(1, 3));
+				NewCellAsTile->SetResource(newRes);
+			}
 		}
 	}
 

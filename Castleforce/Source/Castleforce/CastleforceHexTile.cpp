@@ -10,9 +10,12 @@ ACastleforceHexTile::ACastleforceHexTile()
 
 	hexMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Hex Mesh"));
 	fogMesh = CreateDefaultSubobject<UProceduralMeshComponent>(TEXT("Fog Mesh"));
-	
+	resMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("Resource Mesh"));
+
+	resMesh->SetVisibility(false);
 	RootComponent = hexMesh;
 	fogMesh->SetupAttachment(RootComponent);
+	resMesh->SetupAttachment(RootComponent);
 	//fogMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.1f));
 }
 
@@ -62,7 +65,23 @@ void ACastleforceHexTile::BeginPlay()
 	
 	hexMesh->SetCastShadow(false);
 	fogMesh->SetCastShadow(false);
+	resMesh->SetCastShadow(false);
+
 	fogMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.1f));
+	resMesh->SetRelativeLocation(RootComponent->GetComponentLocation() + FVector(0.f, 0.f, 0.05f)); //because apparently that's how relative locations work now
+	//i know something is broken but it's 1 am and i want to go to bed
+	//like what could even be going wrong here
+	//i'm setting the component's parent
+	//setrelativelocation sets the location relative to its parent
+	//so either i'm not using setupattachment correctly (difficult for even me to do)
+	//the parent component is at 0,0,0 (which unless my eyes are broken, it isn't)
+	//or apparently relativity is a fucking myth
+	//because how
+	//the
+	//fuck
+	//does
+	//this
+	//work
 }
 
 void ACastleforceHexTile::CreateHexagon(TArray<FVector> vertices, TArray<int> triangles){
@@ -88,6 +107,11 @@ void ACastleforceHexTile::SetCoords(int x, int y){
 	
 }
 
+
+void ACastleforceHexTile::SetResource(TEnumAsByte<TileResource> resource) {
+	resMesh->SetVisibility(true);
+	resMesh->SetMaterial(0, resourceMaterials[resource]);
+}
 
 void ACastleforceHexTile::Highlight(bool highlit)
 {

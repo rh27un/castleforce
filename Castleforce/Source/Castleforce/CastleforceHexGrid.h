@@ -27,6 +27,9 @@ public:
 	UPROPERTY(Category = HexGrid, EditAnywhere, BlueprintReadOnly)
 		TMap<TEnumAsByte<TileHeight>, float> HeightTypes;
 	UPROPERTY(Category = HexGrid, EditAnywhere, BlueprintReadOnly)
+		float resourceProb;
+
+	UPROPERTY(Category = HexGrid, EditAnywhere, BlueprintReadOnly)
 		float Scale;
 	
 protected:

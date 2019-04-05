@@ -10,6 +10,7 @@
 #include "CastleForceHexTile.generated.h"
 
 UENUM() enum TileHeight {NoneHeight UMETA(DisplayName = "None"), Flat UMETA(DisplayName = "Flat"), Hill UMETA(DisplayName = "Hill"), Mountain UMETA(DisplayName = "Mountain")};
+UENUM() enum TileResource { NoneRes UMETA(DisplayName = "None"), Iron UMETA(DisplayName = "Iron"), Crystals UMETA(DisplayName = "Crystals"), Relics UMETA(DisplayName = "Relics") };
 UCLASS()
 class CASTLEFORCE_API ACastleforceHexTile : public AActor
 {
@@ -23,11 +24,14 @@ public:
 		UProceduralMeshComponent* hexMesh;
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
 		UProceduralMeshComponent* fogMesh;
+	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
+		UStaticMeshComponent* resMesh;
 
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		UMaterialInterface* highlitMat;
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		UMaterialInterface* invisibleMat;
+
 	void CreateHexagon(TArray<FVector> vertices, TArray<int> triangles);
 	void SetCoords(int x, int y);
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
@@ -39,8 +43,11 @@ public:
 
 
 	TEnumAsByte<TileHeight> tileHeight = NoneHeight;
+	TEnumAsByte<TileResource> tileRes = NoneRes;
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		TMap<TEnumAsByte<TileHeight>, UMaterialInterface*> materials;
+	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
+		TMap<TEnumAsByte<TileResource>, UMaterialInterface*> resourceMaterials;
 	UPROPERTY(Category = Hex, EditAnywhere, BlueprintReadWrite)
 		bool walkable = true;
 	UPROPERTY(Category = Hex, VisibleAnywhere, BlueprintReadOnly)
@@ -54,6 +61,7 @@ protected:
 	UMaterialInterface* normalMat;
 public:	
 
+	void SetResource(TEnumAsByte<TileResource> resource);
 	void Highlight(bool highlit);
 	void MakeVisible(bool visible);
 	ACastleforceObject* GetOccupyingObject();

@@ -13,14 +13,68 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 // Cross Module References
-	CASTLEFORCE_API UEnum* Z_Construct_UEnum_Castleforce_TileHeight();
+	CASTLEFORCE_API UEnum* Z_Construct_UEnum_Castleforce_TileResource();
 	UPackage* Z_Construct_UPackage__Script_Castleforce();
+	CASTLEFORCE_API UEnum* Z_Construct_UEnum_Castleforce_TileHeight();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexTile_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexTile();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	ENGINE_API UClass* Z_Construct_UClass_UMaterialInterface_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UStaticMeshComponent_NoRegister();
 	PROCEDURALMESHCOMPONENT_API UClass* Z_Construct_UClass_UProceduralMeshComponent_NoRegister();
 // End Cross Module References
+	static UEnum* TileResource_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_Castleforce_TileResource, Z_Construct_UPackage__Script_Castleforce(), TEXT("TileResource"));
+		}
+		return Singleton;
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_TileResource(TileResource_StaticEnum, TEXT("/Script/Castleforce"), TEXT("TileResource"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_Castleforce_TileResource_CRC() { return 1092368857U; }
+	UEnum* Z_Construct_UEnum_Castleforce_TileResource()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_Castleforce();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("TileResource"), 0, Get_Z_Construct_UEnum_Castleforce_TileResource_CRC(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "NoneRes", (int64)NoneRes },
+				{ "Iron", (int64)Iron },
+				{ "Crystals", (int64)Crystals },
+				{ "Relics", (int64)Relics },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "Crystals.DisplayName", "Crystals" },
+				{ "Iron.DisplayName", "Iron" },
+				{ "ModuleRelativePath", "CastleforceHexTile.h" },
+				{ "NoneRes.DisplayName", "None" },
+				{ "Relics.DisplayName", "Relics" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_Castleforce,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				"TileResource",
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				nullptr,
+				(uint8)UEnum::ECppForm::Regular,
+				"TileResource",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	static UEnum* TileHeight_StaticEnum()
 	{
 		static UEnum* Singleton = nullptr;
@@ -96,6 +150,12 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		static void NewProp_walkable_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_walkable;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_resourceMaterials_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FMapPropertyParams NewProp_resourceMaterials;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_resourceMaterials_Key_KeyProp;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_resourceMaterials_ValueProp;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_materials_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FMapPropertyParams NewProp_materials;
@@ -117,6 +177,10 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_highlitMat_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_highlitMat;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_resMesh_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_resMesh;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_fogMesh_MetaData[];
 #endif
@@ -158,6 +222,15 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable = { UE4CodeGen_Private::EPropertyClass::Bool, "walkable", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ACastleforceHexTile), &Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_SetBit, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_MetaData[] = {
+		{ "Category", "Hex" },
+		{ "ModuleRelativePath", "CastleforceHexTile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FMapPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials = { UE4CodeGen_Private::EPropertyClass::Map, "resourceMaterials", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ACastleforceHexTile, resourceMaterials), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_Key_KeyProp = { UE4CodeGen_Private::EPropertyClass::Byte, "resourceMaterials_Key", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000001, 1, nullptr, 0, Z_Construct_UEnum_Castleforce_TileResource, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_ValueProp = { UE4CodeGen_Private::EPropertyClass::Object, "resourceMaterials", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0000000000000001, 1, nullptr, 1, Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_materials_MetaData[] = {
 		{ "Category", "Hex" },
 		{ "ModuleRelativePath", "CastleforceHexTile.h" },
@@ -195,6 +268,14 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_highlitMat = { UE4CodeGen_Private::EPropertyClass::Object, "highlitMat", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ACastleforceHexTile, highlitMat), Z_Construct_UClass_UMaterialInterface_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_highlitMat_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_highlitMat_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resMesh_MetaData[] = {
+		{ "Category", "Hex" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "CastleforceHexTile.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resMesh = { UE4CodeGen_Private::EPropertyClass::Object, "resMesh", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(ACastleforceHexTile, resMesh), Z_Construct_UClass_UStaticMeshComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resMesh_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resMesh_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_fogMesh_MetaData[] = {
 		{ "Category", "Hex" },
 		{ "EditInline", "true" },
@@ -213,6 +294,9 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexTile_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkTime,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_walkable,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_Key_KeyProp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resourceMaterials_ValueProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_materials,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_materials_Key_KeyProp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_materials_ValueProp,
@@ -220,6 +304,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_X,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_invisibleMat,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_highlitMat,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_resMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_fogMesh,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexTile_Statics::NewProp_hexMesh,
 	};
@@ -246,7 +331,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexTile() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexTile, 1703967665);
+	IMPLEMENT_CLASS(ACastleforceHexTile, 4167304032);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexTile(Z_Construct_UClass_ACastleforceHexTile, &ACastleforceHexTile::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexTile"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexTile);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
