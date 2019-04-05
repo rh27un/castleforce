@@ -18,6 +18,12 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexPawn_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexPawn();
 	ENGINE_API UClass* Z_Construct_UClass_APawn();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectMine();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest();
+	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop();
 	CASTLEFORCE_API UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SetBuildType();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceUnit_NoRegister();
 	CASTLEFORCE_API UClass* Z_Construct_UClass_ACastleforceHexTile_NoRegister();
@@ -88,9 +94,147 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 	{
 		UClass* Class = ACastleforceHexPawn::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "SelectExcavation", &ACastleforceHexPawn::execSelectExcavation },
+			{ "SelectKnight", &ACastleforceHexPawn::execSelectKnight },
+			{ "SelectMine", &ACastleforceHexPawn::execSelectMine },
+			{ "SelectMythic", &ACastleforceHexPawn::execSelectMythic },
+			{ "SelectPriest", &ACastleforceHexPawn::execSelectPriest },
+			{ "SelectWorkshop", &ACastleforceHexPawn::execSelectWorkshop },
 			{ "SetBuildType", &ACastleforceHexPawn::execSetBuildType },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectExcavation", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectKnight", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectMine", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectMine()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectMine_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectMythic", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectPriest", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ACastleforceHexPawn, "SelectWorkshop", RF_Public|RF_Transient|RF_MarkAsNative, nullptr, (EFunctionFlags)0x04020401, 0, nullptr, 0, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_ACastleforceHexPawn_SetBuildType_Statics
 	{
@@ -143,6 +287,10 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CurrentTileFocus_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CurrentTileFocus;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_BuildingTicks_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_BuildingTicks;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Speed_MetaData[];
 #endif
@@ -200,6 +348,12 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Castleforce,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACastleforceHexPawn_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectExcavation, "SelectExcavation" }, // 1827705808
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectKnight, "SelectKnight" }, // 2712292020
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectMine, "SelectMine" }, // 1180314273
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectMythic, "SelectMythic" }, // 2156223620
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectPriest, "SelectPriest" }, // 1854071623
+		{ &Z_Construct_UFunction_ACastleforceHexPawn_SelectWorkshop, "SelectWorkshop" }, // 2780833140
 		{ &Z_Construct_UFunction_ACastleforceHexPawn_SetBuildType, "SetBuildType" }, // 2441241581
 	};
 #if WITH_METADATA
@@ -223,6 +377,13 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus = { UE4CodeGen_Private::EPropertyClass::Object, "CurrentTileFocus", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0020080000000805, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, CurrentTileFocus), Z_Construct_UClass_ACastleforceHexTile_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_BuildingTicks_MetaData[] = {
+		{ "Category", "CastleforceHexPawn" },
+		{ "ModuleRelativePath", "CastleforceHexPawn.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_BuildingTicks = { UE4CodeGen_Private::EPropertyClass::Float, "BuildingTicks", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ACastleforceHexPawn, BuildingTicks), METADATA_PARAMS(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_BuildingTicks_MetaData, ARRAY_COUNT(Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_BuildingTicks_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed_MetaData[] = {
 		{ "Category", "CastleforceHexPawn" },
@@ -310,6 +471,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ACastleforceHexPawn_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_SelectedUnit,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CurrentTileFocus,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_BuildingTicks,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_Speed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_CastleClass,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ACastleforceHexPawn_Statics::NewProp_ExcavationClass,
@@ -346,7 +508,7 @@ void EmptyLinkFunctionForGeneratedCodeCastleforceHexPawn() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ACastleforceHexPawn, 1372584372);
+	IMPLEMENT_CLASS(ACastleforceHexPawn, 4240887206);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ACastleforceHexPawn(Z_Construct_UClass_ACastleforceHexPawn, &ACastleforceHexPawn::StaticClass, TEXT("/Script/Castleforce"), TEXT("ACastleforceHexPawn"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACastleforceHexPawn);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

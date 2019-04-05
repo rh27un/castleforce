@@ -68,7 +68,7 @@ void ACastleforceHexTile::BeginPlay()
 	resMesh->SetCastShadow(false);
 
 	fogMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.1f));
-	resMesh->SetRelativeLocation(RootComponent->GetComponentLocation() + FVector(0.f, 0.f, 0.05f)); //because apparently that's how relative locations work now
+	resMesh->SetRelativeLocation(FVector(0.f, 0.f, 0.05f));//(RootComponent->GetComponentLocation() + FVector(0.f, 0.f, 0.05f)); //because apparently that's how relative locations work now
 	//i know something is broken but it's 1 am and i want to go to bed
 	//like what could even be going wrong here
 	//i'm setting the component's parent
@@ -110,6 +110,7 @@ void ACastleforceHexTile::SetCoords(int x, int y){
 
 void ACastleforceHexTile::SetResource(TEnumAsByte<TileResource> resource) {
 	resMesh->SetVisibility(true);
+	tileRes = resource;
 	resMesh->SetMaterial(0, resourceMaterials[resource]);
 }
 

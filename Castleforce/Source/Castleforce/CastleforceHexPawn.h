@@ -50,11 +50,26 @@ public:
 		TSubclassOf<ACastleforceBuilding> ExcavationClass;
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 		TSubclassOf<ACastleforceBuilding> CastleClass;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float Speed;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float BuildingTicks;
 
 	UFUNCTION(BlueprintCallable)
 		void SetBuildType(int type);
+	UFUNCTION(BlueprintCallable)
+	void SelectKnight();
+	UFUNCTION(BlueprintCallable)
+	void SelectMythic();
+	UFUNCTION(BlueprintCallable)
+	void SelectPriest();
+	UFUNCTION(BlueprintCallable)
+	void SelectMine();
+	UFUNCTION(BlueprintCallable)
+	void SelectWorkshop();
+	UFUNCTION(BlueprintCallable)
+	void SelectExcavation();
 protected:
 	void Click();
 	void RightClick();
@@ -66,6 +81,10 @@ protected:
 
 	void MoveForward(float AxisValue);
 	void MoveRight(float AxisValue);
+
+	void AddResources();
+
+	
 
 	void TraceForBlock(const FVector& Start, const FVector& End, bool bDrawDebugHelpers);
 	UPROPERTY(EditInstanceOnly, BlueprintReadWrite)
@@ -85,4 +104,6 @@ protected:
 	TArray<ACastleforceHexTile*> visibleTiles;
 	
 	bool bIsDragging = false;
+
+	FTimerHandle PawnTimerHandle;
 };

@@ -13,15 +13,21 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 
 	if (APlayerController* PC = Cast<APlayerController>(GetController()))
 	{
+		//get mouse hover position
 		FVector Start, Dir, End;
 		PC->DeprojectMousePositionToWorld(Start, Dir);
 		End = Start + (Dir * 8000.0f);
 		TraceForBlock(Start, End, false);
 	}
 	if (!MovementInput.IsZero()) {
-		MovementInput.Normalize();
-		SetActorLocation(GetActorLocation() + (MovementInput * Speed));
+		//pan camera
+		MovementInput = MovementInput * Speed;
+		//MovementInput.Normalize();
+		SetActorLocation(GetActorLocation() + (MovementInput));
 	}
+	//find visible tiles
+	//should probably not do this every tick
+	//mayhaps check if a unit has moved before bothering to do this
 	TArray<ACastleforceHexTile*> visibleTiles;
 	for (int i = 0; i < myUnits.Num(); i++) {
 		visibleTiles.Append(myUnits[i]->visibleTiles);
@@ -34,27 +40,42 @@ void ACastleforceHexPawn::Tick(float DeltaSeconds) {
 
 void ACastleforceHexPawn::BeginPlay() {
 	Super::BeginPlay();
+	//setup
 	TArray<AActor*> foundActors;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), ACastleforceHexGrid::StaticClass(), foundActors);
 	grid = Cast<ACastleforceHexGrid>(foundActors[0]);
 
+	//spawn player castle
 	ACastleforceHexTile* spawnLoc = grid->SpawnRandom(0, 0);
 	if(!spawnLoc)
 		GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Spawn failed"));
 	else
 		Build(Castle, spawnLoc);
+
+	GetWorld()->GetTimerManager().SetTimer(PawnTimerHandle, this, &ACastleforceHexPawn::AddResources, BuildingTicks, true);
 }
 
 void ACastleforceHexPawn::SetupPlayerInputComponent(UInputComponent * PlayerInputComponent)
 {
+	//Mouse Inputs
 	PlayerInputComponent->BindAction("Click", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::Click);
 	PlayerInputComponent->BindAction("RightClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::RightClick);
-	PlayerInputComponent->BindAxis("Vertical", this, &ACastleforceHexPawn::MoveForward);
-	PlayerInputComponent->BindAxis("Horizontal", this, &ACastleforceHexPawn::MoveRight);
 	PlayerInputComponent->BindAction("MiddleClick", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::MiddleDown);
 	PlayerInputComponent->BindAction("MiddleClick", EInputEvent::IE_Released, this, &ACastleforceHexPawn::MiddleUp);
+
+	//Movement axes
+	PlayerInputComponent->BindAxis("Vertical", this, &ACastleforceHexPawn::MoveForward);
+	PlayerInputComponent->BindAxis("Horizontal", this, &ACastleforceHexPawn::MoveRight);
 	PlayerInputComponent->BindAxis("MVert", this, &ACastleforceHexPawn::MouseForward);
 	PlayerInputComponent->BindAxis("MHor", this, &ACastleforceHexPawn::MouseRight);
+
+	//Hotkeys
+	PlayerInputComponent->BindAction("KnightHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectKnight);
+	PlayerInputComponent->BindAction("MythicHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectMythic);
+	PlayerInputComponent->BindAction("PriestHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectPriest);
+	PlayerInputComponent->BindAction("MineHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectMine);
+	PlayerInputComponent->BindAction("WorkshopHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectWorkshop);
+	PlayerInputComponent->BindAction("ExcavationHotkey", EInputEvent::IE_Pressed, this, &ACastleforceHexPawn::SelectExcavation);
 }
 
 void ACastleforceHexPawn::SetBuildType(int type)
@@ -116,22 +137,76 @@ void ACastleforceHexPawn::MiddleUp() {
 
 void ACastleforceHexPawn::MouseForward(float AxisValue) {
 	if (bIsDragging) {
-		MovementInput.X = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+		MovementInput.X = - AxisValue;
 	}
 }
 
 void ACastleforceHexPawn::MouseRight(float AxisValue) {
 	if (bIsDragging) {
-		MovementInput.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+		MovementInput.Y = - AxisValue;
 	}
 }
 
 void ACastleforceHexPawn::MoveForward(float AxisValue) {
-	MovementInput.X = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+	//UE_LOG(LogTemp, Warning, TEXT("Move Forward"));
+	if(!bIsDragging)
+		MovementInput.X = FMath::Clamp(AxisValue, -1.0f, 1.0f);
 }
 
 void ACastleforceHexPawn::MoveRight(float AxisValue) {
-	MovementInput.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+	//UE_LOG(LogTemp, Warning, TEXT("Move Right"));
+	if(!bIsDragging)
+		MovementInput.Y = FMath::Clamp(AxisValue, -1.0f, 1.0f);
+}
+
+void ACastleforceHexPawn::AddResources() {
+	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Tick"));
+	for (int i = 0; i < myBuildings.Num(); i++) {
+
+		switch (myBuildings[i]->currentTile->tileRes) {
+		case NoneRes:
+			break;
+		case Iron:
+			iron++;
+			break;
+		case Crystals:
+			crystals++;
+			break;
+		case Relics:
+			relics++;
+			break;
+		}
+	}
+}
+
+void ACastleforceHexPawn::SelectKnight()
+{
+	selectedBuildType = Knight;
+}
+
+void ACastleforceHexPawn::SelectMythic()
+{
+	selectedBuildType = Mythic;
+}
+
+void ACastleforceHexPawn::SelectPriest()
+{
+	selectedBuildType = Priest;
+}
+
+void ACastleforceHexPawn::SelectMine()
+{
+	selectedBuildType = Mine;
+}
+
+void ACastleforceHexPawn::SelectWorkshop()
+{
+	selectedBuildType = Workshop;
+}
+
+void ACastleforceHexPawn::SelectExcavation()
+{
+	selectedBuildType = Excavation;
 }
 
 void ACastleforceHexPawn::TraceForBlock(const FVector & Start, const FVector & End, bool bDrawDebugHelpers)
@@ -215,10 +290,43 @@ void ACastleforceHexPawn::Build(TEnumAsByte<BuildType> buildType, ACastleforceHe
 		}
 		break;
 	case Mine:
+		if (location->tileRes == Iron) {
+			NewObject = GetWorld()->SpawnActor(MineClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceBuilding>(NewObject)) {
+				Cast<ACastleforceBuilding>(NewObject)->currentTile = location;
+				Cast<ACastleforceBuilding>(NewObject)->SetOwner(0);
+				myBuildings.Add(Cast<ACastleforceBuilding>(NewObject));
+				Cast<ACastleforceBuilding>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Can't build here!"));
+		}
 		break;
 	case Workshop:
+		if (location->tileRes == Crystals) {
+			NewObject = GetWorld()->SpawnActor(WorkshopClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceBuilding>(NewObject)) {
+				Cast<ACastleforceBuilding>(NewObject)->currentTile = location;
+				Cast<ACastleforceBuilding>(NewObject)->SetOwner(0);
+				myBuildings.Add(Cast<ACastleforceBuilding>(NewObject));
+				Cast<ACastleforceBuilding>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Can't build here!"));
+		}
 		break;
 	case Excavation:
+		if (location->tileRes == Relics) {
+			NewObject = GetWorld()->SpawnActor(ExcavationClass, NewLocation, NewRotation);
+			if (Cast<ACastleforceBuilding>(NewObject)) {
+				Cast<ACastleforceBuilding>(NewObject)->currentTile = location;
+				Cast<ACastleforceBuilding>(NewObject)->SetOwner(0);
+				myBuildings.Add(Cast<ACastleforceBuilding>(NewObject));
+				Cast<ACastleforceBuilding>(NewObject)->TeleportToTile(location);
+			}
+		} else {
+			GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Can't build here!"));
+		}
 		break;
 	case Castle:
 		NewObject = GetWorld()->SpawnActor(CastleClass, NewLocation, NewRotation);

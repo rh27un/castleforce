@@ -15,6 +15,54 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSelectExcavation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectExcavation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectWorkshop) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectWorkshop(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectMine) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMine(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectPriest) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectPriest(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectMythic) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMythic(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectKnight) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectKnight(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execSetBuildType) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_type); \
@@ -26,6 +74,54 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define Castleforce_Source_Castleforce_CastleforceHexPawn_h_23_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSelectExcavation) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectExcavation(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectWorkshop) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectWorkshop(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectMine) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMine(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectPriest) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectPriest(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectMythic) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectMythic(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execSelectKnight) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SelectKnight(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execSetBuildType) \
 	{ \

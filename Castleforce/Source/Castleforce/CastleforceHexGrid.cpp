@@ -50,9 +50,11 @@ void ACastleforceHexGrid::BeginPlay()
 			NewCell->SetActorLabel(tileName);
 			//GetTileAt(Cast<ACastleforceHexTile>(NewCell)->X, Cast<ACastleforceHexTile>(NewCell)->Y);
 
-			if (FMath::FRand() > resourceProb) {
-				TEnumAsByte<TileResource> newRes = TileResource(FMath::RandRange(1, 3));
-				NewCellAsTile->SetResource(newRes);
+			if (NewCellAsTile->walkable) {
+				if (FMath::FRand() > resourceProb) {
+					TEnumAsByte<TileResource> newRes = TileResource(FMath::RandRange(1, 3));
+					NewCellAsTile->SetResource(newRes);
+				}
 			}
 		}
 	}

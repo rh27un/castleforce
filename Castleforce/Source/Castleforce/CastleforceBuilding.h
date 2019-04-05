@@ -23,4 +23,5 @@ public:
 	TArray<ACastleforceHexTile*> visibleTiles;
 	void TeleportToTile(ACastleforceHexTile* tile);
 	
+	
 };
