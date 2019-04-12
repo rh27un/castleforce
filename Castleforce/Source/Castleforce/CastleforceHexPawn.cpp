@@ -160,7 +160,7 @@ void ACastleforceHexPawn::MoveRight(float AxisValue) {
 }
 
 void ACastleforceHexPawn::AddResources() {
-	GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Tick"));
+	//GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, TEXT("Tick"));
 	for (int i = 0; i < myBuildings.Num(); i++) {
 
 		switch (myBuildings[i]->currentTile->tileRes) {

@@ -28,7 +28,16 @@ public:
 protected:
 	virtual void BeginPlay() override;
 	void ContinuePath();
-	
+	int WhichNeighbour(ACastleforceHexTile* tile);
 	FTimerHandle UnitTimerHandle;
+
+	TArray<float> directions = {
+		120,
+		180,
+		240,
+		310,
+		0,
+		50,
+	};
 	
 };

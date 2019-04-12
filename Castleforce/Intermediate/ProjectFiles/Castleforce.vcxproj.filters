@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\Castleforce.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{FF4495B3-0062-4AC7-9CDD-B607185C1BA8}</UniqueIdentifier>
+			<UniqueIdentifier>{0B7430D8-DEF2-4189-B3B3-A63250616244}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Castleforce.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{2DC48152-7DBA-4A20-991B-2A348A582288}</UniqueIdentifier>
+			<UniqueIdentifier>{342C0819-D08F-4FFF-A5DE-D93A331BFAAA}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,22 +31,22 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Plugins">
-			<UniqueIdentifier>{145C187F-FBAF-43CD-A36A-5392835DE728}</UniqueIdentifier>
+			<UniqueIdentifier>{45EDB5D0-260E-4B46-B5EC-CD15E0E5D4EE}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master">
-			<UniqueIdentifier>{7312808A-8932-4E57-AA2B-84BB61FE4CBF}</UniqueIdentifier>
+			<UniqueIdentifier>{CB0D3ADC-C038-423E-8B1A-662FE1A15780}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master\Source">
-			<UniqueIdentifier>{4226960C-D803-4D13-BB2F-808A5D2A0893}</UniqueIdentifier>
+			<UniqueIdentifier>{98AD8F3C-3EC9-4177-9F74-253B6B07F7C8}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise">
-			<UniqueIdentifier>{C6170566-99ED-4BA1-A1A2-A11822EFD3C8}</UniqueIdentifier>
+			<UniqueIdentifier>{3E790F77-8D5D-4587-8868-A037899E1C39}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\SimplexNoise.Build.cs">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise</Filter>
 		</None >
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise\Private">
-			<UniqueIdentifier>{478EDB6B-099B-434B-96C2-86E4F3839CD6}</UniqueIdentifier>
+			<UniqueIdentifier>{860CF009-D9AA-4322-8CA1-5A9E8B371944}</UniqueIdentifier>
 		</Filter>
 		<ClCompile Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\Private\SimplexNoiseBPLibrary.cpp">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Private</Filter>
@@ -58,7 +58,7 @@
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Private</Filter>
 		</ClInclude >
 		<Filter Include="Plugins\SimplexNoise-master\Source\SimplexNoise\Public">
-			<UniqueIdentifier>{2BF5B3D5-4EA6-4EAA-A363-95A1C28FD7D1}</UniqueIdentifier>
+			<UniqueIdentifier>{736EB4E7-D40E-47A2-8218-F3EAFDE156A1}</UniqueIdentifier>
 		</Filter>
 		<ClInclude Include="..\..\Plugins\SimplexNoise-master\Source\SimplexNoise\Public\ISimplexNoise.h">
 			<Filter>Plugins\SimplexNoise-master\Source\SimplexNoise\Public</Filter>
@@ -70,13 +70,13 @@
 			<Filter>Plugins\SimplexNoise-master</Filter>
 		</None >
 		<Filter Include="Plugins\SimplexNoise-master\Resources">
-			<UniqueIdentifier>{D6CD0EC6-CE31-4463-8C70-C56EFB47CD6E}</UniqueIdentifier>
+			<UniqueIdentifier>{D5F4A4A4-79ED-4010-89EF-AAD6E854AD1F}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Plugins\SimplexNoise-master\Resources\Icon128.png">
 			<Filter>Plugins\SimplexNoise-master\Resources</Filter>
 		</None >
 		<Filter Include="Source\Castleforce">
-			<UniqueIdentifier>{29F27AF2-96E8-4CA6-99CD-1F54A85392A5}</UniqueIdentifier>
+			<UniqueIdentifier>{512F6961-2523-4E42-91D6-C9E03A34E1A1}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\Castleforce\Castleforce.Build.cs">
 			<Filter>Source\Castleforce</Filter>
